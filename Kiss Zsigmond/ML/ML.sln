@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML", "ML\ML.csproj", "{4D86FE82-5384-459C-86D7-F630B70C5257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel1_ConsoleApp1", "MLModel1_ConsoleApp1\MLModel1_ConsoleApp1.csproj", "{FBEB5AA5-DAA2-4224-93A9-DD80D2A33DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D86FE82-5384-459C-86D7-F630B70C5257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D86FE82-5384-459C-86D7-F630B70C5257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D86FE82-5384-459C-86D7-F630B70C5257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D86FE82-5384-459C-86D7-F630B70C5257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEB5AA5-DAA2-4224-93A9-DD80D2A33DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEB5AA5-DAA2-4224-93A9-DD80D2A33DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEB5AA5-DAA2-4224-93A9-DD80D2A33DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEB5AA5-DAA2-4224-93A9-DD80D2A33DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7742ED7F-4F7A-4993-9BCA-659C0AEC3914}
+	EndGlobalSection
+EndGlobal
