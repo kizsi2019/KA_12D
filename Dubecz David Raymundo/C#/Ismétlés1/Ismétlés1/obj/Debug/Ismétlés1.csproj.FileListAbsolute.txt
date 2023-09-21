@@ -1,0 +1,7 @@
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.exe.config
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.exe
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.pdb
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.csproj.AssemblyReference.cache
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.csproj.CoreCompileInputs.cache
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.exe
+C:\Users\Xenon\Desktop\schoolgithub\KA_12D.github.io\Dubecz David Raymundo\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.pdb

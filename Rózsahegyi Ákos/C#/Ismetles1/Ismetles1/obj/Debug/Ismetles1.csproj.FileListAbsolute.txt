@@ -1,0 +1,8 @@
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\bin\Debug\Ismetles1.exe.config
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\bin\Debug\Ismetles1.exe
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\bin\Debug\Ismetles1.pdb
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\obj\Debug\Ismetles1.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\obj\Debug\Ismetles1.csproj.SuggestedBindingRedirects.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\obj\Debug\Ismetles1.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\obj\Debug\Ismetles1.exe
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Ismetles1\Ismetles1\obj\Debug\Ismetles1.pdb
