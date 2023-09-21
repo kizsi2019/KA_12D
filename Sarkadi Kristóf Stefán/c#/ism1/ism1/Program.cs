@@ -4,52 +4,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ismétlés1
+namespace ism1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            /*
-            Console.WriteLine("Csá");
-            Console.WriteLine("Nope");
-            Console.ReadKey();
-            */
-            Console.Beep(1000, 1000);
+            /*// Console.WriteLine("Helló világ");
+            //Console.WriteLine("hol járunk");
             //10-es szamrendszerben megadott egesz
             int egesz_szam = 42;
-            Console.WriteLine("42");
 
             //az f jelzés jelöli a fordító számára,
             //hogy ez egy float típus
             float lebegopontos = 3.14f;
-            Console.WriteLine("lebegopontos");
 
             //double esetén nem kell külön jelölni
             double d = 1124.333;
-            Console.WriteLine("d");
 
             //egész szám hexadecimális formában
             int hexa = 0xff;
-            Console.WriteLine("hexa");
 
             //hosszú egész oktális formátumban
             long okta = 07123235;
-            Console.WriteLine("okta");
 
             //decimal típus esetén m betű jelzi, hogy a szám egy decimal típus 
             decimal penz = 1224.3m;
-            Console.WriteLine("penz");
 
             //A fordító a változó típusának string-et fog adni.
             var valtozo = "Ez egy szöveg";
-            Console.WriteLine("valtozo");
 
             //futtatás közben fog eldőlni a típus.
             //az eredmény típus szöveg lesz. A 44 szöveggé fog konvertálódni
             dynamic dinamikus = "Ez egy " + 44;
-            Console.WriteLine("dynamic");
+            Console.WriteLine(egesz_szam);
+            Console.WriteLine(lebegopontos);
+            Console.WriteLine(d);
+            Console.WriteLine(hexa);
+            Console.WriteLine(okta);
+            Console.WriteLine(penz);
+            Console.WriteLine(valtozo);
+            Console.WriteLine(dinamikus);
             string szoszerint = @"Ez egy speciális\különlege's \t string";
+            Console.WriteLine(szoszerint);
             int a = 1;
             int b = 2;
             //a változóba a "b nagyobb, mint a" szöveg kerül, mivel a feltétel nem igaz
@@ -98,8 +95,18 @@ namespace Ismétlés1
             Console.WriteLine(x++);
             //4 lesz, mert itt már a növelt értéket látjuk
             Console.WriteLine(x);
-            Console.WriteLine("Negyzet oldala?");
+            Console.Beep(900, 2000);
+            Console.Clear();*/
+
+            Console.WriteLine("Add meg a négyzet oldalát!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int kerulet = 4 * a;
+            int terulet = a * a;
+            Console.WriteLine("A négyzet kerülete: " + kerulet);
+            Console.WriteLine("A négyzet területe: " + terulet);
+
             Console.ReadKey();
+
         }
     }
 }
