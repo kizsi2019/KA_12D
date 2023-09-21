@@ -15,7 +15,7 @@ namespace Ismétlés1
             Console.WriteLine("Nope");
             Console.ReadKey();
             */
-
+            Console.Beep(1000, 1000);
             //10-es szamrendszerben megadott egesz
             int egesz_szam = 42;
             Console.WriteLine("42");
@@ -98,6 +98,7 @@ namespace Ismétlés1
             Console.WriteLine(x++);
             //4 lesz, mert itt már a növelt értéket látjuk
             Console.WriteLine(x);
+            Console.WriteLine("Negyzet oldala?");
             Console.ReadKey();
         }
     }
