@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\bin\Debug\négyzet-terület.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\bin\Debug\négyzet-terület.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\bin\Debug\négyzet-terület.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\obj\Debug\négyzet-terület.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\obj\Debug\négyzet-terület.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\obj\Debug\négyzet-terület.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\négyzet-terület\négyzet-terület\obj\Debug\négyzet-terület.pdb
