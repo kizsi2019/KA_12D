@@ -1,0 +1,8 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\bin\Debug\gyaki3.exe.config
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\bin\Debug\gyaki3.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\bin\Debug\gyaki3.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\obj\Debug\gyaki3.csproj.AssemblyReference.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\obj\Debug\gyaki3.csproj.SuggestedBindingRedirects.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\obj\Debug\gyaki3.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\obj\Debug\gyaki3.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\gyaki3\gyaki3\obj\Debug\gyaki3.pdb
