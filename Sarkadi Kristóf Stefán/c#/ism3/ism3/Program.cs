@@ -76,14 +76,42 @@ namespace ism3
             Console.WriteLine("{0:Y}", ido);
             Console.WriteLine("{0:yyyy-mm-dd, dddd tt hh:mm:ss}", ido);*/
 
-            int a = Math.Abs(-123);
+            /*int a = Math.Abs(-123);
             Console.WriteLine(a);
             double b = Math.Ceiling(1.23);
             Console.WriteLine(b);
             double c = Math.Floor(1.23);
             Console.WriteLine(c);
             double r = Math.Round(1.53333, 2);
-            Console.WriteLine(r);
+            Console.WriteLine(r);*/
+            /*Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);*/
+
+            /*Console.WriteLine("Adjon meg egy számot: ");
+            double sugar = byte.Parse(Console.ReadLine());
+            double kerulet = Math.PI * 2 * sugar;
+            double terulet = Math.Pow(sugar, 2) * Math.PI;
+            Console.WriteLine("A kör kerülete: {0}", kerulet, Math.Round(kerulet, 2));
+            Console.WriteLine("A kör kerülete: {0}", terulet, Math.Round(terulet, 2));*/
+
+            /*checked
+            {
+                int a2 = 100000;
+                int b2 = 100000;
+                long c2 = a2 * b2;
+            }*/
+
+            try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }
             Console.ReadKey();
         }
     }
