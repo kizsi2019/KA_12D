@@ -101,7 +101,7 @@ namespace ism3
                 long c2 = a2 * b2;
             }*/
 
-            try
+            /*try
             {
                 string szoveg = "valami szöveg";
                 int szam = Convert.ToInt32(szoveg);
@@ -111,6 +111,54 @@ namespace ism3
             catch (FormatException ex)
             {
                 Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }*/
+
+            /*Console.WriteLine("Kettővel szorzó v. 1.0");
+            Console.WriteLine("Adjon meg egy egész páros számot!");
+            try
+            {
+                var bevitel = Console.ReadLine();
+                int szam = Convert.ToInt32(bevitel);
+
+                if ((szam % 2) != 0)
+                {
+                    throw new Exception("A szám nem páros");
+                }
+                Console.WriteLine($"A szorzás eredménye: {szam * 2}");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            }*/
+
+            Console.WriteLine("Add meg a sugarat");
+            try
+            {
+                var bevitel = Console.ReadLine();
+                int sugar;
+                if (int.TryParse(bevitel, out sugar))
+                {
+                    double kerulet = 2 * sugar * Math.PI;
+                    double terulet = Math.Pow(sugar, 2) * Math.PI;
+                    Console.WriteLine("A kör kerülete: {0}", kerulet);
+                    Console.WriteLine("A kör területe: {0}", terulet);
+                }
+                else
+                {
+                    throw new Exception("Legközelebb számot adj meg légyszives!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt.");
+                Console.WriteLine(ex.Message);
             }
             Console.ReadKey();
         }
