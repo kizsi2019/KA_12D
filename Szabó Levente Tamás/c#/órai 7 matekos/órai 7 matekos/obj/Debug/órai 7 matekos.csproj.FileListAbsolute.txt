@@ -1,0 +1,8 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\bin\Debug\órai 7 matekos.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\bin\Debug\órai 7 matekos.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\bin\Debug\órai 7 matekos.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\obj\Debug\órai 7 matekos.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\obj\Debug\órai 7 matekos.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\obj\Debug\órai 7 matekos.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\obj\Debug\órai 7 matekos.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 7 matekos\órai 7 matekos\obj\Debug\órai 7 matekos.pdb
