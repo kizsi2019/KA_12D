@@ -39,14 +39,21 @@ namespace Ismétlés3._5
             Console.WriteLine("{0:yyyy-mm-dd, dddd tt hh:mm:ss}", ido);
             Console.ReadKey();*/
 
-            int a = Math.Abs(-1223);
+            /*int a = Math.Abs(-1223);
             Console.WriteLine(a);
             double b = Math.Ceiling(1.23);
             Console.WriteLine(b);
             double c = Math.Floor(1.23);
             Console.WriteLine(c);
             double d = Math.Round(1.53);
-            Console.WriteLine(d);
+            Console.WriteLine(d);*/
+            Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);
+            Console.WriteLine("add meg a kőr sugarát! ");
+            double sugar = Convert.ToInt32(Console.ReadLine());
+            double kork = 2 * sugar * Math.PI;
+            double kort = sugar * sugar * Math.PI;
+
             Console.ReadKey();
         }
     }
