@@ -211,7 +211,7 @@ namespace Ismetles1
 
             var info = new StringInfo(teszt);
             Console.WriteLine("A szöveg valódi hossza: {0}", info.LengthInTextElements);
-            */
+            
 
             int a = Math.Abs(-123);
             Console.WriteLine(a);
@@ -221,6 +221,40 @@ namespace Ismetles1
             Console.WriteLine(c);
             double d = Math.Round(1.53333, 2);
             Console.WriteLine(d);
+            
+
+            Console.WriteLine(Math.PI); // PI érték
+            Console.WriteLine(Math.E); // Euler érték
+            
+
+            Console.WriteLine("Kérem a kör sugarát: ");
+            int sugar = byte.Parse(Console.ReadLine());
+
+            var terulet = Math.Pow(2, sugar) * Math.PI;
+            var kerulet = Math.PI * 2 * sugar;
+
+            Console.WriteLine("A kör területe: {0}", Math.Round(terulet, 2));
+            Console.WriteLine("A kör kerülete: {0}", Math.Round(kerulet, 2));
+            
+
+            checked
+            {
+                int a2 = 100000;
+                int b2 = 100000;
+                long c2 = a2 * b2;
+            }
+            */
+
+            try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }
 
             Console.ReadKey();
         }
