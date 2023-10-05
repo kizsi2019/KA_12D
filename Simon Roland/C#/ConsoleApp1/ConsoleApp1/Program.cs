@@ -181,7 +181,7 @@ namespace ConsoleApp1
 
             var info = new StringInfo(teszt);
             Console.WriteLine("A szoveg valodi hossza: {0}", info.LengthInTextElements);
-*/
+
 
             int a = Math.Abs(-123);
             Console.WriteLine(a);
@@ -191,6 +191,69 @@ namespace ConsoleApp1
             Console.WriteLine(c);
             double d = Math.Round(1.5333, 2);
             Console.WriteLine(d);
+          
+
+            Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);
+             
+            Console.WriteLine("Adja meg a kor sugarat");
+            double r = Convert.ToInt32(Console.ReadLine());
+            double kerulet = 2 * r * Math.PI;
+            double terulet = r * r * Math.PI;
+            Console.WriteLine("A kor kerulete: "+  Math.Round(kerulet, 2), kerulet);
+            Console.WriteLine("A kor terulete: " +  Math.Round(terulet, 2) ,terulet);
+
+
+  checked
+            {
+                int a2 = 100000;
+                int b2 = 100000;
+                long c2 = a2 * b2;
+            }
+ 
+
+            try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }
+
+            Console.WriteLine("Adja meg a kor sugarat");
+          
+           
+            Console.WriteLine("A kor kerulete: " + Math.Round(kerulet, 2), kerulet);
+            Console.WriteLine("A kor terulete: " + Math.Round(terulet, 2), terulet);
+            try
+            {
+                
+                var bevitel = Console.ReadKey
+                    
+                double r = Convert.ToInt32(Console.ReadLine());
+                double kerulet = 2 * r * Math.PI;
+                double terulet = r * r * Math.PI;
+                if ((r % 1) != 0)
+                {
+                    throw new Exception("A szám nem páros");
+                }
+                Console.WriteLine($"A szorzás eredménye: {szam * 2}");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+            }
+*/
 
 
 
@@ -207,10 +270,7 @@ namespace ConsoleApp1
 
 
 
-
-
-
-            Console.ReadKey();
+                Console.ReadKey();
         }
     }
 }
