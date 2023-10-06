@@ -69,7 +69,7 @@ namespace gyaki3
             Console.WriteLine("{0:M}", ido);
             Console.WriteLine("{0:r}", ido);
             Console.WriteLine("{0:Y}", ido);
-            Console.WriteLine("{0:yyyy-mm-dd, dddd tt hh:mm:ss}", ido);*/
+            Console.WriteLine("{0:yyyy-mm-dd, dddd tt hh:mm:ss}", ido);
 
             double a = Math.Abs(-123);
             Console.WriteLine(a);
@@ -79,8 +79,65 @@ namespace gyaki3
             Console.WriteLine(c);
             double d = Math.Round(1.23);
             Console.WriteLine(d);
+            Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);
+
+            Console.WriteLine("Add meg a kor sugarat");
+            double r = Convert.ToInt32(Console.ReadLine());
+            double kerulet = 2 * r * Math.PI;
+            double terulet = r * r * Math.PI;
+            Console.WriteLine("Kör kerulete: " + Math.Round(kerulet, 2), kerulet);
+            Console.WriteLine("Területe: " + Math.Round(terulet, 2), terulet);
+            
+
+            checked
+            {
+                int a2 = 100000;
+                int b2 = 100000;
+                long c2 = a2 * b2;
+            }
+
+
+            try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }
+
+            Console.WriteLine("Kettővel szorzó v. 1.0");
+            Console.WriteLine("Adjon meg egy egész páros számot!");
+            try
+            {
+                var bevitel = Console.ReadLine();
+                int szam = Convert.ToInt32(bevitel);
+
+                if ((szam % 2) != 0)
+                {
+                    throw new Exception("A szám nem páros");
+                }
+                Console.WriteLine($"A szorzás eredménye: {szam * 2}");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            }*/
 
             Console.ReadKey();
+
+
         }
     }
 }
