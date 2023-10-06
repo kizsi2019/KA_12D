@@ -1,0 +1,8 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\bin\Debug\órai 8 try catch.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\bin\Debug\órai 8 try catch.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\bin\Debug\órai 8 try catch.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\obj\Debug\órai 8 try catch.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\obj\Debug\órai 8 try catch.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\obj\Debug\órai 8 try catch.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\obj\Debug\órai 8 try catch.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső 9\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 8 try catch\órai 8 try catch\obj\Debug\órai 8 try catch.pdb
