@@ -1,30 +1,35 @@
-var nev1 = 'miko'
-var nev2 = 'botan'
-var nev3 = 'ame'
+var nev1 = 'tas'
+var nev2 = 'huba'
+var nev3 = 'almos'
 
-var nevek = ['miko', 'botan', 'ame'];
+var nevek = ['tas', 'huba', 'almos'];
 var korok = new Array(32, 42, 38);
 
 console.log(korok[1]);
 console.log(nevek);
 console.log(nevek.length);
 
-nevek[1] = 'miko';
+nevek[1] = 'tas';
 console.log(nevek);
 
-//nevek[5] = 'botan';
-
-nevek[nevek.length] = 'botan';
+nevek[nevek.length] = 'huba';
 console.log(nevek);
-var ame =
+var huba =
 {
-    nev: 'ame',
+    nev: 'huba',
     kor: 20,
-    foglalkozas: '',
+    foglalkozas: 'vezér',
     hazas: true,
-    baratok: ['gura'],
-    'csaladi allapot': 'jeje'
+    baratok: ['almos'],
+    'csaladi allapot': 'házas',
+    szuletesiEvszamitas: function()
+    {
+        this.szuletesiEv = 2020 - this.kor;
+    }
 };
 
-console.log(ame.foglalkozas);
-console.log(ame['nev'])
+huba.szuletesiEv = huba.szuletesiEvszamitas();
+console.log(huba)
+
+console.log(almos.foglalkozas);
+console.log(almos['nev'])
