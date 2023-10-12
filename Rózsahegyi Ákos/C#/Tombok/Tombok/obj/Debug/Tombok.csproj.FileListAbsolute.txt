@@ -1,0 +1,8 @@
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\bin\Debug\Tombok.exe.config
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\bin\Debug\Tombok.exe
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\bin\Debug\Tombok.pdb
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\obj\Debug\Tombok.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\obj\Debug\Tombok.csproj.SuggestedBindingRedirects.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\obj\Debug\Tombok.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\obj\Debug\Tombok.exe
+C:\Users\RozsahegyiAkos\Desktop\github2023\KA_12D.github.io\Rózsahegyi Ákos\C#\Tombok\Tombok\obj\Debug\Tombok.pdb
