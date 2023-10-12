@@ -1,0 +1,8 @@
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\bin\Debug\órai 10.1 mátrix 2.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\bin\Debug\órai 10.1 mátrix 2.exe
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\bin\Debug\órai 10.1 mátrix 2.pdb
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\obj\Debug\órai 10.1 mátrix 2.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\obj\Debug\órai 10.1 mátrix 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\obj\Debug\órai 10.1 mátrix 2.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\obj\Debug\órai 10.1 mátrix 2.exe
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 10.1 mátrix 2\órai 10.1 mátrix 2\obj\Debug\órai 10.1 mátrix 2.pdb
