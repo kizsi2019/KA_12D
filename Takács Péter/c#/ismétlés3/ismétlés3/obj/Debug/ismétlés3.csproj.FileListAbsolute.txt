@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\bin\Debug\ismétlés3.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\bin\Debug\ismétlés3.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\bin\Debug\ismétlés3.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\obj\Debug\ismétlés3.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\obj\Debug\ismétlés3.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\obj\Debug\ismétlés3.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\ismétlés3\ismétlés3\obj\Debug\ismétlés3.pdb

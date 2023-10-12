@@ -1,0 +1,8 @@
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\bin\Debug\ism3.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\bin\Debug\ism3.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\bin\Debug\ism3.pdb
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\obj\Debug\ism3.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\obj\Debug\ism3.csproj.SuggestedBindingRedirects.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\obj\Debug\ism3.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\obj\Debug\ism3.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\ism3\ism3\obj\Debug\ism3.pdb

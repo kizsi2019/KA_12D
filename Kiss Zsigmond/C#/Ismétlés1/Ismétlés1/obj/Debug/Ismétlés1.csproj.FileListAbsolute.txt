@@ -1,0 +1,8 @@
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.exe.config
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\bin\Debug\Ismétlés1.pdb
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.csproj.SuggestedBindingRedirects.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Ismétlés1\Ismétlés1\obj\Debug\Ismétlés1.pdb
