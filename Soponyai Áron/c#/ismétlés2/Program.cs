@@ -10,6 +10,8 @@ namespace ismétlés2
     {
         static void Main(string[] args)
         {
+
+            /*
             int ma = 21;
             int tegnap = 18;
             var szoveg = string.Format("Ma {0} fok volt, tegnap pedig {1}", ma, tegnap);
@@ -102,10 +104,98 @@ namespace ismétlés2
             double d = Math.Round(1.53);
             Console.WriteLine(d);
             Console.ReadKey();
+            
+
+            Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);
 
 
+            Console.WriteLine("Add       meg a sugarat");
 
+            int sugar = Convert.ToInt32(Console.ReadLine());
+            double kork = 2 * sugar * Math.PI;
+            double kort = sugar * sugar * Math.PI;
+            Console.WriteLine("A kerület " + Math.Round(kork));
+            Console.WriteLine("A terület " + Math.Round(kort));
+            
 
+            checked
+            {
+                int a2 = 100000;
+                int b2 = 100000;
+                long c2 = a2 * b2;
+            }
+
+            try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            }
+            
+
+            Console.WriteLine("Kettővel szorzó v. 1.0");
+            Console.WriteLine("Adjon meg egy egész páros számot!");
+            try
+            {
+                var bevitel = Console.ReadLine();
+                int szam = Convert.ToInt32(bevitel);
+
+                if ((szam % 2) != 0)
+                {
+                    throw new Exception("A szám nem páros");
+                }
+                Console.WriteLine($"A szorzás eredménye: {szam * 2}");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            }
+            */
+
+            Console.WriteLine("Kettővel szorzó v. 1.0");
+            Console.WriteLine("Adjon meg egy egész páros számot!");
+            try
+            {
+                var bevitel = Console.ReadLine();
+                double sugar;
+
+                if (double.TryParse(bevitel, out sugar))
+                {
+                    double kork = 2 * sugar * Math.PI;
+                    double kort = sugar * sugar * Math.PI;
+                    Console.WriteLine("A kerület " + Math.Round(kork));
+                    Console.WriteLine("A terület " + Math.Round(kort));
+                }
+                
+                else
+                {
+                    throw new Exception("nem szám");      
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            }
 
             Console.ReadKey();
         }
