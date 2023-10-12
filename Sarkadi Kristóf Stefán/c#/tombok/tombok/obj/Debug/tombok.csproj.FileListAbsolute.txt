@@ -1,0 +1,8 @@
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\bin\Debug\tombok.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\bin\Debug\tombok.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\bin\Debug\tombok.pdb
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\obj\Debug\tombok.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\obj\Debug\tombok.csproj.SuggestedBindingRedirects.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\obj\Debug\tombok.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\obj\Debug\tombok.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tombok\tombok\obj\Debug\tombok.pdb
