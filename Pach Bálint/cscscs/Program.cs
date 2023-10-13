@@ -185,12 +185,6 @@ namespace gyakorlas3
                 Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
                 Console.ReadKey();
             }
-
-            Console.ReadKey();
-
-            Console.ReadKey();
-
-
         }
     }
 }

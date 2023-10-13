@@ -1,12 +1,14 @@
-var nev = 'odin';
-var nev2 = 'peti';
-var nev3 = 'áron';
+var peti = {
+    nev : 'Peti',
+    kor: 40,
+    foglalkozás: 'szerelemegér',
+    hazas: true,
+    baratok:['Áron','Bálint','Bazsi',],
+    szeletesievszamitas: function(){
+        this.szuletesiev =2023 - this.kor;
+    }
+}
 
-var nevek = ['odin','peti','áron'];
+peti.szeletesievszamitas();
 
-var korok = new Array(35,42,38);
-
-console.log(korok[1]);
-console.log(nevek);
-console.log(nevek.length);
-
+console.log(peti);
