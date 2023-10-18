@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\bin\Debug\tömb.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\bin\Debug\tömb.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\bin\Debug\tömb.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\obj\Debug\tömb.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\obj\Debug\tömb.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\obj\Debug\tömb.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\tömb\tömb\obj\Debug\tömb.pdb
