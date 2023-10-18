@@ -1,0 +1,8 @@
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\bin\Debug\órai 11.1 string metódus.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\bin\Debug\órai 11.1 string metódus.exe
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\bin\Debug\órai 11.1 string metódus.pdb
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\obj\Debug\órai 11.1 string metódus.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\obj\Debug\órai 11.1 string metódus.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\obj\Debug\órai 11.1 string metódus.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\obj\Debug\órai 11.1 string metódus.exe
+C:\Users\SzaboLeventeTamas\Desktop\dazo\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 11.1 string metódus\órai 11.1 string metódus\obj\Debug\órai 11.1 string metódus.pdb

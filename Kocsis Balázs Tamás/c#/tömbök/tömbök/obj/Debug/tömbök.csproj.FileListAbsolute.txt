@@ -1,0 +1,8 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\bin\Debug\tömbök.exe.config
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\bin\Debug\tömbök.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\bin\Debug\tömbök.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\obj\Debug\tömbök.csproj.AssemblyReference.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\obj\Debug\tömbök.csproj.SuggestedBindingRedirects.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\obj\Debug\tömbök.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\obj\Debug\tömbök.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\tömbök\tömbök\obj\Debug\tömbök.pdb

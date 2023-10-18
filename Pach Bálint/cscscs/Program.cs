@@ -89,17 +89,102 @@ namespace gyakorlas3
             var info = new StringInfo(teszt);
             Console.WriteLine("A szoveg valodi hossza: {0}", info.LengthInTextElements);*/
 
-            int a = Math.Abs(-123);
+            /*int a = Math.Abs(-123);
             Console.WriteLine(a);
             double b = Math.Ceiling(1.23);
             Console.WriteLine(b);
             double c = Math.Floor(1.23);
             Console.WriteLine(b);
             double d = Math.Round(1.23);
-            Console.WriteLine(b);  
+            Console.WriteLine(b);*/
 
+            /*Console.WriteLine(Math.E);
+            Console.WriteLine(Math.PI);*/
 
-            Console.ReadKey();
+            /*nsole.WriteLine("Add meg kör területét");
+             int r = Convert.ToInt32(Console.ReadLine());
+             double kerulet = 2 * r * Math.PI;
+             double terulet = Math.Pow(r, 2) * Math.PI;
+             Console.WriteLine("Kerület:" + kerulet);
+             Console.WriteLine("Terület: " + terulet);*/
+
+            /*hecked
+             {
+                 int a2 = 100000;
+                 int b2 = 100000;
+                 long c2 = a2 * b2;*/
+
+            /*try
+            {
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
+                Console.WriteLine(szam);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+            } */
+
+            /*Console.WriteLine("Add meg a kör sugarát: ");
+            try
+            {
+                string r = Console.ReadLine();
+                int parsed;
+
+                if (int.TryParse(r, out parsed))
+                {
+                    double kerulet = Math.Round(2 * parsed * Math.PI, 2);
+                    double terulet = Math.Round(Math.Pow(parsed, 2) * Math.PI, 2);
+                    Console.WriteLine("A kör területe {0}, a kerülete {1}", kerulet, terulet);
+                }
+                else
+                {
+                    throw new Exception("Kérlej számot adj meg");
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            } */
+
+            Console.WriteLine("Add meg a kör sugarát: ");
+            try
+            {
+                string r = Console.ReadLine();
+                int parsed;
+
+                if (int.TryParse(r, out parsed))
+                {
+                    double kerulet = Math.Round(2 * parsed * Math.PI, 2);
+                    double terulet = Math.Round(Math.Pow(parsed, 2) * Math.PI, 2);
+                    Console.WriteLine("A kör területe {0}, a kerülete {1}", kerulet, terulet);
+                }
+                else
+                {
+                    throw new Exception("Kérlej számot adj meg");
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("HIBA történt");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
+                Console.ReadKey();
+            }
         }
     }
 }

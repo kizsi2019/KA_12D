@@ -1,0 +1,8 @@
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\bin\Debug\list.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\bin\Debug\list.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\bin\Debug\list.pdb
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\obj\Debug\list.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\obj\Debug\list.csproj.SuggestedBindingRedirects.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\obj\Debug\list.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\obj\Debug\list.exe
+C:\Users\SarkadiKristofStefan\Desktop\sar.kri.ste\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\list\list\obj\Debug\list.pdb
