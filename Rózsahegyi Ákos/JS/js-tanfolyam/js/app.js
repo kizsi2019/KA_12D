@@ -8,5 +8,25 @@ Játék szabályok:
 - A játékos választhatja a 'Megtartom' gombot is. Ebben az esetben az adott körben elért pontok száma, hozzáadódik a játékos összes
   pontszámához. Majd a dobás joga a másik játékosra száll.
 - Az a játékos nyer, aki előbb eléri a 100 pontot.  
-
 */
+
+var pontszamok, korpontszam, aktivJatekos;
+
+pontszamok = [0,0];
+korpontszam = 0;
+aktivJatekos = 0;
+
+// document.querySelector('#current-' + aktivJatekos).textContent = kocka;
+// document.querySelector('#current-' + aktivJatekos).textContent = '<u>' + kocka + '</u>';
+
+document.querySelector('.dice').style.display = 'none';
+
+document.querySelector('.btn-roll').addEventListener('click', function() {
+  // kell egy véletlen szám
+  var kocka = Math.floor(Math.random() * 6) + 1;
+
+  // eredmény megjelenítése
+  var kockaDOM = document.querySelector('.dice');
+  kockaDOM.style.display = 'block';
+  kockaDOM.src = 'img/dice-' + kocka + '.png';
+});

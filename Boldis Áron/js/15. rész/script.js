@@ -5,5 +5,10 @@ var huba = {
     hazas: true,
     baratok: ["Álmos", "Előd", "Ond"],
     "csaladi allapot": "nős",
-    szuletesiEvszamitas: 
-}
+    szuletesiEvszamitas: function(){
+        this.szuletesiEv = 2023 - this.kor;
+    }
+};
+
+huba.szuletesiEvszamitas();
+console.log(huba);

@@ -1,0 +1,8 @@
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\bin\Debug\Tömbök.exe.config
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\bin\Debug\Tömbök.exe
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\bin\Debug\Tömbök.pdb
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.SuggestedBindingRedirects.cache
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\obj\Debug\Tömbök.exe
+C:\Users\PachBalint\Desktop\12D\KA_12D.github.io\Pach Bálint\cscscs\Tömbök\Tömbök\obj\Debug\Tömbök.pdb

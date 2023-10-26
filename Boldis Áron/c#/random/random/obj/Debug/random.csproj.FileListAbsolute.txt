@@ -1,0 +1,8 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\bin\Debug\random.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\bin\Debug\random.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\bin\Debug\random.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\obj\Debug\random.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\obj\Debug\random.csproj.SuggestedBindingRedirects.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\obj\Debug\random.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\obj\Debug\random.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\random\random\obj\Debug\random.pdb
