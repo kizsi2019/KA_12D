@@ -1,0 +1,8 @@
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\bin\Debug\Tömbök.exe.config
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\bin\Debug\Tömbök.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\bin\Debug\Tömbök.pdb
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.SuggestedBindingRedirects.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\obj\Debug\Tömbök.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\obj\Debug\Tömbök.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_12D.github.io\Kiss Zsigmond\C#\Tömbök\Tömbök\obj\Debug\Tömbök.pdb
