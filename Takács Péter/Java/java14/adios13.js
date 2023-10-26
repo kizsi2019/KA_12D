@@ -1,4 +1,4 @@
-var nev1='Ond';
+/*var nev1='Ond';
 var nev2='Kond';
 var nev3='Tas';
 
@@ -32,3 +32,13 @@ console.log(huba.indexOf(48));
 
 var szakacs = huba.indexOf("szakacs") === -1 ? "Huba nem szakacs" : "Huba szakacs";
 console.log(szakacs);
+
+var h = {
+    nev: 'Huba',
+    'elet kor' : 38
+};
+*/
+var huba = {
+    nev: 'Huba',
+    kor: 38,
+}
