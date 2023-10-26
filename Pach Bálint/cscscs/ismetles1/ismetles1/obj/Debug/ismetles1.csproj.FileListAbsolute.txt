@@ -1,8 +1,0 @@
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\bin\Debug\ismetles1.exe.config
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\bin\Debug\ismetles1.exe
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\bin\Debug\ismetles1.pdb
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\obj\Debug\ismetles1.csproj.AssemblyReference.cache
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\obj\Debug\ismetles1.csproj.SuggestedBindingRedirects.cache
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\obj\Debug\ismetles1.csproj.CoreCompileInputs.cache
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\obj\Debug\ismetles1.exe
-C:\Users\PachBalint\source\repos\ismetles1\ismetles1\obj\Debug\ismetles1.pdb
