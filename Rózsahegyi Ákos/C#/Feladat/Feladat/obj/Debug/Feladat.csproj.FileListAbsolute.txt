@@ -1,0 +1,7 @@
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\bin\Debug\Feladat.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\bin\Debug\Feladat.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\bin\Debug\Feladat.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\obj\Debug\Feladat.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\obj\Debug\Feladat.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\obj\Debug\Feladat.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Feladat\Feladat\obj\Debug\Feladat.pdb

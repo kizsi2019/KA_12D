@@ -1,0 +1,7 @@
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\bin\Debug\TryParse.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\bin\Debug\TryParse.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\bin\Debug\TryParse.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\obj\Debug\TryParse.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\obj\Debug\TryParse.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\obj\Debug\TryParse.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\TryParse\TryParse\obj\Debug\TryParse.pdb

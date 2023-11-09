@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\bin\Debug\órai 13 lista.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\bin\Debug\órai 13 lista.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\bin\Debug\órai 13 lista.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\obj\Debug\órai 13 lista.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\obj\Debug\órai 13 lista.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\obj\Debug\órai 13 lista.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13 lista\órai 13 lista\obj\Debug\órai 13 lista.pdb
