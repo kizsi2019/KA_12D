@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\sudoku\obj\Debug\sudokuCLI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\sudoku\obj\Debug\sudokuCLI.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\sudoku\obj\Debug\sudokuCLI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\sudoku\bin\Debug\sudoku.exe.config
+C:\Users\User\source\repos\sudoku\bin\Debug\sudoku.exe
+C:\Users\User\source\repos\sudoku\bin\Debug\sudoku.pdb
+C:\Users\User\source\repos\sudoku\obj\Debug\sudoku.exe
+C:\Users\User\source\repos\sudoku\obj\Debug\sudoku.pdb
