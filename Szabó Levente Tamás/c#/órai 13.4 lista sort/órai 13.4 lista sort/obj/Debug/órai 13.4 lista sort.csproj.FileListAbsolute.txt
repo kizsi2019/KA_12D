@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\bin\Debug\órai 13.4 lista sort.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\bin\Debug\órai 13.4 lista sort.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\bin\Debug\órai 13.4 lista sort.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\obj\Debug\órai 13.4 lista sort.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\obj\Debug\órai 13.4 lista sort.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\obj\Debug\órai 13.4 lista sort.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 13.4 lista sort\órai 13.4 lista sort\obj\Debug\órai 13.4 lista sort.pdb
