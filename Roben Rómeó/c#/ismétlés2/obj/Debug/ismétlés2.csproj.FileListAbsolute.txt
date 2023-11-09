@@ -1,0 +1,8 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\bin\Debug\ismétlés2.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\bin\Debug\ismétlés2.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\bin\Debug\ismétlés2.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\obj\Debug\ismétlés2.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\obj\Debug\ismétlés2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\obj\Debug\ismétlés2.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\obj\Debug\ismétlés2.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\ismétlés2\obj\Debug\ismétlés2.pdb
