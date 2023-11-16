@@ -51,7 +51,6 @@ namespace orai_sokadik
                 if (jegyek[i] > jegyek[max]) max = i;
             }
 
-            // Eredmények kiírása
             Console.WriteLine($"{nev.ToUpper()} Átlag: {atlag:F2}");
             Console.WriteLine($"{nev.ToUpper()} Legjobb jegy: {max}");
             Console.WriteLine($"{nev.ToUpper()} Legrosszabb jegy: {min}");
