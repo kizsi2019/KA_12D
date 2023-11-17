@@ -21,32 +21,56 @@ namespace Feladat
             KOVÁCS ISTVÁN legjobb jegye: 5
             KOVÁCS ISTVÁN legrosszabb jegye: 2
             */
-            
+
+            int jegy;
             int osszeg = 0;
-            string nev;
-            int atlag = 0;
             int min = 0;
             int max = 0;
             List<int> jegyek = new List<int>();
 
-            Console.WriteLine("Kérem a nevét:");
-            nev = Console.ReadLine();
-            do
-            {
-                Console.WriteLine("Kérem a jegyeket:");
-                int szam = Console.ReadLine();
-                jegyek.Add(szam);
-            } while (szam != " "));
+            // Név megadása és tárolása
+            Console.WriteLine("Kérem a nevét (pl. Kovács István): ");
+            string nev = Console.ReadLine();
 
+            // Jegyek bekérése és tárolása listába
+            while (true)
+            {
+                Console.Write($"Adja meg a jegyet (1-5), vagy írja be hogy 'vége' a befejezéshez: ");
+                string input = Console.ReadLine();
+
+                if (input.ToLower() == "vége")
+                {
+                    break;
+                }
+
+                if (int.TryParse(input, out jegy) && (jegy >= 1 && jegy <= 5))
+                {
+                    jegyek.Add(jegy);
+                }
+                else
+                {
+                    Console.WriteLine("Hibás formátum. Kérjük, adjon meg egy érvényes jegyet (1-5) vagy írja be hogy 'vége'.");
+                }
+            }
+
+            // Jegyek összege és átlagának kiszámítása
+            foreach (int item in jegyek)
+            {
+                osszeg += item;
+            }
+            double atlag = osszeg / jegyek.Count;
+
+            // Legjobb és legrosszabb jegy keresése
             for (int i = 0; i < jegyek.Count; i++)
             {
                 if (jegyek[i] < jegyek[min]) min = i;
                 if (jegyek[i] > jegyek[max]) max = i;
             }
 
-            Console.WriteLine($"{nev.ToUpper} átlaga: {atlag}");
-            Console.WriteLine($"{nev.ToUpper} legjobb jegye: {max}");
-            Console.WriteLine($"{nev.ToUpper} legrosszabb jegye: {min}");
+            // Eredmények kiírása
+            Console.WriteLine($"{nev.ToUpper()} átlaga: {atlag:F2}");
+            Console.WriteLine($"{nev.ToUpper()} legjobb jegye: {max}");
+            Console.WriteLine($"{nev.ToUpper()} legrosszabb jegye: {min}");
             Console.ReadKey();
         }
     }
