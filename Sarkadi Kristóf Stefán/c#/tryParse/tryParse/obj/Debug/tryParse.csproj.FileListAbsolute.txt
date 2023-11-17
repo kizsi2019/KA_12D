@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\bin\Debug\tryParse.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\bin\Debug\tryParse.exe
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\bin\Debug\tryParse.pdb
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\obj\Debug\tryParse.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\obj\Debug\tryParse.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\obj\Debug\tryParse.exe
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\tryParse\tryParse\obj\Debug\tryParse.pdb
