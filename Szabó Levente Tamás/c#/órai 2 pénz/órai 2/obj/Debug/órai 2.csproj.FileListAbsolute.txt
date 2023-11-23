@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\bin\Debug\órai 2.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\bin\Debug\órai 2.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\bin\Debug\órai 2.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\obj\Debug\órai 2.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\obj\Debug\órai 2.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\obj\Debug\órai 2.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 2 pénz\órai 2\obj\Debug\órai 2.pdb

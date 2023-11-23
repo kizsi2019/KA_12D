@@ -1,0 +1,8 @@
+C:\Users\PachBalint\source\repos\snippet\snippet\bin\Debug\snippet.exe.config
+C:\Users\PachBalint\source\repos\snippet\snippet\bin\Debug\snippet.exe
+C:\Users\PachBalint\source\repos\snippet\snippet\bin\Debug\snippet.pdb
+C:\Users\PachBalint\source\repos\snippet\snippet\obj\Debug\snippet.csproj.AssemblyReference.cache
+C:\Users\PachBalint\source\repos\snippet\snippet\obj\Debug\snippet.csproj.SuggestedBindingRedirects.cache
+C:\Users\PachBalint\source\repos\snippet\snippet\obj\Debug\snippet.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\source\repos\snippet\snippet\obj\Debug\snippet.exe
+C:\Users\PachBalint\source\repos\snippet\snippet\obj\Debug\snippet.pdb

@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\bin\Debug\Feladat.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\bin\Debug\Feladat.exe
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\bin\Debug\Feladat.pdb
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\obj\Debug\Feladat.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\obj\Debug\Feladat.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\obj\Debug\Feladat.exe
+C:\Users\SarkadiKristofStefan\Desktop\Sa.Kr.St\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Feladat\Feladat\obj\Debug\Feladat.pdb

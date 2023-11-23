@@ -23,8 +23,8 @@ aktivjatekos = 1;
 document.querySelector(".dice").style.display = "none";
 document.getElementById("score-0").textcontent = "0";
 document.getElementById("current-0").textcontent = "0";
-document.getElementByrd("score-1").textcontent = "0";
-document.gettlenentyrd("current-0").textcontent = "0";
+document.getElementById("score-1").textcontent = "0";
+document.getElementById("current-0").textcontent = "0";
 
 document.querySelector(".btn-roll").addEventListener("click", function(){
   //kell egy veletlen szm
@@ -34,5 +34,39 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
   var kockaDOM = document.querySelector(".dice");
   kockaDOM.style.display = "block";
   kockaDOM.src = "img/dice-" + kocka + ".png";
-}
-)
+
+  if (kocka !== 1){
+    korPontszam += kocka;
+    document.querySelector('#current-' + aktivjatekos).textContent =  korPontszam;
+  }
+  else{
+    kovetkezoJatekos();
+  }
+});
+
+document.querySelector(".btn-hold").addEventListener("click", function(){
+  pontszamok[aktivjatekos] += korPontszam;
+  document.querySelector("#score-" + aktivjatekos).textContent = pontszamok[aktivjatekos];
+
+  if (pontszamok[aktivjatekos] >= 15){
+    document.querySelector("#name-" + aktivjatekos).textContent = "Győztes!";
+    document.querySelector(".player-" + aktivjatekos + "-panel").classList.add("winner")
+    document.querySelector(".player-" + aktivjatekos + "-panel").classList.remove("active")
+  }
+  else{
+    kovetkezoJatekos();
+  }
+});
+
+function kovetkezoJatekos(){
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+  korPontszam = 0;
+
+  document.getElementById('current-0'.textContent = '0');
+  document.getElementById('current-1'.textContent = '0');
+
+  document.querySelector(".player-0-panel").classList.toggle("active");
+  document.querySelector(".player-1-panel").classList.toggle("active");
+  document.querySelector(".dice").style.display = "none";
+};
+
