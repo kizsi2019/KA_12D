@@ -83,7 +83,7 @@ namespace összegzes
                 if (Tömb[i] < Tömb[legkisebb_index]) legkisebb_index = i;
             }
             Console.WriteLine("A legnagyobb elem indexe {0}, értéke {1}", legnagyobb_index, Tömb[legnagyobb_index]);
-            Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", legkisebb_index, Tömb[legkisebb_index]);*/
+            Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", legkisebb_index, Tömb[legkisebb_index]);
 
             StreamReader sr = new StreamReader("julius.txt");
             List<double> hőmérséklet = new List<double>();
@@ -97,6 +97,36 @@ namespace összegzes
                 if (hőmérséklet[i] < hőmérséklet[legalacsonyabb_i]) legalacsonyabb_i = i;
             }
             Console.WriteLine("A legalacsonyabb hőméséklet {0}.-án {1} fokvolt", legalacsonyabb_i);
+
+            StreamReader sr = new StreamReader("végeredmény.txt");
+            List<string> eredmeny = new List<string>();
+            while (sr.EndOfStream)
+            {
+                eredmeny.Add(sr.ReadLine());
+            }
+            sr.Close();
+            Console.Write("Adja meg a versenyző nevét: ");
+            string név = Console.ReadLine();
+            int i = 0;
+            while (i < eredmeny.Count && eredmeny[i] != név)
+            {
+                i++;
+            }
+            Console.WriteLine("{0} nevű versenyző {1}, lett", név, i + 1);*/
+
+            int[] beolvasás = new int[20];
+            for (int i = 0; i < 20; i++)
+            {
+                Console.Write("Adja meg a {0}. számot: ", i + 1);
+                beolvasás[i] = int.Parse(Console.ReadLine());
+            }
+            int j = 0;
+            while (j < beolvasás.Length && beolvasás[j] % 3 != 0) 
+            { 
+                j++;
+            }
+            if (j < beolvasás.Length) Console.WriteLine("3-mal osztható számot {0}.-ra vitt be!", j + 1);
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
 
             Console.ReadKey();
         }
