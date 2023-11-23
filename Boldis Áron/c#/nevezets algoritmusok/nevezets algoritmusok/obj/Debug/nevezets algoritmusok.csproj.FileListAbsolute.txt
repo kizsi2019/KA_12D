@@ -1,0 +1,7 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\bin\Debug\nevezets algoritmusok.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\bin\Debug\nevezets algoritmusok.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\bin\Debug\nevezets algoritmusok.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\obj\Debug\nevezets algoritmusok.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\obj\Debug\nevezets algoritmusok.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\obj\Debug\nevezets algoritmusok.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\nevezets algoritmusok\nevezets algoritmusok\obj\Debug\nevezets algoritmusok.pdb
