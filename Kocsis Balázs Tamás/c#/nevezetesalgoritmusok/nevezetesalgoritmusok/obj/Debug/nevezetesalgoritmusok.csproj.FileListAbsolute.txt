@@ -1,0 +1,7 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe.config
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.AssemblyReference.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.pdb
