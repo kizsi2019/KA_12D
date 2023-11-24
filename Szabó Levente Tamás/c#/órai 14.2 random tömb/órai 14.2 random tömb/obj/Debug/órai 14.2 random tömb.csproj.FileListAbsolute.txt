@@ -1,0 +1,2 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.2 random tömb\órai 14.2 random tömb\obj\Debug\órai 14.2 random tömb.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.2 random tömb\órai 14.2 random tömb\obj\Debug\órai 14.2 random tömb.csproj.CoreCompileInputs.cache

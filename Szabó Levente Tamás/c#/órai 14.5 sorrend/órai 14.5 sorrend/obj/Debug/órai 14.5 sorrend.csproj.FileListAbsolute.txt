@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\bin\Debug\órai 14.5 sorrend.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\bin\Debug\órai 14.5 sorrend.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\bin\Debug\órai 14.5 sorrend.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\obj\Debug\órai 14.5 sorrend.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\obj\Debug\órai 14.5 sorrend.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\obj\Debug\órai 14.5 sorrend.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.5 sorrend\órai 14.5 sorrend\obj\Debug\órai 14.5 sorrend.pdb
