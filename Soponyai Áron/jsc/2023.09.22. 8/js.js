@@ -54,7 +54,6 @@ var k = 'hazas';
 console.log(hubas['nev']);
 
 console.log(hubas[k]);
-
 console.log(hubas['csaladi allapot']);
 
 hubas['kor'] = 40;
