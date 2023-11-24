@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\bin\Debug\összegzes.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\bin\Debug\összegzes.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\bin\Debug\összegzes.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\obj\Debug\összegzes.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\obj\Debug\összegzes.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\obj\Debug\összegzes.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\összegzes\összegzes\obj\Debug\összegzes.pdb

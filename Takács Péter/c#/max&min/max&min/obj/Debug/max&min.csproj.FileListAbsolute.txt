@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\bin\Debug\max&min.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\bin\Debug\max&min.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\bin\Debug\max&min.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\obj\Debug\max&min.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\obj\Debug\max&min.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\obj\Debug\max&min.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\max&min\max&min\obj\Debug\max&min.pdb
