@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\bin\Debug\órai 14.4 július.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\bin\Debug\órai 14.4 július.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\bin\Debug\órai 14.4 július.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\obj\Debug\órai 14.4 július.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\obj\Debug\órai 14.4 július.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\obj\Debug\órai 14.4 július.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 14.4 július\órai 14.4 július\obj\Debug\órai 14.4 július.pdb
