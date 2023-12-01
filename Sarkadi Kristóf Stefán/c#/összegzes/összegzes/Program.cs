@@ -135,10 +135,10 @@ namespace összegzes
             do
             {
                 kozep = (alsohatar + felsohatar) / 2;
-                if (Tömb[kozep] < X) alsohatar = kozep + 1;
-                if (Tömb[kozep] > X) felsohatar = kozep - 1;
-            } while (alsohatar <= felsohatar && Tömb[kozep] != X);
-            if (Tömb[kozep] == X) Console.WriteLine("Van indexe: ", kozep);
+                if (Tömb[kozep] < 15) alsohatar = kozep + 1;
+                if (Tömb[kozep] > 15) felsohatar = kozep - 1;
+            } while (alsohatar <= felsohatar && Tömb[kozep] != 15);
+            if (Tömb[kozep] == 15) Console.WriteLine("Van indexe: ", kozep);
             else Console.WriteLine("Nincs");
 
             Console.ReadKey();
