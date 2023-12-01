@@ -1,4 +1,4 @@
-function teglalap(a, b, funkcio)
+var eletszakasz = function(nev, kor)
 {
     var eredmeny;
     if (funkcio === "kerulet")

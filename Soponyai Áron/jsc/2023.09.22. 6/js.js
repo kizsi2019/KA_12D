@@ -18,3 +18,4 @@ function teglalap(r, funkcio)
 
 console.log(teglalap(5, "terulet"));
 console.log(teglalap(5, "kerulet"));
+    
