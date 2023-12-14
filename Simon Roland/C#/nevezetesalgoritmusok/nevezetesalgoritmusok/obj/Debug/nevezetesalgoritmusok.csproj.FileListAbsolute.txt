@@ -1,0 +1,7 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.pdb
