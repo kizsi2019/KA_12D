@@ -112,7 +112,7 @@ namespace összegzes
             {
                 i++;
             }
-            Console.WriteLine("{0} nevű versenyző {1}, lett", név, i + 1);*/
+            Console.WriteLine("{0} nevű versenyző {1}, lett", név, i + 1);
 
             int[] beolvasás = new int[20];
             for (int i = 0; i < 20; i++)
@@ -126,7 +126,20 @@ namespace összegzes
                 j++;
             }
             if (j < beolvasás.Length) Console.WriteLine("3-mal osztható számot {0}.-ra vitt be!", j + 1);
-            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");*/
+
+            int[] Tömb = new int[] { 10, 15, 10, 31, 111 };
+            int alsohatar = 0;
+            int felsohatar = Tömb.Length - 1;
+            int kozep = 0;
+            do
+            {
+                kozep = (alsohatar + felsohatar) / 2;
+                if (Tömb[kozep] < 15) alsohatar = kozep + 1;
+                if (Tömb[kozep] > 15) felsohatar = kozep - 1;
+            } while (alsohatar <= felsohatar && Tömb[kozep] != 15);
+            if (Tömb[kozep] == 15) Console.WriteLine("Van indexe: ", kozep);
+            else Console.WriteLine("Nincs");
 
             Console.ReadKey();
         }

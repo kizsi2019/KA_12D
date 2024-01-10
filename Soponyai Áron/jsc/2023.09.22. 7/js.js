@@ -1,20 +1,22 @@
-function teglalap(r, funkcio)
+var eletszakaszok = function(nev, kor)
 {
-    var eredmeny;
-    if (funkcio === "kerulet")
-    {
-        eredmeny = 2 * r * 3.14;
+    switch(true){
+        case kor < 13:
+            return nev + ' gyerek';
+            break;
+        case kor >= 13 && kor <=20:
+            return nev + ' tinédzserek';
+            break;
+        case kor > 20 && kor <= 30:
+            return nev + ' ifju';
+            break;
+        case kor > 30 && kor <=50:
+        return nev + ' kozaepkoru';
+        break;
+        default:
+            return nev + ' idos';
     }
-    else if (funkcio === "terulet")
-    {
-        eredmeny = r * r * 3.14;
-    }
-    else r * r * 3.14
-    {
-        return "hibás funkcio!"
-    }
-    return funkcio + ' - ' + eredmeny;
 }
-
-console.log(teglalap(5, "terulet"));
-console.log(teglalap(5, "kerulet"));
+console.log(eletszakaszok('kati',12));
+console.log(eletszakaszok('peti',20));
+console.log(eletszakaszok('márk',67));
