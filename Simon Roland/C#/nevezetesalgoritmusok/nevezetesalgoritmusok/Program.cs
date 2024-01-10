@@ -120,11 +120,11 @@ namespace nevezetesalgoritmusok
             do
             {
                 kozep = (alsohatar + felsohatar) / 2;
-                if (rendezettTömb[kozep] < X) alsohatar = kozep + 1;
-                if (rendezettTömb[kozep] > X) felsohatar = kozep - 1;
+                if (rendezettTömb[kozep] < 10) alsohatar = kozep + 1;
+                if (rendezettTömb[kozep] > 10) felsohatar = kozep - 1;
             }
-            while (alsohatar <= felsohatar && rendezettTömb[kozep] != X);
-            if (rendezettTömb[kozep] == X)
+            while (alsohatar <= felsohatar && rendezettTömb[kozep] != 10);
+            if (rendezettTömb[kozep] == 10)
                 Console.WriteLine("Van, indexe: " + kozep);
             else Console.WriteLine("Nincs");
 
