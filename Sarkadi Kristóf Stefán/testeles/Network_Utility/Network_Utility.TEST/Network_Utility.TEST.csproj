@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Network_Utility\Network_Utility.csproj" />
+  </ItemGroup>
+
 </Project>

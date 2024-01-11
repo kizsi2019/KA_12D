@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "UAJPxNHl20xyp8IvaYa2w/zCeLjz+Ax7tz8XQEHZg4fDFHESLpDTZl6jqlsuUTdSN/UzMpgXceAoD+OzKhQsEw==",
+=======
+  "dgSpecHash": "Hk/HQqU7tQAE72HpIcey7/AdGK2A3X/XN3xBY7QJ4C9bL1KLYmS6p8BlsPwQ2iGfOLfrGMaSzqBx2p0bygLGRg==",
+>>>>>>> 8f3cebfaae28f8892088d63827ae7d664f5671d1
   "success": true,
   "projectFilePath": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
   "expectedPackageFiles": [

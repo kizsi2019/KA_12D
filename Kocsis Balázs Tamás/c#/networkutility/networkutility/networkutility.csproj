@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\networkutility.Tests\networkutility.Tests.csproj">
+      <Project>{03687ad2-2417-4e34-bb7a-16497f4fcf29}</Project>
+      <Name>networkutility.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
