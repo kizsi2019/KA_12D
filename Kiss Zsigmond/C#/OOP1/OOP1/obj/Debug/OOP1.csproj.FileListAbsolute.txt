@@ -1,0 +1,7 @@
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\bin\Debug\OOP1.exe.config
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\bin\Debug\OOP1.exe
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\bin\Debug\OOP1.pdb
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\obj\Debug\OOP1.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\obj\Debug\OOP1.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\obj\Debug\OOP1.exe
+C:\Users\KissZsigmond\OneDrive\Asztali gép\Github\Katona\KA_12D.github.io\Kiss Zsigmond\C#\OOP1\OOP1\obj\Debug\OOP1.pdb
