@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NetworkUtility.Ping
 {
-    internal class NetworkService
-    {z
+    public class NetworkService
+    {
         public string SendPing()
         {
             return "Succes: Ping sent!";

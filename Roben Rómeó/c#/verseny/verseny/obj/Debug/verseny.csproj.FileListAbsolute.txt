@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\bin\Debug\verseny.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\bin\Debug\verseny.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\bin\Debug\verseny.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\obj\Debug\verseny.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\obj\Debug\verseny.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\obj\Debug\verseny.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\verseny\verseny\obj\Debug\verseny.pdb

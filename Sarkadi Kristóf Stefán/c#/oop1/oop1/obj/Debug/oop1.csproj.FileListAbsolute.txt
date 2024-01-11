@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\bin\Debug\oop1.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\bin\Debug\oop1.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\bin\Debug\oop1.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\obj\Debug\oop1.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\obj\Debug\oop1.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\obj\Debug\oop1.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\oop1\oop1\obj\Debug\oop1.pdb

@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\bin\Debug\valami_valami.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\bin\Debug\valami_valami.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\bin\Debug\valami_valami.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\obj\Debug\valami_valami.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\obj\Debug\valami_valami.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\obj\Debug\valami_valami.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valami_valami\valami_valami\obj\Debug\valami_valami.pdb
