@@ -1,0 +1,2 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\00P1\00P1\obj\Debug\00P1.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\00P1\00P1\obj\Debug\00P1.csproj.CoreCompileInputs.cache
