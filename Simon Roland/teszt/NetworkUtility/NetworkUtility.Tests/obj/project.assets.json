@@ -5657,19 +5657,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SimonRoland\\.nuget\\packages\\": {}
+    "C:\\Users\\RobenRomeo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
       "projectName": "NetworkUtility.Tests",
-      "projectPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
-      "packagesPath": "C:\\Users\\SimonRoland\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
+      "projectPath": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+      "packagesPath": "C:\\Users\\RobenRomeo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SimonRoland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RobenRomeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
