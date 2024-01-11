@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\bin\Debug\KIVÁLASZTÁS.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\bin\Debug\KIVÁLASZTÁS.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\bin\Debug\KIVÁLASZTÁS.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\obj\Debug\KIVÁLASZTÁS.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\obj\Debug\KIVÁLASZTÁS.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\obj\Debug\KIVÁLASZTÁS.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\KIVÁLASZTÁS\KIVÁLASZTÁS\obj\Debug\KIVÁLASZTÁS.pdb

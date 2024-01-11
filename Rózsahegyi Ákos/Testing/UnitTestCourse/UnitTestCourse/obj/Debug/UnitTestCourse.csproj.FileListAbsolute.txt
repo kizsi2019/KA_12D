@@ -1,0 +1,7 @@
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.pdb
