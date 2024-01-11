@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\bin\Debug\órai 16 unittestcourse.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\bin\Debug\órai 16 unittestcourse.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\bin\Debug\órai 16 unittestcourse.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\obj\Debug\órai 16 unittestcourse.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\obj\Debug\órai 16 unittestcourse.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\obj\Debug\órai 16 unittestcourse.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 16 unittestcourse\órai 16 unittestcourse\obj\Debug\órai 16 unittestcourse.pdb
