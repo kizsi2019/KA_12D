@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\bin\Debug\ConsoleApp1awawa.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\bin\Debug\ConsoleApp1awawa.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\bin\Debug\ConsoleApp1awawa.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\obj\Debug\ConsoleApp1awawa.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\obj\Debug\ConsoleApp1awawa.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\obj\Debug\ConsoleApp1awawa.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\ConsoleApp1awawa\ConsoleApp1awawa\obj\Debug\ConsoleApp1awawa.pdb

@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj": {
+                "projectPath": "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -79,6 +83,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj",
+        "projectName": "Network_Utility",
+        "projectPath": "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -1,0 +1,2 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\számos\számos\obj\Debug\számos.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\számos\számos\obj\Debug\számos.csproj.CoreCompileInputs.cache
