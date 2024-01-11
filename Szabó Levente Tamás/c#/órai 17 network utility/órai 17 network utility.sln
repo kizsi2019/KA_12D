@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "órai 17 network utility", "órai 17 network utility\órai 17 network utility.csproj", "{16B63AD5-6B89-4B93-8185-B6D133AEC466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{3DBD026F-041A-4CAA-85E2-0E379B3AED1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{3DBD026F-041A-4CAA-85E2-0E379B3AED1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ping", "Ping", "{CEFF461E-4BF7-415E-AFF4-6DDB8882BC9E}"
 	ProjectSection(SolutionItems) = preProject
-		NetworkServiceTest.cs = NetworkServiceTest.cs
+		NetworkUtility.cs = NetworkUtility.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PingTest", "PingTest", "{C9457E6A-FE49-40D9-847E-01ED34406FD5}"
