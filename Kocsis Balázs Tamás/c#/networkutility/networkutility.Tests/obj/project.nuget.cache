@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BtXJefdnnoZuySs4DQlGyN8cTn8fOZp7I1pbw4mB15M7exElghp/tZ534JxfVM/76QV+sXUChVq1dbL5/7iV5g==",
+  "dgSpecHash": "S2zqOclg69avgs7v3j+BdC7ALobcUQMrKXdW1MiFk4v+9YXefiHSNFpEZZWrOVDrWXR24uT4JijLB7gfLF6Qog==",
   "success": true,
   "projectFilePath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -35,6 +36,7 @@
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
@@ -75,6 +77,7 @@
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
