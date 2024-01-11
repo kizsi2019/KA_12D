@@ -1,19 +1,15 @@
-namespace NetworkUtility.Tests
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace networkutility
 {
-    public class UnitTest1
+    public class Program
     {
-        [Fact]
-        public void Network_SendPing_ReturnString()
+        public void Main(string[] args)
         {
-            var pingService = new NetworkServiceTests();
-            var result = pingService.SendPing();
-            result.Should().Be("Succes! Ping Sent!");
-            result.Should().NotBeNullOrWithSpace();
-            result.Should().Contain("Ping", Exactly.Once());
         }
-        [Theory]
-        [InlineData[1,1,2]]
-        [InlineData[2,2,4]]
-        public void NetworkService_PingTimeout_ReturnInt(int a, int b, int exp);
     }
 }
