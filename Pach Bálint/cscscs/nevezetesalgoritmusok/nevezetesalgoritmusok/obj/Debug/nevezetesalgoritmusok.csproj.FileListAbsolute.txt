@@ -1,0 +1,7 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\bin\Debug\nevezetesalgoritmusok.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\nevezetesalgoritmusok\nevezetesalgoritmusok\obj\Debug\nevezetesalgoritmusok.pdb

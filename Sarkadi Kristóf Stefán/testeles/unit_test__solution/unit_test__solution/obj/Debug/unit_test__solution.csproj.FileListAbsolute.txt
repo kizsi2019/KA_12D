@@ -1,0 +1,2 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\unit_test__solution\unit_test__solution\obj\Debug\unit_test__solution.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\unit_test__solution\unit_test__solution\obj\Debug\unit_test__solution.csproj.CoreCompileInputs.cache

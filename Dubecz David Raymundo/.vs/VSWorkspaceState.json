@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\C#",
+    "\\C#\\tryparse",
+    "\\C#\\tryparse\\tryparse",
+    "\\Java"
   ],
+  "SelectedNode": "\\C#\\tryparse\\tryparse\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

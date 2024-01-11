@@ -17,7 +17,7 @@ init()
 
 document.querySelector('.btn-roll').addEventListener('click', function(){
   //kell egy veletlen szám
-  kocka = Math.floor(Math.random() * 6) + 1;
+  var kocka = Math.floor(Math.random() * 6) + 1;
   
   //eredmény megjelenitése
   var kockaDOM = document.querySelector('.dice');
@@ -26,25 +26,25 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 
   //körben elért pontszám frissítése, ha nem 1-et dobunk
   if (kocka !== 1){
-      korPontszam += kocka;
-      documanet.querySelector('#current-' + aktivJatekos).textContent = korPontszam;
+      korPontszamok += kocka;
+      documanet.querySelector('#current-' + aktivJatekos).textContent = korPontszamok;
   } else {
-    kovetkezoJatekos();
+    következoJatekos();
   }
 
 });
 
-document.querySelector('.btn-hold').addEventListener('click', function) {
-  pontszamok[aktivJatekos];
+document.querySelector('.btn-hold').addEventListener('click', function() {
+  pontszamok[aktivJatekos] += korPontszamok;
   document.querySelector('#score-' + aktivJatekos).textContent = pontszamok[aktivJatekos]
-  if (pontszamok[aktivJatekos] >= 20) {
+  if (pontszamok[aktivJatekos] >= 15) {
     document.querySelector('#name-' + aktivJatekos).textContent = 'Győztes';
     document.querySelector('#name-' + aktivJatekos + 'panel').classList.add('#winner');
     document.querySelector('#name-' + aktivJatekos + 'panel').classList.remove('active');
   } else {
-    kovetkezoJatekos();
+    következoJatekos();
   }
-}
+});
 
 function következoJatekos(){
   aktivJatekos === 0 ? aktivJatekos = 1 : aktivJatekos = 0;

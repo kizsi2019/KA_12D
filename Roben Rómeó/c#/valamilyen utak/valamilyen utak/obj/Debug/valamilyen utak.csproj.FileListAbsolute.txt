@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\bin\Debug\valamilyen utak.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\bin\Debug\valamilyen utak.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\bin\Debug\valamilyen utak.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\obj\Debug\valamilyen utak.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\obj\Debug\valamilyen utak.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\obj\Debug\valamilyen utak.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\valamilyen utak\valamilyen utak\obj\Debug\valamilyen utak.pdb
