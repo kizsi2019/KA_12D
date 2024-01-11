@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NetworkUtility.Ping;
+using Xunit;
 using FluentAssertions;
 
 namespace NetworkUtility.Tests.PingTests
@@ -14,7 +15,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
-            var pingService = new NetworkServiceTests();
+            var pingService = new NetworkService();
 
             // Act
             var result = pingService.SendPing();
@@ -25,19 +26,19 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().Contain("Ping", Exactly.Once());
         }
         [Theory]
-        [InlineData[1,1,2]]
-        [InlineData[2,2,4]]
+        [InlineData(1,1,2)]
+        [InlineData(2,2,4)]
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var pingService = new NetworkServiceTests();
+            var pingService = new NetworkService();
 
             // Act
-            var result = pingService.NetworkService_PingTimeout_ReturnInt(a, b);
+            var result = pingService.PingTimeout(a, b);
 
             // Assert
             result.Should().Be(expected);
-            result.Should().NotBeGreaterThanOrEqualTo(2);
+            result.Should().BeGreaterThanOrEqualTo(2);
             result.Should().NotBeInRange(-1000, 0);
         }
     }
