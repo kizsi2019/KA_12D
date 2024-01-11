@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace networkutility.ping
 {
-    internal class networkservice
+    public class NetworkService
     {
         public string SendPing()
         {
