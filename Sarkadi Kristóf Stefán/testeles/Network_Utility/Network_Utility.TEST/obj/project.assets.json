@@ -1712,6 +1712,15 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Network_Utility/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Network_Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Network_Utility.dll": {}
+        }
       }
     }
   },
@@ -5506,11 +5515,17 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Network_Utility/1.0.0": {
+      "type": "project",
+      "path": "../Network_Utility/Network_Utility.csproj",
+      "msbuildProject": "../Network_Utility/Network_Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "Network_Utility >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5542,7 +5557,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj": {
+              "projectPath": "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\Network_Utility\\Network_Utility\\Network_Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

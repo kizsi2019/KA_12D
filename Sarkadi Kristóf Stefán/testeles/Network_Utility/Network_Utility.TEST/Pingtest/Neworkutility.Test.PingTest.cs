@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NetworkUtiliy.Ping;
+using Xunit;
 using FluentAssertion;
+using NetworkUtiliy.Ping;
+
 
 namespace Network_Utility.TEST.Pingtest
 {
-    public class NetworkServiceTests
+    public class NetworkServiceTest
     {
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             //Arrange
-            var pingService = new NetworkServiceTests();
+            var pingService = new Network_Service();
 
             //Act
             var result = pingService.SendPing();
@@ -25,15 +27,15 @@ namespace Network_Utility.TEST.Pingtest
             result.Should().Contain("Ping", Exactly.Once());
         }
         [Theory]
-        [IntLineData[1; 1; 2]]
-        [IntLineData[2; 2; 4]]
+        [IntLineData(1; 1; 2)]
+        [IntLineData(2; 2; 4)]
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             //Arrange
-            var pingService = new NetworkServiceTests();
+            var pingService = new NetworkServiceTest();
 
             //Act
-            var result = pingService.NetworkService_PingTimeout_ReturnInt(a, b, expected);
+            var result = pingService.PingTimeout(a, b, expected);
 
             //Assert
             result.Should().Be(expected);
