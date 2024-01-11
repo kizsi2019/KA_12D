@@ -1,0 +1,7 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\bin\Debug\UNITTESTCOURSE.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\bin\Debug\UNITTESTCOURSE.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\bin\Debug\UNITTESTCOURSE.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\obj\Debug\UNITTESTCOURSE.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\obj\Debug\UNITTESTCOURSE.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\obj\Debug\UNITTESTCOURSE.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\UNITTESTCOURSE\UNITTESTCOURSE\obj\Debug\UNITTESTCOURSE.pdb

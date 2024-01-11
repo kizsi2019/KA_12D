@@ -12,7 +12,7 @@ namespace órai_14._4_július
         static void Main(string[] args)
         {
             StreamReader sr = new StreamReader("július.txt");
-            List<double> list = new List<double>();
+            List<double> hőmérséklet = new List<double>();
             while (!sr.EndOfStream)
             {
                 hőmérséklet.Add(double.Parse(sr.ReadLine()));
@@ -22,7 +22,8 @@ namespace órai_14._4_július
             {
                 if (hőmérséklet[i] < hőmérséklet[legalacsonyabb_i]) legalacsonyabb_i = i;
             }
-            Console.WriteLine("A legalacsonyabb hőmérséklet {0}-án {1} fok volt");
+            Console.WriteLine("A legalacsonyabb hőmérséklet {0}-án {1} fok volt", legalacsonyabb_i + 1, hőmérséklet[legalacsonyabb_i]);
+            Console.ReadKey();
         }
     }
 }
