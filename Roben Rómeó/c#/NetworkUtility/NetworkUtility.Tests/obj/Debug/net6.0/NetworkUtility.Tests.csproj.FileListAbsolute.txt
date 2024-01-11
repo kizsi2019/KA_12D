@@ -1,0 +1,5 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NetworkUtility\NetworkUtility.Tests\obj\Debug\net6.0\NetworkUtility.Tests.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NetworkUtility\NetworkUtility.Tests\obj\Debug\net6.0\NetworkUtility.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NetworkUtility\NetworkUtility.Tests\obj\Debug\net6.0\NetworkUtility.Tests.AssemblyInfoInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NetworkUtility\NetworkUtility.Tests\obj\Debug\net6.0\NetworkUtility.Tests.AssemblyInfo.cs
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NetworkUtility\NetworkUtility.Tests\obj\Debug\net6.0\NetworkUtility.Tests.csproj.CoreCompileInputs.cache
