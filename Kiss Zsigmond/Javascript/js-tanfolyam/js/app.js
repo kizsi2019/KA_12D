@@ -9,7 +9,7 @@ Játék szabályok:
   pontszámához. Majd a dobás joga a másik játékosra száll.
 - Az a játékos nyer, aki előbb eléri a 100 pontot.  
 
-<<<<<<< HEAD
+
 */
 
 var pontszamok, korPontszam, aktivJatekos;
@@ -50,6 +50,3 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     }
 
 })
-=======
-*/
->>>>>>> 58ec1a36d0b6951fb799dc5e32787c358803112a
