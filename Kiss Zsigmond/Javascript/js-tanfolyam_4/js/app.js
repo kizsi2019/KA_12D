@@ -13,9 +13,7 @@ Játék szabályok:
 
 var pontszamok, korPontszam, aktivJatekos;
 
-pontszamok = [0, 0];
-korPontszam = 0;
-aktivJatekos = 0;
+init();
 
 
 //document.querySelector('#current-' + aktivJatekos).textContent = kocka;
@@ -26,11 +24,7 @@ aktivJatekos = 0;
 
 
 
-document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-1').textContent = '0';
+
 
 // dobas gomb kezelője
 document.querySelector('.btn-roll').addEventListener('click', function() {
@@ -89,4 +83,27 @@ function kovetkezoJatekos() {
     document.querySelector('.player-1-panel').classList.toggle('active');
 
     document.querySelector('.dice').style.display = 'none';
+}
+// Új játék indítása
+document.querySelector('.btn-new').addEventListener('click', init);
+
+// init
+function init() {
+    pontszamok = [0, 0];
+    korPontszam = 0;
+    aktivJatekos = 0;
+
+    document.querySelector('.dice').style.display = 'none';
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    document.getElementById('name-0').textContent = 'Frodó';
+    document.getElementById('name-1').textContent = 'Samu';
+    document.querySelector('.player-0-panel').classList.remove('winner');
+    document.querySelector('.player-1-panel').classList.remove('winner');
+    document.querySelector('.player-0-panel').classList.remove('active');
+    document.querySelector('.player-1-panel').classList.remove('active');
+    document.querySelector('.player-0-panel').classList.add('active');
 }
