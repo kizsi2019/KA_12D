@@ -1,0 +1,14 @@
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
+C:\Users\RozsahegyiAkos\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
