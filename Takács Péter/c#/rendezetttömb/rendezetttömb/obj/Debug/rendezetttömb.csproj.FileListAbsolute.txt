@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\bin\Debug\rendezetttömb.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\bin\Debug\rendezetttömb.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\bin\Debug\rendezetttömb.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\obj\Debug\rendezetttömb.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\obj\Debug\rendezetttömb.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\obj\Debug\rendezetttömb.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\rendezetttömb\rendezetttömb\obj\Debug\rendezetttömb.pdb

@@ -1,0 +1,7 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\bin\Debug\oop1.exe.config
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\bin\Debug\oop1.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\bin\Debug\oop1.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\obj\Debug\oop1.csproj.AssemblyReference.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\obj\Debug\oop1.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\obj\Debug\oop1.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\oop1\oop1\obj\Debug\oop1.pdb

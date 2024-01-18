@@ -10,19 +10,93 @@ namespace nevezetesalg3
     {
         static void Main(string[] args)
         {
-            int[] randT = new int[10];
-            Random r = new Random();
-            for (int i = 0; i < randT.Length; i++)
+            /* int[] randT = new int[10];
+             Random r = new Random();
+             for (int i = 0; i < randT.Length; i++)
+             {
+                 randT[i] = r.Next(0, 21);
+             }
+             int db = 0;
+             for (int i = 0; i < randT.Length; i++)
+             {
+                 if (randT[i] % 2 == 0) db++;
+             }
+             Console.WriteLine("A generált tömbben {0}db páros szám van", db);
+
+                         int[] Tömb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+             int biggest_index = 0;
+             int smallest_index = 0;
+             for (int i = 0; i < Tömb.Length; i++) 
+             {
+                 if (Tömb[i] > Tömb[biggest_index]) biggest_index = i;
+                 if (Tömb[i] < Tömb[smallest_index]) smallest_index = i;
+             }
+             Console.WriteLine("A legnagyobb elem indexe {0}, értéke {1} ", biggest_index, Tömb[biggest_index]);
+             Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", smallest_index, Tömb[smallest_index]);
+
+             StreamReader sr = new StreamReader("július.txt");
+             List<double> temp = new List<double>();
+             while (!sr.EndOfStream) 
+             {
+                 temp.Add(double.Parse(sr.ReadLine()));
+             }
+             int smallest_i = 0;
+             for (int i  = 0; i < temp.Count; i++)
+             {
+                 if (temp[i] < temp[smallest_i]) smallest_i = i;
+             }
+             Console.WriteLine(" A legalacsonyabb hőmérséklet {0}.-án {1} fok volt", smallest_i + 1, temp[smallest_i]);
+
+             StreamReader sr = new StreamReader("végeredmény.txt");
+             List<string> eredmeny = new List<string>();
+             while(!sr.EndOfStream)
+             {
+                 eredmeny.Add(sr.ReadLine());
+             }
+             sr.Close();
+             Console.WriteLine("Adja meg a versenyző nevét: ");
+             string name = Console.ReadLine();
+             int i = 0;
+             while(i < eredmeny.Count && eredmeny[i] != name)
+             {
+                 i++;
+             }
+             Console.WriteLine("{0} nevű versenyző {1}. helyezett lett", name, i + 1 );
+
+             int[] read = new int[20];
+             for (int i = 0; i < 20; i++)
+             {
+                 Console.Write("Adja mega {0}. számot: ", i + 1 );
+                 read[i] = int.Parse(Console.ReadLine());
+             }
+
+             int j = 0;
+             while(j < read.Length && read[j] % 3 != 0) 
+             {
+                 j++;
+             }
+
+             if (j < read.Length) Console.WriteLine("3-al osztható számot {0}.-ra vitt be ", j + 1);
+             else Console.WriteLine("Nem adott meg 3-al osztható számot!");
+             */
+
+            int[] rendezettTömb = new int[] { 10, 15, 18, 25, 31, 49, 60, 72, 80, 83 };
+            int alsohatar = 0;
+            int felsohatar = rendezettTömb.Length - 1;
+            int kozep = 0;
+            do
             {
-                randT[i] = r.Next(0, 21);
+                kozep = (alsohatar + felsohatar) / 2;
+                if (rendezettTömb[kozep] < 31) alsohatar = kozep + 1;
+                if (rendezettTömb[kozep] > 31) felsohatar = kozep - 1;
             }
-            int db = 0;
-            for (int i = 0; i < randT.Length; i++)
-            {
-                if (randT[i] % 2 == 0) db++;
-            }
-            Console.WriteLine("A generált tömbben {0}db páros szám van", db);
-            
+            while (alsohatar <= felsohatar && rendezettTömb[kozep] !=31);
+            if (rendezettTömb[kozep] == 31)
+                Console.WriteLine("Van, az indexe: " + kozep);
+            else Console.WriteLine("Nincs");
+
+            Console.ReadKey();
+
 
         }
     }
