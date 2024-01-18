@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C674854-DBEF-4A3A-845D-A6CFB6F70BD6}</ProjectGuid>
+    <ProjectGuid>{47654B4D-742F-47F2-9E17-163BE6E81EBC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>bukkbalaton2019</RootNamespace>
-    <AssemblyName>bukkbalaton2019</AssemblyName>
+    <RootNamespace>oop1</RootNamespace>
+    <AssemblyName>oop1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VersenyTav.cs" />
+    <Compile Include="Ember.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Versenyzo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
