@@ -1,0 +1,2 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\bukkbalaton2019\bukkbalaton2019\obj\Debug\bukkbalaton2019.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\bukkbalaton2019\bukkbalaton2019\obj\Debug\bukkbalaton2019.csproj.CoreCompileInputs.cache
