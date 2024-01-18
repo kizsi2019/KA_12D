@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\obj\Debug\Bükk_2019.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\obj\Debug\Bükk_2019.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\bin\Debug\Bükk_2019.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\bin\Debug\Bükk_2019.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\bin\Debug\Bükk_2019.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\obj\Debug\Bükk_2019.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Bükk_2019\Bükk_2019\obj\Debug\Bükk_2019.pdb
