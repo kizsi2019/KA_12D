@@ -1,0 +1,2 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\oop1\oop1\obj\Debug\oop1.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\oop1\oop1\obj\Debug\oop1.csproj.CoreCompileInputs.cache
