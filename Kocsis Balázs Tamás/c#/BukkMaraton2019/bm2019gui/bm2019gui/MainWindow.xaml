@@ -11,7 +11,7 @@
         <Label Content="Idő (ó:p:mp):" HorizontalAlignment="Left" Height="32" Margin="40,97,0,0" VerticalAlignment="Top" Width="108"/>
         <Label Content="Átlagsebesség (km/h):" HorizontalAlignment="Left" Height="32" Margin="40,164,0,0" VerticalAlignment="Top" Width="130"/>
         <Label Content="Átlagsebesség (m/s):" HorizontalAlignment="Left" Height="32" Margin="40,231,0,0" VerticalAlignment="Top" Width="130"/>
-        <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="32" Margin="240,30,0,0" VerticalAlignment="Top" Width="133" SelectionChanged="cbTav_SelectionChanged">
+        <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="32" Margin="240,30,0,0" VerticalAlignment="Top" Width="133" >
             <ComboBoxItem Content="Mini - 16km"/>
             <ComboBoxItem Content="Rövid - 38km"/>
             <ComboBoxItem Content="Pedelec - 54km"/>
