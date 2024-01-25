@@ -1,0 +1,10 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\00P1\00P1\obj\Debug\00P1.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\00P1\00P1\obj\Debug\00P1.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\bin\Debug\00P1.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\bin\Debug\00P1.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\bin\Debug\00P1.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\obj\Debug\00P1.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\obj\Debug\00P1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\obj\Debug\00P1.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\obj\Debug\00P1.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\00P1\00P1\obj\Debug\00P1.pdb
