@@ -1,0 +1,15 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\bin\Debug\OrvosiNobeldíjakGUI.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\bin\Debug\OrvosiNobeldíjakGUI.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\bin\Debug\OrvosiNobeldíjakGUI.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\MainWindow.g.cs
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\App.g.cs
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI_MarkupCompile.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI_MarkupCompile.lref
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\MainWindow.baml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.g.resources
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.Properties.Resources.resources
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.csproj.GenerateResource.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobeldíjakGUI\OrvosiNobeldíjakGUI\obj\Debug\OrvosiNobeldíjakGUI.pdb

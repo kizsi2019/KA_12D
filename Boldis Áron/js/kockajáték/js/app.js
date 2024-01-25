@@ -63,7 +63,9 @@ function kovetkezoJatekos(){
   document.querySelector(".dice").style.display = "none";
 };
 
-document.querySelector(".btn-new").addEventListener('click', init);
+document.querySelector(".btn-new").onclick = function() {
+  init();
+};
 
 function init(){
   pontszamok = [0, 0];

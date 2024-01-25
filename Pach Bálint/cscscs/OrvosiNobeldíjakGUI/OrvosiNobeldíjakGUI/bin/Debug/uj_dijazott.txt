@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2024;Bálint;2004-;H
