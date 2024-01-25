@@ -86,20 +86,22 @@ namespace nevezets_algoritmusok
             Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", legkisebb_index, Tömb[legkisebb_index]);
             */
 
-            /*
+            
             StreamReader sr = new StreamReader("július.txt");
             List<double> hőmérséklet = new List<double>();
             while (!sr.EndOfStream)
             {
                 hőmérséklet.Add(double.Parse(sr.ReadLine()));
             }
+            sr.Close();
             int legalacsonyabb_i = 0;
             for (int i = 0; i < hőmérséklet.Count; i++)
             {
                 if (hőmérséklet[i] < hőmérséklet[legalacsonyabb_i]) legalacsonyabb_i = i;
             }
             Console.WriteLine("A legalacsonyabb hőmérséklet {0}.-án {1} fok volt!", legalacsonyabb_i + 1,
-            hőmérséklet[legalacsonyabb_i]); */
+            hőmérséklet[legalacsonyabb_i]); 
+
 
             /*
             StreamReader sr = new StreamReader("végeredmény.txt");
@@ -144,10 +146,10 @@ namespace nevezets_algoritmusok
             do
             {
                 kozep = (alsohatar + felsohatar) / 2;
-                if (rendezettTömb[kozep] < 111) alsohatar = kozep + 1;
-                if (rendezettTömb[kozep] > 111) felsohatar = kozep - 1;
-            } while (alsohatar <= felsohatar && rendezettTömb[kozep] != 111);
-            if (rendezettTömb[kozep] == 111)
+                if (rendezettTömb[kozep] < 25) alsohatar = kozep + 1;
+                if (rendezettTömb[kozep] > 25) felsohatar = kozep - 1;
+            } while (alsohatar <= felsohatar && rendezettTömb[kozep] != 25);
+            if (rendezettTömb[kozep] == 25)
                 Console.WriteLine("Van, indexe: " + kozep);
             else Console.WriteLine("Nincs");
 
