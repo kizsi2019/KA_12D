@@ -1,0 +1,7 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\BukkMaraton2019A.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\BukkMaraton2019A.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\BukkMaraton2019A.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.pdb
