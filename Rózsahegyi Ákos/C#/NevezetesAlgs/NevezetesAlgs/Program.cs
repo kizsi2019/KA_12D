@@ -11,6 +11,17 @@ namespace NevezetesAlgs
     {
         static void Main(string[] args)
         {
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int i = 0;
+            while (i < Tomb.Length && Tomb[i] != 1)
+            {
+                i++;
+            }
+            if (i < Tomb.Length) Console.WriteLine($"A '1' feltételnek megfelelő elem sorszáma {i}");
+            else Console.WriteLine("Nincs");
+            Console.ReadKey();
+
+
             /* Összegzés tétele
             int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
             int összeg = 0;
@@ -48,8 +59,9 @@ namespace NevezetesAlgs
             if (i < Tomb.Length) Console.WriteLine("Van");
             else Console.WriteLine("Nincs");
             Console.ReadKey();
+            */
 
-            // Eldöntés példa
+            /* Eldöntés példa
             int[] randT = new int[10];
             Random r = new Random();
             for (int i = 0; i < randT.Length; i++)
@@ -67,9 +79,9 @@ namespace NevezetesAlgs
             }
             if (j < randT.Length) Console.WriteLine("\nVan");
             else Console.WriteLine("\nNincs");
-            Console.ReadKey();
+            Console.ReadKey(); */
 
-            // Megszámlálás tétele
+            /* Megszámlálás tétele
             int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
             int db = 0;
             for (int i = 0; i < Tomb.Length; i++)
@@ -96,9 +108,9 @@ namespace NevezetesAlgs
                 if (randT[i] % 2 == 0) db++;
             }
             Console.WriteLine($"\nA generált tömbben {db}db páros szám van");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
-            // Maximum/Minimum kiválasztás tétele
+            /* Maximum/Minimum kiválasztás tétele
             int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
             int legkisebb = 0;
             int legnagyobb = 0;
@@ -109,9 +121,9 @@ namespace NevezetesAlgs
             }
             Console.WriteLine($"Legkisebb elem indexe: {legkisebb}");
             Console.WriteLine($"Legnagyobb elem indexe: {legnagyobb}");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
-            // Max/Min példa
+            /* Max/Min példa
             StreamReader sr = new StreamReader("julius.txt");
             List<double> homerseklet = new List<double>();
             while (!sr.EndOfStream)
@@ -124,9 +136,9 @@ namespace NevezetesAlgs
                 if (homerseklet[i] < homerseklet[legalacsonyabb]) legalacsonyabb = i;
             }
             Console.WriteLine($"A legalacsonyabb hőmérséklet {legalacsonyabb + 1}.-án/én {homerseklet[legalacsonyabb]} fok volt!");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
-            // Kiválasztás tétele
+            /* Kiválasztás tétele
             int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
             int i = 0;
             while (i < Tomb.Length && Tomb[i] != 9)
@@ -134,9 +146,10 @@ namespace NevezetesAlgs
                 i++;
             }
             Console.WriteLine($"A 'Feltétel' feltételnek megfelelő elem sorszáma {i}");
-            Console.ReadKey();
+            Console.ReadKey();*/
+            
 
-            // Kiválasztás példa
+            /* Kiválasztás példa
             StreamReader sr = new StreamReader("vegeredmeny.txt");
             List<string> eredmeny = new List<string>();
             while (!sr.EndOfStream)
@@ -152,20 +165,12 @@ namespace NevezetesAlgs
                 i++;
             }
             Console.WriteLine($"{nev} nevű versenyző {i+ 1}. lett");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
-            // Keresés tétele
-            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
-            int i = 0;
-            while (i < Tomb.Length && Tomb[i] != 1)
-            {
-                i++;
-            }
-            if (i < Tomb.Length) Console.WriteLine($"A '1' feltételnek megfelelő elem sorszáma {i}");
-            else Console.WriteLine("Nincs");
-            Console.ReadKey();
+            //Keresés tétele
+            
 
-            // Keresés példa
+            /* Keresés példa
             int[] beolvasas = new int[20];
             for (int i = 0; i < 20; i++)
             {
@@ -179,10 +184,10 @@ namespace NevezetesAlgs
             }
             if (j < beolvasas.Length) Console.WriteLine($"3-mal osztható számot {j + 1}.-ra vitt be!");
             else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
-            Console.ReadKey();
-            */
+            Console.ReadKey();*/
+            
 
-            // Logaritmikus keresés tétele
+            /* Logaritmikus keresés tétele
             int[] rendezettTomb = new int[] { 10, 15, 18, 25, 31, 49, 60, 72, 80, 83 };
             int alsohatar = 0;
             int felsohatar = rendezettTomb.Length - 1;
@@ -196,7 +201,7 @@ namespace NevezetesAlgs
             if (rendezettTomb[kozep] == 111)
                 Console.WriteLine("Van, indexe: " + kozep);
             else Console.WriteLine("Nincs");
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }
