@@ -32,7 +32,7 @@ namespace OrvosiNobeldijasok
             Console.WriteLine($"4. feladat: Utolsó év: {utolsoEv}");
 
             // 5. feladat
-            Console.WriteLine("5. feladat: Kérem adja meg egy ország kódját: ");
+            Console.Write("5. feladat: Kérem adja meg egy ország kódját: ");
             string orszagkod = Console.ReadLine().ToUpper();
             List<Dijazott> orszagDijazottjai = new List<Dijazott>();
             foreach (var item in dijazottak)
@@ -41,11 +41,58 @@ namespace OrvosiNobeldijasok
                 {
                     orszagDijazottjai.Add(item);
                 }
+            }
+            if (orszagDijazottjai.Count == 0)
+            {
+                Console.WriteLine("A megadott országból nem volt díjazott!");
+            }
+            if (orszagDijazottjai.Count == 1)
+            {
+                Console.WriteLine($"\tA megadott ország díjazottja:");
+                Console.WriteLine($"\tNév: {orszagDijazottjai.First().Nev}");
+                Console.WriteLine($"\tÉv: {orszagDijazottjai.First().Ev}");
+                Console.WriteLine($"\tSz/H: {orszagDijazottjai.First().SzuletesHalalozas}");
+            }
+            if (orszagDijazottjai.Count > 1)
+            {
+                Console.WriteLine($"A megadott országból {orszagDijazottjai.Count} fő díjazott volt!");
+            }
+
+            // 6. feladat
+            Console.WriteLine("6. Statisztika");
+            Dictionary<string, int> stat = new Dictionary<string, int>();
+            foreach (var item in dijazottak)
+            {
+                if (stat.ContainsKey(item.Orszagkod))
+                {
+                    stat[item.Orszagkod]++;
+                }
                 else
                 {
-                    Console.WriteLine("A megadott országból nem volt díjazott!");
+                    stat.Add(item.Orszagkod, 1);
                 }
             }
+            foreach (var item in stat)
+            {
+                if (item.Value > 5)
+                {
+                    Console.WriteLine($"\t{item.Key} - {item.Value} fő");
+                }
+            }
+
+            // 7. feladat
+            int elethosszOsszeg = 0;
+            int ismertElethosszFo = 0;
+            foreach (var item in dijazottak)
+            {
+                Elethossz aktivDijazottakEletkora = new Elethossz(item.SzuletesHalalozas);
+                if (aktivDijazottakEletkora.IsmertAzElethossz)
+                {
+                    elethosszOsszeg += aktivDijazottakEletkora.ElethosszEvekben;
+                    ismertElethosszFo++;
+                }
+            }
+            Console.WriteLine($"7. feladat: A keresett átlag: {((1.0 * elethosszOsszeg) / ismertElethosszFo):f1} év");
             Console.ReadKey();
         }
     }
