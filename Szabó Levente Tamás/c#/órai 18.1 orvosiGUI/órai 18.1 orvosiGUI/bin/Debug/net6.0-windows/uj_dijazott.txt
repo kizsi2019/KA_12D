@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2024;2024;2003-;H
