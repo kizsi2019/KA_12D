@@ -1,314 +1,201 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
 
-namespace Ismetles1
+namespace NevezetesAlgs
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            /*
-            Console.WriteLine("Helló világ");
-            Console.WriteLine("Mivé lettél");
+            /* Összegzés tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int összeg = 0;
+            for (int i = 0; i < Tomb.Length; i++)
+            {
+                összeg += Tomb[i];
+            }
+            Console.WriteLine("A tömbben tárolt számok összege: {0}", összeg);
             Console.ReadKey();
-            
 
-            Console.Beep(170, 200);
-            //10-es számrendszerben megadott egész
-            int egesz_szam = 42;
-            Console.WriteLine(egesz_szam);
+            // Összegzés példa
+            StreamReader sr= new StreamReader(@"C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\bin\Debug\utak.txt");
+            List<double> utak = new List<double>();
+            while (!sr.EndOfStream )
+            {
+                utak.Add(double.Parse(Console.ReadLine()));
+            }
+            sr.Close();
 
-            //az f jelzés jelöli a fordító számára,
-            //hogy ez egy float típus
-            float lebegopontos = 3.14f;
-            Console.WriteLine(lebegopontos);
-
-            //double esetén nem kell külön jelölni
-            double d = 1124.333;
-            Console.WriteLine(d);
-
-            //egész szám hexadecimális formában
-            int hexa = 0xff;
-            Console.WriteLine(hexa);
-
-            //hosszú egész oktális formátumban
-            long okta = 07123235;
-            Console.WriteLine(okta);
-
-            //decimal típus esetén m betű jelzi, hogy a szám egy decimal típus 
-            decimal penz = 1224.3m;
-            Console.WriteLine(penz);
-
-            //A fordító a változó típusának string-et fog adni.
-            var valtozo = "Ez egy szöveg";
-            Console.WriteLine(valtozo);
-
-            //futtatás közben fog eldőlni a típus.
-            //az eredmény típus szöveg lesz. A 44 szöveggé fog konvertálódni
-            dynamic dinamikus = "Ez egy " + 44;
-            Console.WriteLine(dinamikus);
-
-            //Ha a szövegünket @ karakterrel kezdjük, akkor szó szerint kerül értelmezésre, vagyis a string fordításból eltávolítja a vezérlő karakter értelmezést
-            string szoszerint = @"Ez egy speciális\különlege's \t string";
-            Console.WriteLine(szoszerint);
-
-            int a = 1;
-            int b = 2;
-            //a változóba a "b nagyobb, mint a" szöveg kerül, mivel a feltétel nem igaz
-            string nagyobb = a > b ? "a nagyobb, mint b" : "b nagyobb, mint a";
-            Console.WriteLine(nagyobb);
-
-            //17 lesz az eredmény
-            var kifejezes = 3 * 6 - 2 + 1 % 2;
-            Console.WriteLine(kifejezes);
-
-            //így már helyes és az eredmény 1
-            var kifejezes2 = (3 * 6 - 2 + 1) % 2;
-            Console.WriteLine(kifejezes2);
-
-            Console.Write("A long tipus merete byte-ban: ");
-            //8
-            int bytes = sizeof(long);
-            Console.WriteLine(bytes);
-
-            //binárisan
-            // 0000_0001 << 6 => 0100_0000
-            int kettohat = 1 << 6;
-            Console.WriteLine(kettohat);
-
-            //binárisan
-            //1111_0000 >> 2 => 0011_1100
-            int jobbra = 240 >> 2;
-            Console.WriteLine(jobbra);
-
-            //true
-            bool logika = 33 > 22;
-            //false
-            bool logika2 = (33 / 2) == 0;
-            Console.WriteLine(logika);
-            Console.WriteLine(logika2);
-
-            string szoveg = "ez egy";
-            szoveg += " szép mondat.";
-
-            Console.WriteLine(szoveg);
-
-            int x = 3;
-            //4 lesz, mert inkrementálás után ír ki
-            Console.WriteLine(++x);
-            x = 3;
-            //3 lesz, mert kiír és csak utána inkrementálja a változót
-            Console.WriteLine(x++);
-            //4 lesz, mert itt már a növelt értéket látjuk
-            Console.WriteLine(x);
-
-            //0-t ír ki, mivel y int és a 4 is int
-            int y = 3;
-            Console.WriteLine(y / 4);
-
-            //0,75 mert az y átkonvertálódik double típusra
-            Console.WriteLine((double)y / 4);
-
+            double osszeg = 0;
+            for (int i = 0; i < utak.Count; i++)
+            {
+                osszeg += utak[i];
+            }
+            Console.WriteLine($"Az autó ezen a héten összesen {osszeg}km tett meg.");
             Console.ReadKey();
-            
 
-            
-            Console.WriteLine("Kérem a négyzet oldalát: ");
-            int szam = byte.Parse(Console.ReadLine());
-            Console.WriteLine("Négyzet területe: {0}", szam * szam);
-            Console.WriteLine("Négyzet kerülete: {0}", szam * 4);
-            
-
-            int ma = 21;
-            int tegnap = 18;
-            var szoveg = string.Format("Ma {0} fok volt, tegnap pedig {1}", ma, tegnap);
-
-            Console.WriteLine(szoveg);
-
-            Console.WriteLine("Így is lehet: {0}, {1}", ma, tegnap);
-            
-
-            Console.WriteLine("Pénz: {0:C1}", 3148);
-            Console.WriteLine("Százalék: {0:P3}", 0.123456);
-            Console.WriteLine("Általános: {0:G}", 132354);
-            Console.WriteLine("Exponenciális: {0:E}", 12);
-            Console.WriteLine("Hexa: {0:X}", 255);
-            
-
-            double d = 1500.42;
-
-            //1500,4200
-            Console.WriteLine("{0:00.0000}", d);
-            //(1500),42
-            Console.WriteLine("{0:(#).##}", d);
-            //1500,4
-            Console.WriteLine("{0:0.0}", d);
-            //1 500
-            Console.WriteLine("{0:0,0}", d);
-            //150042%
-            Console.WriteLine("{0:0%}", d);
-            //[Foo  ]
-            Console.WriteLine("[{0,-5}]", "Foo");
-            //[  Foo]
-            Console.WriteLine("[{0,5}]", "Foo");
-
-            //pozitív
-            Console.WriteLine("{0:pozitív;negatív;nulla}", 4);
-            //negatív
-            Console.WriteLine("{0:pozitív;negatív;nulla}", -4);
-            //nulla
-            Console.WriteLine("{0:pozitív;negatív;nulla}", 0);
-
-            var elso = "c:\\teszt\\foo";
-            //picivel egyszerűbb:
-            var masodik = @"c:\teszt\foo";
-
-            string nev = "World";
-            string hello = $"Hello {nev}!";
-            Console.WriteLine(hello);
-            
-
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine(DateTime.Today);
-            Console.WriteLine(DateTime.UtcNow);
-            
-            var a = new DateTime(2023, 9, 28);
-            Console.WriteLine(a.DayOfYear);
-
-            DateTime b = DateTime.Now;
-            Console.WriteLine(b.DayOfYear);
-            // vagy
-            Console.WriteLine(DateTime.Now.DayOfYear);
-            
-
-            int szuloEv = 2003;
-            int evkor = DateTime.Now.Year - szuloEv;
-            Console.WriteLine("Saját életkorom: {0}", evkor);
-            
-
-            var ido = DateTime.Now;
-
-            Console.WriteLine("{0:d}", ido);
-            Console.WriteLine("{0:D}", ido);
-            Console.WriteLine("{0:t}", ido);
-            Console.WriteLine("{0:T}", ido);
-            Console.WriteLine("{0:f}", ido);
-            Console.WriteLine("{0:F}", ido);
-            Console.WriteLine("{0:g}", ido);
-            Console.WriteLine("{0:G}", ido);
-            Console.WriteLine("{0:M}", ido);
-            Console.WriteLine("{0:r}", ido);
-            Console.WriteLine("{0:Y}", ido);
-            Console.WriteLine("{0:yyyy-mm-dd, dddd tt hh:mm:ss}", ido);
-            
-
-            string teszt = "🐰";
-            Console.WriteLine("A szöveg hossza: {0}", teszt.Length);
-
-            var info = new StringInfo(teszt);
-            Console.WriteLine("A szöveg valódi hossza: {0}", info.LengthInTextElements);
-            
-
-            int a = Math.Abs(-123);
-            Console.WriteLine(a);
-            double b = Math.Ceiling(1.23);
-            Console.WriteLine(b);
-            double c = Math.Floor(1.23);
-            Console.WriteLine(c);
-            double d = Math.Round(1.53333, 2);
-            Console.WriteLine(d);
-            
-
-            Console.WriteLine(Math.PI); // PI érték
-            Console.WriteLine(Math.E); // Euler érték
-            
-
-            Console.WriteLine("Kérem a kör sugarát: ");
-            int sugar = byte.Parse(Console.ReadLine());
-
-            var terulet = Math.Pow(2, sugar) * Math.PI;
-            var kerulet = Math.PI * 2 * sugar;
-
-            Console.WriteLine("A kör területe: {0}", Math.Round(terulet, 2));
-            Console.WriteLine("A kör kerülete: {0}", Math.Round(kerulet, 2));
-            
-
-            checked
+            // Eldöntés tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int i = 0;
+            while (i < Tomb.Length && Tomb[i] != 9)
             {
-                int a2 = 100000;
-                int b2 = 100000;
-                long c2 = a2 * b2;
+                i++;
             }
-            
+            if (i < Tomb.Length) Console.WriteLine("Van");
+            else Console.WriteLine("Nincs");
+            Console.ReadKey();
 
-            try
+            // Eldöntés példa
+            int[] randT = new int[10];
+            Random r = new Random();
+            for (int i = 0; i < randT.Length; i++)
             {
-                string szoveg = "valami szöveg";
-                int szam = Convert.ToInt32(szoveg);
-                Console.WriteLine(szam);
+                randT[i] = r.Next(0, 21);
             }
-            catch (FormatException ex)
+            foreach (int item in randT)
             {
-                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
+                Console.Write(item + " ");
             }
+            int j = 0;
+            while (j < randT.Length && randT[j] <= 15)
+            {
+                j++;
+            }
+            if (j < randT.Length) Console.WriteLine("\nVan");
+            else Console.WriteLine("\nNincs");
+            Console.ReadKey();
 
-            try
+            // Megszámlálás tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int db = 0;
+            for (int i = 0; i < Tomb.Length; i++)
             {
-                var bevitel = Console.ReadLine();
-                int szam = Convert.ToInt32(bevitel);
+                if (Tomb[i] <= 10) db++;
+            }
+            Console.WriteLine($"Feltételnek megfelelő elem száma: {db}db");
+            Console.ReadKey();
 
-                if ((szam % 2) != 0)
-                {
-                    throw new Exception("A szám nem páros");
-                }
-                Console.WriteLine($"A szorzás eredménye: {szam * 2}");
+            // Megszámlálás példa
+            int[] randT = new int[10];
+            Random r = new Random();
+            for (int i = 0; i < randT.Length; i++)
+            {
+                randT[i] = r.Next(0, 21);
+            }
+            foreach (int item in randT)
+            {
+                Console.Write(item + " ");
+            }
+            int db = 0;
+            for (int i = 0; i < randT.Length; i++)
+            {
+                if (randT[i] % 2 == 0) db++;
+            }
+            Console.WriteLine($"\nA generált tömbben {db}db páros szám van");
+            Console.ReadKey();
 
-            }
-            catch (Exception ex)
+            // Maximum/Minimum kiválasztás tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int legkisebb = 0;
+            int legnagyobb = 0;
+            for (int i = 0; i < Tomb.Length; i++)
             {
-                Console.WriteLine("HIBA TÖRTÉNT");
-                Console.WriteLine(ex.Message);
+                if (Tomb[i] < Tomb[legkisebb]) legkisebb = i;
+                if (Tomb[i] > Tomb[legnagyobb]) legnagyobb = i;
             }
-            finally
+            Console.WriteLine($"Legkisebb elem indexe: {legkisebb}");
+            Console.WriteLine($"Legnagyobb elem indexe: {legnagyobb}");
+            Console.ReadKey();
+
+            // Max/Min példa
+            StreamReader sr = new StreamReader("julius.txt");
+            List<double> homerseklet = new List<double>();
+            while (!sr.EndOfStream)
             {
-                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
-                Console.ReadKey();
+                homerseklet.Add(double.Parse(sr.ReadLine()));
             }
+            int legalacsonyabb = 0;
+            for (int i = 0; i < homerseklet.Count; i++)
+            {
+                if (homerseklet[i] < homerseklet[legalacsonyabb]) legalacsonyabb = i;
+            }
+            Console.WriteLine($"A legalacsonyabb hőmérséklet {legalacsonyabb + 1}.-án/én {homerseklet[legalacsonyabb]} fok volt!");
+            Console.ReadKey();
+
+            // Kiválasztás tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int i = 0;
+            while (i < Tomb.Length && Tomb[i] != 9)
+            {
+                i++;
+            }
+            Console.WriteLine($"A 'Feltétel' feltételnek megfelelő elem sorszáma {i}");
+            Console.ReadKey();
+
+            // Kiválasztás példa
+            StreamReader sr = new StreamReader("vegeredmeny.txt");
+            List<string> eredmeny = new List<string>();
+            while (!sr.EndOfStream)
+            {
+                eredmeny.Add(sr.ReadLine());
+            }
+            sr.Close();
+            Console.Write("Adja meg a versenyző nevét: ");
+            string nev = Console.ReadLine();
+            int i = 0;
+            while (i < eredmeny.Count && eredmeny[i] != nev)
+            {
+                i++;
+            }
+            Console.WriteLine($"{nev} nevű versenyző {i+ 1}. lett");
+            Console.ReadKey();
+
+            // Keresés tétele
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            int i = 0;
+            while (i < Tomb.Length && Tomb[i] != 1)
+            {
+                i++;
+            }
+            if (i < Tomb.Length) Console.WriteLine($"A '1' feltételnek megfelelő elem sorszáma {i}");
+            else Console.WriteLine("Nincs");
+            Console.ReadKey();
+
+            // Keresés példa
+            int[] beolvasas = new int[20];
+            for (int i = 0; i < 20; i++)
+            {
+                Console.Write($"Adja meg a {i + 1}. számot: ");
+                beolvasas[i] = int.Parse(Console.ReadLine());
+            }
+            int j = 0;
+            while (j < beolvasas.Length && beolvasas[j] % 3 != 0)
+            {
+                j++;
+            }
+            if (j < beolvasas.Length) Console.WriteLine($"3-mal osztható számot {j + 1}.-ra vitt be!");
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
+            Console.ReadKey();
             */
 
-            try
+            // Logaritmikus keresés tétele
+            int[] rendezettTomb = new int[] { 10, 15, 18, 25, 31, 49, 60, 72, 80, 83 };
+            int alsohatar = 0;
+            int felsohatar = rendezettTomb.Length - 1;
+            int kozep = 0;
+            do
             {
-                Console.WriteLine("Kérem a kör sugarát: ");
-                var bekeres = Console.ReadLine();
-                int sugar;
-
-                if (int.TryParse(bekeres, out sugar))
-                {
-                    var terulet = Math.Pow(2, sugar) * Math.PI;
-                    var kerulet = Math.PI * 2 * sugar;
-
-                    Console.WriteLine("A kör területe: {0}", Math.Round(terulet, 2));
-                    Console.WriteLine("A kör kerülete: {0}", Math.Round(kerulet, 2));
-                }
-                else
-                {
-                    throw new Exception("A bevitel nem szám");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("HIBA TÖRTÉNT");
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
-                Console.ReadKey();
-            }
+                kozep = (alsohatar + felsohatar) / 2;
+                if (rendezettTomb[kozep] < 111) alsohatar = kozep + 1;
+                if (rendezettTomb[kozep] > 111) felsohatar = kozep - 1;
+            } while (alsohatar <= felsohatar && rendezettTomb[kozep] != 111);
+            if (rendezettTomb[kozep] == 111)
+                Console.WriteLine("Van, indexe: " + kozep);
+            else Console.WriteLine("Nincs");
             Console.ReadKey();
         }
     }

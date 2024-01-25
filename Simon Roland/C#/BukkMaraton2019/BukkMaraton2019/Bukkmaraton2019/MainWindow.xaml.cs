@@ -27,15 +27,17 @@ namespace Bukkmaraton2019
 
         private void btnSzamol_Click(object sender, RoutedEventArgs e)
         {
-            ComboBoxItem cbi = (ComboBoxItem)cbTav.SelectedItem;
-            int tavKm = (int)cbTav.SelectedIndex;
-            string[] m = tbIdo.Text.Split(',');
+            int[] tav = { 16000, 38000, 54000, 57000, 94000 };
+            string[] m = tbIdo.Text.Split(':');
             int ora = int.Parse(m[0]);
             int perc = int.Parse(m[1]);
             int mp = int.Parse(m[2]);
-            TimeSpan ido = new TimeSpan(ora, perc, mp);
-            tbAtlagSebessegKmPH.Text = $"{tavKm/ ido.TotalHours:F2}";
-            tbAtlagSebessegKmPH.Text = $"{1000* tavKm / ido.TotalHours:F2}";
+            int osszIdo = ora * 3600 + perc * 60 + mp;
+            int tavolsag = tav[cbTav.SelectedIndex];
+            double atlagkmh = Math.Round(((1.0) * tavolsag / osszIdo) * 3.6, 2);
+            double atlagmps = Math.Round(((1.0) * tavolsag / osszIdo), 2);
+            tbAtlagSebessegKmPH.Text = atlagkmh.ToString();
+            tbAtlagSebessegMPS.Text = atlagmps.ToString();
         }
     }
 }

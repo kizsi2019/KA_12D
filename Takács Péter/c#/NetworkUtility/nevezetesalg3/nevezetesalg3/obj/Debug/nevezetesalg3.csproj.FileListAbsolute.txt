@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\obj\Debug\nevezetesalg3.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\obj\Debug\nevezetesalg3.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\bin\Debug\nevezetesalg3.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\bin\Debug\nevezetesalg3.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\bin\Debug\nevezetesalg3.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\obj\Debug\nevezetesalg3.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nevezetesalg3\nevezetesalg3\obj\Debug\nevezetesalg3.pdb

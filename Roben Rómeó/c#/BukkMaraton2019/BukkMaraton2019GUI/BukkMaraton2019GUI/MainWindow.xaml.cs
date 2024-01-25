@@ -24,9 +24,21 @@ namespace BukkMaraton2019GUI
         {
             InitializeComponent();
         }
-        private void btnSzamol_Click(object sender, RoutedEventArgs e)
+
+        private void BtnSzamol_Click(object sender, RoutedEventArgs e)
         {
-            ComboBoxItem cbi = new (ComboBoxItem);
+           
+            int tav = { 16000, 30000, 54000, 57000, 94000};
+            string[] m = tbIdo.Text.Split(':');
+            int ora = int.Parse(m[0]);
+            int perc = int.Parse(m[1]);
+            int masodperc = int.Parse(m[2]);
+            int osszido = ora*3600 + perc * 60 + masodperc;
+            int tavolsag = tav[CbTav.SelectedItem];
+            double atlagkmh = Math.Round(((1.0) * tav / osszido) * 3.6, 2);
+            double atlagmps = Math.Round(((1.0) * tav / osszido) , 2);
+            TbAtlagSebessegKmh.Text = atlagkmh.ToString();
+            TbAtlagSebessegMs.Text = atlagmps.ToString();
         }
     }
 }
