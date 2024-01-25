@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,36 @@ namespace OrvosiNobeldijasokGUI
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnMentes_Click(object sender, RoutedEventArgs e)
+        {
+            if (TbEv.Text != "" && TbNev.Text != "" && TbSzulEsHal.Text != "" && TbOrszag.Text != "")
+            {
+                if (int.Parse(TbEv.Text) <= 1989)
+                {
+                    MessageBox.Show("Hiba! Az évszám nem megfelelő!", "Mentés");
+                }
+                try
+                {
+                    List<string> ki = new List<string>();
+                    ki.Add("Év;Név;SzületésHalálozás;Országkód");
+                    ki.Add($"{TbEv.Text},{TbNev.Text},{TbSzulEsHal.Text},{TbOrszag.Text}");
+                    File.WriteAllLines("uj_dijazott.txt", ki);
+                    TbEv.Text = "";
+                    TbNev.Text = "";
+                    TbSzulEsHal.Text = "";
+                    TbOrszag.Text = "";
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Hiba az állomány írásánál!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Töltsön ki minden mezőt!");
+            }
         }
     }
 }
