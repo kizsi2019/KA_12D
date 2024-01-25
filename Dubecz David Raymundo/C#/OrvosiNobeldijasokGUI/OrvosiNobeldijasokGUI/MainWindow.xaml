@@ -11,10 +11,10 @@
         <Label Content="Név:" HorizontalAlignment="Left" Height="24" Margin="10,55,0,0" VerticalAlignment="Top" Width="45"/>
         <Label Content="Sz/H:" HorizontalAlignment="Left" Height="25" Margin="10,85,0,0" VerticalAlignment="Top" Width="45"/>
         <Label Content="Ország:" HorizontalAlignment="Left" Height="30" Margin="10,115,0,0" VerticalAlignment="Top" Width="60"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="75,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="75,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="75,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="75,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="TbEv" HorizontalAlignment="Left" Height="20" Margin="75,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="TbNev" HorizontalAlignment="Left" Height="20" Margin="75,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190"/>
+        <TextBox Name="TbSzulEsHal" HorizontalAlignment="Left" Height="20" Margin="75,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <TextBox Name="TbOrszag" HorizontalAlignment="Left" Height="20" Margin="75,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
         <Button Content="Adatok mentése" HorizontalAlignment="Center" Height="20" Margin="0,178,0,0" VerticalAlignment="Top" Width="110"/>
     </Grid>
 </Window>
