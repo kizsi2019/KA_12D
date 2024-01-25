@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\RobenRomeo\\.nuget\\packages\\": {}
+    "C:\\Users\\RozsahegyiAkos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Roben Rómeó\\c#\\BukkMaraton2019\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\BukkMaraton2019GUI.csproj",
+      "projectUniqueName": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github2\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\BukkMaraton2019GUI.csproj",
       "projectName": "BukkMaraton2019GUI",
-      "projectPath": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Roben Rómeó\\c#\\BukkMaraton2019\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\BukkMaraton2019GUI.csproj",
-      "packagesPath": "C:\\Users\\RobenRomeo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RobenRomeo\\Desktop\\gitegylet\\KA_12D.github.io\\Roben Rómeó\\c#\\BukkMaraton2019\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\obj\\",
+      "projectPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github2\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\BukkMaraton2019GUI.csproj",
+      "packagesPath": "C:\\Users\\RozsahegyiAkos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github2\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RobenRomeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RozsahegyiAkos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
