@@ -1,0 +1,14 @@
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\Users\xenon\OneDrive\Desktop\Új mappa\KA_12D.github.io\Dubecz David Raymundo\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb
