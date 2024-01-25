@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace bukkmaraton2019GUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,16 +25,20 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Button_Szamol(object sender, RoutedEventArgs e)
+        private void btnSzamol_Click(object sender, RoutedEventArgs e)
         {
-            ComboBoxItem cbi = (ComboBoxItem)cbTav.SelectedItem;
-            string[] m = tbIdo.Text.Split(',');
+            int[] tav = { 16000, 38000, 54000, 57000, 94000 };
+            string[] m = tbIdo.Text.Split(':');
             int ora = int.Parse(m[0]);
-            int perc = int.Parse(m[0]);
-            int mp = int.Parse(m[0]);
-            TimeSpan ido = new TimeSpan(ora, perc, mp);
-            tbAtlagSebessegkmph.Text = $"{tavKm / ido.TotalHours:F2}";
-            tbAtlagSebessegmps.Text = $"{tavKm / ido.TotalHours:F2}";
+            int perc = int.Parse(m[1]);
+            int mp = int.Parse(m[2]);
+            int osszIdo = ora * 3600 + perc * 60 + mp;
+            int tavolsag = tav[cbTav.SelectedIndex];
+            double atlagkmh = Math.Round(((1.0) * tavolsag / osszIdo) * 3.6, 2);
+            double atlagmps = Math.Round(((1.0) * tavolsag / osszIdo), 2);
+            tbAtlagSebessegKmPH.Text = atlagkmh.ToString();
+            tbAtlagSebessegMPS.Text = atlagmps.ToString();
+
         }
     }
 }

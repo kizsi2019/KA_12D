@@ -1,0 +1,7 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\bukkmaraton2019.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\bukkmaraton2019.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\bukkmaraton2019.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.pdb

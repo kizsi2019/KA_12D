@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\bin\Debug\OOP2.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\bin\Debug\OOP2.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\bin\Debug\OOP2.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\obj\Debug\OOP2.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\obj\Debug\OOP2.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\obj\Debug\OOP2.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\OOP2\OOP2\obj\Debug\OOP2.pdb

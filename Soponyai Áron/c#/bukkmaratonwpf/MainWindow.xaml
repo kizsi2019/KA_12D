@@ -1,0 +1,27 @@
+﻿<Window x:Class="bukkmaratonwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bukkmaratonwpf"
+        mc:Ignorable="d"
+        Title="Bükk Maraton 2019" Height="450" Width="800">
+    <Grid>
+        <Label Content="Táv:" HorizontalAlignment="Left" Height="39" Margin="50,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Idő [ó:p:mp]" HorizontalAlignment="Left" Height="39" Margin="50,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Átlagsebesség: [km/h]" HorizontalAlignment="Left" Height="39" Margin="50,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="Átlagsebesség: [m/s]" HorizontalAlignment="Left" Height="39" Margin="50,280,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="39" Margin="255,40,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Mini - 16km"/>
+            <ComboBoxItem Content="Rövid - 38km"/>
+            <ComboBoxItem Content="Pedelec - 54km"/>
+            <ComboBoxItem Content="Közép - 57km" IsSelected="True"/>
+            <ComboBoxItem Content="Hosszú - 94km"/>
+        </ComboBox>
+        <TextBox TextWrapping="Wrap" Name="tbIdo" HorizontalAlignment="Left" Height="39" Margin="255,120,0,0" VerticalAlignment="Top" Width="120"></TextBox>
+        <TextBlock TextWrapping="Wrap" Text="" Name="tbBlockKmh" HorizontalAlignment="Left" Height="39" Margin="255,200,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock TextWrapping="Wrap" Text="" Name="tbBlockMs" HorizontalAlignment="Left" Height="39" Margin="255,280,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Számol" Name="btnszamol" HorizontalAlignment="Left" Height="150" Margin="580,150,0,0" VerticalAlignment="Top" Width="150" Click="btnszamol_Click"/>
+
+    </Grid>
+</Window>
