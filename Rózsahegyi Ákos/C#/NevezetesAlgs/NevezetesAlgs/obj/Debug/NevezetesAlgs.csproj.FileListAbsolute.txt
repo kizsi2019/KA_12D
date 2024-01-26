@@ -5,3 +5,10 @@ C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\Nev
 C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.csproj.CoreCompileInputs.cache
 C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.exe
 C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.pdb
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\bin\Debug\NevezetesAlgs.exe.config
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\bin\Debug\NevezetesAlgs.exe
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\bin\Debug\NevezetesAlgs.pdb
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.csproj.AssemblyReference.cache
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.csproj.CoreCompileInputs.cache
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.exe
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Rózsahegyi Ákos\C#\NevezetesAlgs\NevezetesAlgs\obj\Debug\NevezetesAlgs.pdb

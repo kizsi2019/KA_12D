@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\bin\Debug\órai 18 orvosi.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\bin\Debug\órai 18 orvosi.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\bin\Debug\órai 18 orvosi.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\obj\Debug\órai 18 orvosi.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\obj\Debug\órai 18 orvosi.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\obj\Debug\órai 18 orvosi.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 18 orvosi\órai 18 orvosi\obj\Debug\órai 18 orvosi.pdb

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Orvosi_Nobel_dijasok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Orvosi_Nobel_dijasok"
+        mc:Ignorable="d"
+        Title="Orvosi Nobel-díjasok" Height="267" Width="543">
+    <Grid>
+        <Label Name="Lb_ev" Content="Év:" Margin="28,40,452,0" VerticalAlignment="Top" Height="26" Width="63"/>
+        <TextBox Name="Tb_ev" HorizontalAlignment="Left" Margin="169,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" Height="26"/>
+        <Label Name="Lb_nev" Content="Név:" Margin="28,71,452,0" VerticalAlignment="Top" Height="26" Width="63"/>
+        <TextBox Name="Tb_nev" HorizontalAlignment="Left" Margin="169,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" Height="26"/>
+        <Label Name="Lb_SzH" Content="Sz/H:" Margin="28,102,452,0" VerticalAlignment="Top" Height="26" Width="63"/>
+        <TextBox Name="Tb_Szh" HorizontalAlignment="Left" Margin="169,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" Height="26"/>
+        <Label Name="Lb_orszag" Content="Ország:" Margin="28,133,452,0" VerticalAlignment="Top" Height="26" Width="63"/>
+        <TextBox Name="Tb_orszag" HorizontalAlignment="Left" Margin="169,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" Height="26"/>
+        <Button Name="Btn_adment" Content="Adatok mentése" HorizontalAlignment="Left" Margin="169,196,0,0" VerticalAlignment="Top" Width="139" Click="Btn_adment_Click"/>
+
+    </Grid>
+</Window>

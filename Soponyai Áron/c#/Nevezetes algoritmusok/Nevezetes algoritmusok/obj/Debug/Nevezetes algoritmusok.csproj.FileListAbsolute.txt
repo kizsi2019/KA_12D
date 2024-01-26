@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\bin\Debug\Nevezetes algoritmusok.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\bin\Debug\Nevezetes algoritmusok.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\bin\Debug\Nevezetes algoritmusok.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\obj\Debug\Nevezetes algoritmusok.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\obj\Debug\Nevezetes algoritmusok.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\obj\Debug\Nevezetes algoritmusok.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\Nevezetes algoritmusok\Nevezetes algoritmusok\obj\Debug\Nevezetes algoritmusok.pdb

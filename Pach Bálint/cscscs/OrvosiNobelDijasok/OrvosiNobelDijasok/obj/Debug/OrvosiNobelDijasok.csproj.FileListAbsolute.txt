@@ -1,0 +1,7 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.pdb
