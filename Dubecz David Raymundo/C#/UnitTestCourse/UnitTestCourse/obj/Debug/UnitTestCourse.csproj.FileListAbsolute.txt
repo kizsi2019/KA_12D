@@ -1,0 +1,7 @@
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.exe.config
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.exe
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\bin\Debug\UnitTestCourse.pdb
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.csproj.AssemblyReference.cache
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.csproj.CoreCompileInputs.cache
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.exe
+C:\Users\xenon\OneDrive\Desktop\KA_12D.github.io\Dubecz David Raymundo\C#\UnitTestCourse\UnitTestCourse\obj\Debug\UnitTestCourse.pdb

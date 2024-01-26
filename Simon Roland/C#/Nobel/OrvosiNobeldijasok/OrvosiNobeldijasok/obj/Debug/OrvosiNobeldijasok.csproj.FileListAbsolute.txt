@@ -1,0 +1,7 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\Nobel\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb

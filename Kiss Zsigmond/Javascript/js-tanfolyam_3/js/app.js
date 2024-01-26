@@ -49,16 +49,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.querySelector('#current-' + aktivJatekos).textContent = korPontszam;
     } else {
         // következö jatekos
-        aktivJatekos === 0 ? aktivJatekos = 1 : aktivJatekos = 0;
-        korPontszam = 0;
-
-        document.getElementById('current-0').textContent = '0';
-        document.getElementById('current-1').textContent = '0';
-
-        document.querySelector('.player-0-panel').classList.toggle('active');
-        document.querySelector('.player-1-panel').classList.toggle('active');
-
-        document.querySelector('.dice').style.display = 'none';
+        kovetkezoJatekos();
 
 
     }
@@ -73,4 +64,29 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     document.querySelector('#score-' + aktivJatekos).textContent = pontszamok[aktivJatekos];
 
     // nyert a játékos?
+    if (pontszamok[aktivJatekos] >= 20) {
+        document.querySelector('#name-' + aktivJatekos).textContent = 'Győztes!';
+        document.querySelector('#name-' + aktivJatekos + '-panel').classList.add('winner');
+        document.querySelector('#name-' + aktivJatekos + '-panel').classList.remove('active');
+    } else {
+        // következö jatekos
+        kovetkezoJatekos();
+    }
+
+
 });
+
+// következő játékos
+function kovetkezoJatekos() {
+
+    aktivJatekos === 0 ? aktivJatekos = 1 : aktivJatekos = 0;
+    korPontszam = 0;
+
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    document.querySelector('.dice').style.display = 'none';
+}

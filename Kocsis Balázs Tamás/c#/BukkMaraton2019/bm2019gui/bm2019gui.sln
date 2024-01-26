@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bm2019gui", "bm2019gui\bm2019gui.csproj", "{DE8FB304-F04D-4845-925B-DBD2BD577B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE8FB304-F04D-4845-925B-DBD2BD577B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8FB304-F04D-4845-925B-DBD2BD577B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8FB304-F04D-4845-925B-DBD2BD577B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8FB304-F04D-4845-925B-DBD2BD577B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D32ADECC-F887-4150-91F8-8E20A03936C4}
+	EndGlobalSection
+EndGlobal
