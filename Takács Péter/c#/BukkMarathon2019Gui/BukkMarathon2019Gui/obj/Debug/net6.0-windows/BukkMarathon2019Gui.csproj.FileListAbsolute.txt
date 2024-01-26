@@ -1,0 +1,4 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\BukkMarathon2019Gui\BukkMarathon2019Gui\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\BukkMarathon2019Gui\BukkMarathon2019Gui\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\BukkMarathon2019Gui\BukkMarathon2019Gui\obj\Debug\net6.0-windows\BukkMarathon2019Gui_MarkupCompile.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\BukkMarathon2019Gui\BukkMarathon2019Gui\obj\Debug\net6.0-windows\BukkMarathon2019Gui_MarkupCompile.lref

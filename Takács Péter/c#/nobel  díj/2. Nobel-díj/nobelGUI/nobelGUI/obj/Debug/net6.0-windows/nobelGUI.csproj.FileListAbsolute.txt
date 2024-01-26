@@ -1,0 +1,5 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobelGUI\nobelGUI\obj\Debug\net6.0-windows\Application.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobelGUI\nobelGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobelGUI\nobelGUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobelGUI\nobelGUI\obj\Debug\net6.0-windows\nobelGUI_MarkupCompile.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobelGUI\nobelGUI\obj\Debug\net6.0-windows\nobelGUI_MarkupCompile.lref
