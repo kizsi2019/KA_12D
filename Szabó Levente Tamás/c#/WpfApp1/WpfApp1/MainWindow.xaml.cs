@@ -36,7 +36,8 @@ namespace bukkmaraton2019GUI
             int tavolsag = tav[cbTav.SelectedIndex];
             double atlagkmh = Math.Round(((1.0) * tavolsag / osszIdo) * 3.6, 2);
             double atlagmps = Math.Round(((1.0) * tavolsag / osszIdo), 2);
-            tbAtlagSebessegKmPH.Text = atlagkmh.ToString();
+            tbAtlagSebessegK
+                 mPH.Text = atlagkmh.ToString();
             tbAtlagSebessegMPS.Text = atlagmps.ToString();
 
         }
