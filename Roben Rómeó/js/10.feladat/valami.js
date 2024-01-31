@@ -1,11 +1,11 @@
 var peti = {
     nev : 'Peti',
-    kor: 40,
+    kor: 69,
     foglalkozás: 'szerelemegér',
     hazas: true,
     baratok:['Áron','Bálint','Bazsi',],
     szeletesievszamitas: function(){
-        this.szuletesiev =2023 - this.kor;
+        this.szuletesiev =2024 - this.kor;
     }
 }
 

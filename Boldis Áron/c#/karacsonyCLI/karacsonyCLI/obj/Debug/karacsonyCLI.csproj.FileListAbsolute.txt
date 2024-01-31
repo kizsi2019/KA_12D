@@ -1,0 +1,7 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
