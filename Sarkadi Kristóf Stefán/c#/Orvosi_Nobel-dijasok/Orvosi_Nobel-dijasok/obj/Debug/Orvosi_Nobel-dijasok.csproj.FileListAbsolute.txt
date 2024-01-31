@@ -1,0 +1,15 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\bin\Debug\Orvosi_Nobel-dijasok.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\bin\Debug\Orvosi_Nobel-dijasok.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\bin\Debug\Orvosi_Nobel-dijasok.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\MainWindow.g.cs
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\App.g.cs
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok_MarkupCompile.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok_MarkupCompile.lref
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\MainWindow.baml
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.g.resources
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel_dijasok.Properties.Resources.resources
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.csproj.GenerateResource.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\Orvosi_Nobel-dijasok\Orvosi_Nobel-dijasok\obj\Debug\Orvosi_Nobel-dijasok.pdb

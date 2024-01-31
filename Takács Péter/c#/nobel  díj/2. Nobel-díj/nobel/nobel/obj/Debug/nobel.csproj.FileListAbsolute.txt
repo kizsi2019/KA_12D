@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\bin\Debug\nobel.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\bin\Debug\nobel.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\bin\Debug\nobel.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\obj\Debug\nobel.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\obj\Debug\nobel.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\obj\Debug\nobel.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\nobel  díj\2. Nobel-díj\nobel\nobel\obj\Debug\nobel.pdb

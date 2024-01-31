@@ -1,0 +1,15 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\bin\Debug\BukkMarathon2019.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\bin\Debug\BukkMarathon2019.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\bin\Debug\BukkMarathon2019.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\BukkMarathon2019.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\BukkMarathon2019.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\BukkMarathon2019.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.pdb
