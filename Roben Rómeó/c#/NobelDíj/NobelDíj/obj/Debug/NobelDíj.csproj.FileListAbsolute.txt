@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\bin\Debug\NobelDíj.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\bin\Debug\NobelDíj.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\bin\Debug\NobelDíj.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\obj\Debug\NobelDíj.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\obj\Debug\NobelDíj.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\obj\Debug\NobelDíj.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\NobelDíj\NobelDíj\obj\Debug\NobelDíj.pdb
