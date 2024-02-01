@@ -46,6 +46,19 @@ namespace karacsonyGUI
             {
                 LblHiba.Content = "Túl sok az eladott angyalka!";
             }
+            else
+            {
+                nap = Convert.ToInt32(CbNapok.SelectedItem.ToString());
+                osszes += kesz - eladott;
+                TbLista.Text += nap + ".nap: \t+" + kesz + " \t-" + eladott + " \t= \t" + osszes + "\n";
+                for (int i = 0; i <= nap; i++)
+                {
+                    CbNapok.Items.Remove(i);
+                }
+                TbElkeszitett.Text = "0";
+                TbEladott.Text = "0";
+                LblHiba.Content = "";
+            }
         }
     }
 }
