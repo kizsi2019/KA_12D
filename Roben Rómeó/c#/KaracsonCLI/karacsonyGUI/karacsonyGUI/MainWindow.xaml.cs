@@ -44,6 +44,20 @@ namespace karacsonyGUI
             {
                 lblHiba.Content = ("Tourettes vagy ?");
             }
+            else
+            {
+                nap = Convert.ToInt32(cbNap.SelectedItem.ToString());
+                ossz += kesz - eladott;
+                tbKi.Text += nap + ".nap: \t" + kesz + "\t-" + eladott + "\t= \t" + ossz + "\n";
+                for (int i = 0; i <= nap; i++)
+                {
+                    cbNap.Items.Remove(i);
+                }
+                tbElk.Text = "0";
+                tbEla.Text = "0";
+                lblHiba.Content = "";
+
+            }
 
         }
     }
