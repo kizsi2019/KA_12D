@@ -1,0 +1,15 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\bin\Debug\OrvosiNobelDijasokGUI.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\bin\Debug\OrvosiNobelDijasokGUI.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\bin\Debug\OrvosiNobelDijasokGUI.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\MainWindow.g.cs
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\App.g.cs
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI_MarkupCompile.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI_MarkupCompile.lref
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\MainWindow.baml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.g.resources
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.Properties.Resources.resources
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.csproj.GenerateResource.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasokGUI\OrvosiNobelDijasokGUI\obj\Debug\OrvosiNobelDijasokGUI.pdb
