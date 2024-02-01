@@ -1,0 +1,15 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\bin\Debug\KaracsonyGUI.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\bin\Debug\KaracsonyGUI.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\bin\Debug\KaracsonyGUI.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\MainWindow.g.cs
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\App.g.cs
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI_MarkupCompile.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI_MarkupCompile.lref
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\MainWindow.baml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.g.resources
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.Properties.Resources.resources
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.csproj.GenerateResource.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\KaracsonyGUI\KaracsonyGUI\obj\Debug\KaracsonyGUI.pdb
