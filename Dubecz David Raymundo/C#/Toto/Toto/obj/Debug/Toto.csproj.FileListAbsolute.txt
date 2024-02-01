@@ -1,0 +1,15 @@
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.SuggestedBindingRedirects.cache
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\RozsahegyiAkos\Desktop\GITHUB\22_11DC-\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.pdb
