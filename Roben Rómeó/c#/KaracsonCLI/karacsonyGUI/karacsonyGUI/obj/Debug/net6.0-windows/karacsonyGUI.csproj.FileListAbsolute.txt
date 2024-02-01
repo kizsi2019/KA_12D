@@ -1,0 +1,40 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.deps.json
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.runtimeconfig.json
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI_MarkupCompile.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI_MarkupCompile.lref
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.g.resources
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.AssemblyInfoInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.AssemblyInfo.cs
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\refint\karacsonyGUI.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.genruntimeconfig.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\karacsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\ref\karacsonyGUI.dll
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.deps.json
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.runtimeconfig.json
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.dll
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\bin\Debug\net6.0-windows\karacsonyGUI.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI_MarkupCompile.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI_MarkupCompile.lref
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.g.resources
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.AssemblyInfoInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.AssemblyInfo.cs
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.dll
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\refint\karacsonyGUI.dll
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\karacsonyGUI.genruntimeconfig.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonyGUI\karacsonyGUI\obj\Debug\net6.0-windows\ref\karacsonyGUI.dll

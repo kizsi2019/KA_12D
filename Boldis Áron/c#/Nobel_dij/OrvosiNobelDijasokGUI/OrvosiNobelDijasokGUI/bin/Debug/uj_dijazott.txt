@@ -1,0 +1,2 @@
+év;Név;SzületésHalálozás;Országkód
+2000;ewqewq;2000/2004;fasz
