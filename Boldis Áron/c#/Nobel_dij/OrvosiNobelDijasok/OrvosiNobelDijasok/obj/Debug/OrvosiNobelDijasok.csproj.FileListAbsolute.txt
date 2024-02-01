@@ -1,0 +1,7 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.pdb
