@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\obj\Debug\KaracsonCLI.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\obj\Debug\KaracsonCLI.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\bin\Debug\KaracsonCLI.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\bin\Debug\KaracsonCLI.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\bin\Debug\KaracsonCLI.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\obj\Debug\KaracsonCLI.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\KaracsonCLI\KaracsonCLI\obj\Debug\KaracsonCLI.pdb

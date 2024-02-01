@@ -1,0 +1,7 @@
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\bin\Debug\TotoCLI.exe.config
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\bin\Debug\TotoCLI.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\bin\Debug\TotoCLI.pdb
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\obj\Debug\TotoCLI.csproj.AssemblyReference.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\obj\Debug\TotoCLI.csproj.CoreCompileInputs.cache
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\obj\Debug\TotoCLI.exe
+C:\Users\RobenRomeo\Desktop\gitegylet\KA_12D.github.io\Roben Rómeó\c#\TotoCLI\TotoCLI\obj\Debug\TotoCLI.pdb

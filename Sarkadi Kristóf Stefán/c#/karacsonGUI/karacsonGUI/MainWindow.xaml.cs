@@ -46,6 +46,19 @@ namespace karacsonGUI
             {
                 Lb_hiba.Content = "Túl sok, az eladott angyalka";
             }
+            else
+            {
+                nap = Convert.ToInt32(Cb_napok.SelectedItem.ToString());
+                osz += kesz - eladott;
+                Tb_ki.Text = nap + "nap: \t"+ kesz + "\t-" + eladott + "\t-" + "\t-" + "\t" + osz + "\n";
+                for (int i = 0; i <= nap; i++)
+                {
+                    Cb_napok.Items.Remove(i);
+                }
+                Tb_kesz.Text = "0";
+                Tb_eladott.Text = "0";
+                Lb_hiba.Content = "";
+            }
         }
     }
 }
