@@ -40,7 +40,11 @@ namespace karacsonyGUI
             eladott = Convert.ToInt32(tbEla.Text);
             if (kesz < 0 || eladott < 0)
             {
-                
+                lblHiba.Content = "Negatív számot nem adhat meg!";
+            }
+            else if (eladott < kesz + ossz)
+            {
+                lblHiba.Content = "Túl sok az eladott angyal";
             }
 
         }
