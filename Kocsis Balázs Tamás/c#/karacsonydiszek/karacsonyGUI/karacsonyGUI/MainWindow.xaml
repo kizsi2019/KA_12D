@@ -14,7 +14,7 @@
         <TextBox Name="tbEla" HorizontalAlignment="Left" Height="38" Margin="628,40,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124"/>
         <ComboBox Name="cbNap" HorizontalAlignment="Left" Height="34" Margin="114,38,0,0" VerticalAlignment="Top" Width="89"/>
         <Button Name="btnHozzaad" Content="Hozzáad" HorizontalAlignment="Left" Height="39" Margin="848,40,0,0" VerticalAlignment="Top" Width="109" Click="btnHozzaad_Click"/>
-        <TextBox Name="tbKi" HorizontalAlignment="Left" Height="262" Margin="60,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="498"/>
+        <TextBox Name="tbKi" HorizontalAlignment="Left" Height="262" Margin="60,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="498" ScrollViewer.PanningMode="VerticalOnly" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
         <Label Name="lblHiba" Foreground="Red" Content="" HorizontalAlignment="Left" Height="34" Margin="570,95,0,0" VerticalAlignment="Top" Width="262"/>
 
     </Grid>
