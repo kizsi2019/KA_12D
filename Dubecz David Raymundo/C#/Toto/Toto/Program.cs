@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Toto
 {
@@ -11,7 +10,7 @@ namespace Toto
     {
         static void Main(string[] args)
         {
-                string[] inputs = File.ReadAllLines(@"C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\toto.txt");
+                string[] inputs = File.ReadAllLines(@"C:\Users\xenon\OneDrive\Desktop\Suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\toto.txt");
                 List<totoData> database = new List<totoData>();
                 for (int i = 1; i < inputs.Length; i++)
                 {

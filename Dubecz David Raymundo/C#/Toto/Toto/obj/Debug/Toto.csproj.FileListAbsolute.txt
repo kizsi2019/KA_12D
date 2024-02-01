@@ -13,3 +13,10 @@ C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C
 C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
 C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.exe
 C:\Users\xenon\OneDrive\Desktop\Suli v2\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\xenon\OneDrive\Desktop\suli v3\KA_12D.github.io\Dubecz David Raymundo\C#\Toto\Toto\obj\Debug\Toto.pdb
