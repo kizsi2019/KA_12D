@@ -10,7 +10,7 @@
         <Label Content="Táv:" HorizontalAlignment="Left" Height="50" Margin="50, 40,0,0" VerticalAlignment="Top" Width="118"/>
         <Label Content="Idő [óra:perc:mp]:" HorizontalAlignment="Left" Height="50" Margin="50,120,0,0" VerticalAlignment="Top" Width="118"/>
         <Label Content="Átlagsebesség [km/h]:" HorizontalAlignment="Left" Height="50" Margin="50, 200,0,0" VerticalAlignment="Top" Width="118"/>
-        <Label Content="Átlagsebesség [m/s]:" HorizontalAlignment="Left" Height="50" Margin="50,280,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="Átlagsebesség [m/s]:" HorizontalAlignment="Left" Height="30" Margin="50,285,0,0" VerticalAlignment="Top" Width="118"/>
         <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="29" Margin="186,40,0,0" VerticalAlignment="Top" Width="250" RenderTransformOrigin="0.5,0.5">
             <ComboBox.RenderTransform>
                 <TransformGroup>
@@ -27,8 +27,8 @@
             <ComboBoxItem Content="Hosszú - 94km"/>
         </ComboBox>
         <TextBox Name="tbIdo" HorizontalAlignment="Left" Height="50" Margin="187,120,0,0" TextWrapping="Wrap" Text="1:00:00" VerticalAlignment="Top" Width="252"/>
-        <TextBlock Name="tbAtlagSebessegKmPH" HorizontalAlignment="Left" Height="50" Margin="187,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252"/>
-        <TextBlock Name="tbAtlagSebessegMPS"  HorizontalAlignment="Left" Height="50" Margin="187,267,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252"/>
-        <Button Name="btnSzamol" Content="Számol" HorizontalAlignment="Left" Height="185" Margin="569,65,0,0" VerticalAlignment="Top" Width="171" Click="Button_Click"/>
+        <TextBlock Name="tbAtlagSebessegKmPH" HorizontalAlignment="Left" Height="25" Margin="187,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252" RenderTransformOrigin="0.061,0.608"/>
+        <TextBlock Name="tbAtlagSebessegMPS"  HorizontalAlignment="Left" Height="25" Margin="187,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252" RenderTransformOrigin="0.072,0.6"/>
+        <Button Name="btnSzamol" Content="Számol" HorizontalAlignment="Left" Height="185" Margin="569,65,0,0" VerticalAlignment="Top" Width="171" Click="btnSzamol_Click"/>
     </Grid>
 </Window>
