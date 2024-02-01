@@ -1,0 +1,15 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\bin\Debug\karacsonGUI.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\bin\Debug\karacsonGUI.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\bin\Debug\karacsonGUI.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\MainWindow.g.cs
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\App.g.cs
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI_MarkupCompile.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI_MarkupCompile.lref
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\MainWindow.baml
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.g.resources
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.Properties.Resources.resources
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.csproj.GenerateResource.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\c#\karacsonGUI\karacsonGUI\obj\Debug\karacsonGUI.pdb
