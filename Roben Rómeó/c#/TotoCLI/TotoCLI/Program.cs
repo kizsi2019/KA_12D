@@ -59,6 +59,9 @@ namespace Toto
                 }
             }
             Console.WriteLine($"6. feladat: \n\tLegnagyobb: \n{database[max]} \n\n\tLegkisebb: \n{database[min]}");
+
+            //7.feladat
+            
             Console.ReadKey();
         }
     }
