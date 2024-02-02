@@ -1,0 +1,7 @@
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\bin\Debug\toto.exe.config
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\bin\Debug\toto.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\bin\Debug\toto.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\obj\Debug\toto.csproj.AssemblyReference.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\obj\Debug\toto.csproj.CoreCompileInputs.cache
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\obj\Debug\toto.exe
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\Nobel_dij\toto\toto\obj\Debug\toto.pdb
