@@ -1,0 +1,7 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\Toto\Toto\obj\Debug\Toto.pdb
