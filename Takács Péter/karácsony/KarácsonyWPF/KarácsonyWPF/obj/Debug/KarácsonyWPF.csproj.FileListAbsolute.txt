@@ -1,0 +1,15 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\App.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF_MarkupCompile.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\bin\Debug\KarácsonyWPF.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\bin\Debug\KarácsonyWPF.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\bin\Debug\KarácsonyWPF.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF_MarkupCompile.lref
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\MainWindow.baml
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.g.resources
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.Properties.Resources.resources
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.csproj.GenerateResource.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\KarácsonyWPF\KarácsonyWPF\obj\Debug\KarácsonyWPF.pdb
