@@ -1,0 +1,7 @@
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\bin\Debug\Totti.exe.config
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\bin\Debug\Totti.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\bin\Debug\Totti.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\obj\Debug\Totti.csproj.AssemblyReference.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\obj\Debug\Totti.csproj.CoreCompileInputs.cache
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\obj\Debug\Totti.exe
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\karacsonydiszek\Totti\Totti\obj\Debug\Totti.pdb
