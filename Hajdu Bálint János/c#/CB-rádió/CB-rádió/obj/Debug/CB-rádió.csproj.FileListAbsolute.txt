@@ -1,0 +1,7 @@
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\bin\Debug\CB-rádió.exe.config
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\bin\Debug\CB-rádió.exe
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\bin\Debug\CB-rádió.pdb
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\obj\Debug\CB-rádió.csproj.AssemblyReference.cache
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\obj\Debug\CB-rádió.csproj.CoreCompileInputs.cache
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\obj\Debug\CB-rádió.exe
+C:\Users\BalintHajdu\Desktop\CB-rádió\CB-rádió\obj\Debug\CB-rádió.pdb
