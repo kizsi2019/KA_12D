@@ -1,0 +1,7 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\bin\Debug\cbradio.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\bin\Debug\cbradio.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\bin\Debug\cbradio.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\obj\Debug\cbradio.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\obj\Debug\cbradio.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\obj\Debug\cbradio.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\C#\cbradio\cbradio\obj\Debug\cbradio.pdb
