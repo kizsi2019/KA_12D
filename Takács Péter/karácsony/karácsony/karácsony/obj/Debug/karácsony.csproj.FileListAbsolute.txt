@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\bin\Debug\karácsony.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\bin\Debug\karácsony.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\bin\Debug\karácsony.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\obj\Debug\karácsony.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\obj\Debug\karácsony.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\obj\Debug\karácsony.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\karácsony\karácsony\karácsony\obj\Debug\karácsony.pdb
