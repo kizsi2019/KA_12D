@@ -1,0 +1,32 @@
+var pontszamok, korPontszam, aktivJatekoss
+
+//document .queryselector(“#current-* + aktiviatekos).textcontent = ‘<u>’ + kocka +
+
+document .querySelector(" .dice’).style.display
+document .getElementById( ‘score-0").textcontent
+document .getElementById( ‘current-0").textcontent =
+document .getElementByrd( ‘score-1").textcontent
+document. gettlenentyrd( ‘current-0").textcontent
+
+document: .querySelector(".btn-roll"
+// kell egy veletlen szm
+var kocka = Math.floor(Math.random() * 6) + 15
+
+-addeventListener(‘click", function()(
+
+// erednény megjelenitése
+var kockaboM = document .queryselector(*.dice"),
+kockabon.style.display = ‘block’;
+kockabot.src = ‘img/dice-" + kocka + *.png"s
+
+// kérben elért pontszam frissitése, ha nem 1-et dobunk
+
+if (kocka !== 2)
+// itt adjuk hozzé a sz4mot az akt. ponthoz
+korPontszam 4= kocka;
+
+docunent.querySelector("#current.* + aktiviatekos).textcontent = korPontszam
+
+Felse {
+
+</>";
