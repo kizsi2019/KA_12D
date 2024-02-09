@@ -1,6 +1,6 @@
 function interju(foglalkozas)
 {
-    if (foglalkozas == 'tanar)'
+    if (foglalkozas == 'tanar')
     {
         return function(nev)
         {
