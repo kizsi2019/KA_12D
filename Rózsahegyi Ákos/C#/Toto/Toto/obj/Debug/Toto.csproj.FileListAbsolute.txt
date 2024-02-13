@@ -5,3 +5,8 @@ C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\To
 C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
 C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.exe
 C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\Shancey\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\Shancey\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shancey\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\Shancey\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\Shancey\Desktop\Github2\KA_12D.github.io\Rózsahegyi Ákos\C#\Toto\Toto\obj\Debug\Toto.pdb
