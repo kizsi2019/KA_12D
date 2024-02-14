@@ -3,3 +3,4 @@ C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Krist
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility.TEST\obj\Debug\net6.0\Network_Utility.TEST.AssemblyInfoInputs.cache
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility.TEST\obj\Debug\net6.0\Network_Utility.TEST.AssemblyInfo.cs
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility.TEST\obj\Debug\net6.0\Network_Utility.TEST.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility.TEST\obj\Debug\net6.0\Network_Utility.TEST.sourcelink.json

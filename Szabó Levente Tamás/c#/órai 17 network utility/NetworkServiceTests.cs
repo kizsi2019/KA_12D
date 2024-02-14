@@ -2,11 +2,16 @@
 {
     public class UnitTest1
     {
+        private readonly NetworkServiceTests _pingservice;
+        public NetworkServiceTests()
+        {
+            _pingservice = new NetworkServiceTests
+        }
         [Fact]
         public void Network_SendPing_ReturnString()
         {
-            var pingService = new NetworkServiceTests();
-            var result = pingService.SendPing();
+            var _pingService = new NetworkServiceTests();
+            var result = _pingService.SendPing();
             result.Should().Be("Succes! Ping Sent!");
             result.Should().NotBeNullOrWithSpace();
             result.Should().Contain("Ping", Exactly.Once());
@@ -16,8 +21,8 @@
         [InlineData[2,2,4]]
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
-            var pingService = new NetworkService();
-            var result = pingService.PingTimeout(a, b);
+            var _pingService = new NetworkService();
+            var result = _pingService.PingTimeout(a, b);
             result.Should().Be(expected);
             result.Should().BeGreaterThanOrEqualTo(2);
             result.Should().NotBeInRange(-1000, 0);
