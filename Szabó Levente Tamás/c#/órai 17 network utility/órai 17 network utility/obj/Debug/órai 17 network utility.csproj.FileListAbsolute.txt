@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\bin\Debug\órai 17 network utility.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\bin\Debug\órai 17 network utility.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\bin\Debug\órai 17 network utility.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\obj\Debug\órai 17 network utility.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\obj\Debug\órai 17 network utility.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\obj\Debug\órai 17 network utility.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 17 network utility\órai 17 network utility\obj\Debug\órai 17 network utility.pdb
