@@ -1,0 +1,7 @@
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\bin\Debug\cbradio.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\bin\Debug\cbradio.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\bin\Debug\cbradio.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\obj\Debug\cbradio.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\obj\Debug\cbradio.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\obj\Debug\cbradio.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\cbradio\cbradio\obj\Debug\cbradio.pdb
