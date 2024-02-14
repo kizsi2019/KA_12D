@@ -11,14 +11,21 @@ namespace NetworkUtility.Tests.PingTests
 {
     public class NetworkServiceTests
     {
-        [Fact]
+        private readonly NetworkService _pingService;
+
+		public NetworkServiceTests()
+		{
+			// SUT - System Under Test
+			_pingService = new NetworkService();
+		}
+		
+		[Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
-            var pingService = new NetworkService();
 
             // Act
-            var result = pingService.SendPing();
+            var result = _pingService.SendPing();
 
             // Assert
             result.Should().Be("Success: Ping sent");
@@ -31,10 +38,9 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var pingService = new NetworkService();
 
             // Act
-            var result = pingService.PingTimeout(a, b);
+            var result = _pingService.PingTimeout(a, b);
 
             // Assert
             result.Should().Be(expected);
