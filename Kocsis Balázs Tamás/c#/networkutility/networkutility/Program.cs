@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace networkutility
 {
-    public class Program
+    internal class Program
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
         }
     }
