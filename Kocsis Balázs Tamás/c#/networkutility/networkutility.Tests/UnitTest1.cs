@@ -1,4 +1,4 @@
-namespace networkutility.Tests
+namespace NetworkUtility.Tests
 {
     public class UnitTest1
     {

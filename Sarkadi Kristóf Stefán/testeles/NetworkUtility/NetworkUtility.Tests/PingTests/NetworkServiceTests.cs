@@ -37,8 +37,8 @@ namespace NetworkUtility.Tests.PingTests
         }
 
         [Theory]
-        [InlineData(1,1,2)]
-        [InlineData(2,2,4)]
+        [InlineData(1, 1, 2)]
+        [InlineData(2, 2, 4)]
 
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
@@ -58,7 +58,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_LastPingDate_ReturnDate()
         {
             // Arrange
-            
+
 
             // Act
             var result = _pingService.LastPingDate();
@@ -85,6 +85,25 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().BeOfType<PingOptions>();
             result.Should().BeEquivalentTo(expected);
             result.Ttl.Should().Be(1);
+        }
+
+        [Fact]
+        public void NetworkService_MostRecentPings_ReturnObjet()
+        {
+            // Arrange
+            var expected = new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 1
+            };
+
+            // Act
+            var result = _pingService.MostRecentPings();
+
+            // Assert
+            result.Should().BeOfType<PingOptions[]>();
+            result.Should().ContainEquivalentOf(expected);
+            result.Should().Contain(x => x.DontFragment == true);
         }
     }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace networkutility
+namespace NetworkUtility
 {
-    public class Program
+    internal class Program
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
         }
     }
