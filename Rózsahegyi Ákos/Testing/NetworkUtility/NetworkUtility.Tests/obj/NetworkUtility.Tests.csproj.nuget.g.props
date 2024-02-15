@@ -6,19 +6,27 @@
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
 <<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\RozsahegyiAkos\.nuget\packages\</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\KocsisBalazsTamas\.nuget\packages\</NuGetPackageFolders>
 =======
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\BoldisAron\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> 3b40d8f0eaed13a14e140c5e8691b132ae3b0860
+>>>>>>> 9da0379fb7dc8a8996d375efb2148f7655b078b9
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
+    <SourceRoot Include="C:\Users\RozsahegyiAkos\.nuget\packages\" />
+=======
+<<<<<<< HEAD
     <SourceRoot Include="C:\Users\KocsisBalazsTamas\.nuget\packages\" />
 =======
     <SourceRoot Include="C:\Users\BoldisAron\.nuget\packages\" />
 >>>>>>> 3b40d8f0eaed13a14e140c5e8691b132ae3b0860
+>>>>>>> 9da0379fb7dc8a8996d375efb2148f7655b078b9
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.props')" />
@@ -29,9 +37,13 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\RozsahegyiAkos\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
+=======
+<<<<<<< HEAD
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\KocsisBalazsTamas\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
 =======
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\BoldisAron\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
 >>>>>>> 3b40d8f0eaed13a14e140c5e8691b132ae3b0860
+>>>>>>> 9da0379fb7dc8a8996d375efb2148f7655b078b9
   </PropertyGroup>
 </Project>
