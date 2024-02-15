@@ -17,5 +17,19 @@ namespace NetworkUtility.Ping
         {
             return a + b;
         }
+		
+		public DateTime LastPingDate()
+		{
+			return DateTime.Now;
+		}
+
+		public PingOptions GetPingOptions()
+		{
+			return new PingOptions()
+			{
+				DontFragment = true,
+				Ttl = 1
+			};
+		}
     }
 }

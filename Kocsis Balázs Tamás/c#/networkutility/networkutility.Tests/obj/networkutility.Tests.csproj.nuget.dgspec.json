@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj": {}
+    "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj": {
+    "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
-        "projectName": "networkutility.Tests",
-        "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+        "projectName": "NetworkUtility.Tests",
+        "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
         "packagesPath": "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\obj\\",
+        "outputPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KocsisBalazsTamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
+                "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -83,6 +87,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
+        "projectName": "NetworkUtility",
+        "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
