@@ -1,0 +1,7 @@
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\bin\Debug\Network_Utility.exe.config
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\bin\Debug\Network_Utility.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\bin\Debug\Network_Utility.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\obj\Debug\Network_Utility.csproj.AssemblyReference.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\obj\Debug\Network_Utility.csproj.CoreCompileInputs.cache
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\obj\Debug\Network_Utility.exe
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\Network_Utility\Network_Utility\obj\Debug\Network_Utility.pdb
