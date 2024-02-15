@@ -2,16 +2,6 @@
 using FluentAssertions;
 using NetworkUtility.Ping;
 using System.Net.NetworkInformation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NetworkUtility.Ping;
-using Xunit;
-using FluentAssertions;
-using FluentAssertions.Extensions;
-using System.Net.NetworkInformation;
 
 namespace NetworkUtility.Tests.PingTests
 {
@@ -79,6 +69,24 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().BeOfType<PingOptions>();
             result.Should().BeEquivalentTo(expected);
             result.Should().Be(1);
-        } 
+
+           
+        }
+        [Fact]
+        public void NetworkService_MostRecentPings_ReturnsObject()
+        {
+            // Arrange
+            var expected = new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 0
+            };
+            // Act
+            var result = _pingService.MostRecentPings();    
+            // Assert
+            result.Should().BeOfType<PingOptions[]> ();
+            result.Should().ContainEquivalentOf(expected);
+            result.Should().Contain(x => x.DontFragment == true);
+        }
     }
 }
