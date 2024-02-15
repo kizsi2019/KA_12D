@@ -5,21 +5,29 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using FluentAssertion;
-using NetworkUtiliy.Ping;
+using NetworkUtiliy2.Ping;
 
 
 namespace Network_Utility.TEST.Pingtest
 {
     public class NetworkServiceTest
     {
+        private readonly NetworkService _pingService;
+
+        public NetworkServiceTest()
+        {
+            //SUT
+            _pingService = new NetworkService();
+        }
+
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             //Arrange
-            var pingService = new Network_Service();
+            var _pingService = new Network_Service();
 
             //Act
-            var result = pingService.SendPing();
+            var result = _pingService.SendPing();
 
             //Asset
             result.Should().Be("Succes: Ping send!");

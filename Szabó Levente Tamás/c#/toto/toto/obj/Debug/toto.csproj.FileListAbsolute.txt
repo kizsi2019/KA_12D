@@ -1,0 +1,14 @@
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\bin\Debug\toto.exe.config
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\bin\Debug\toto.exe
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\bin\Debug\toto.pdb
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\obj\Debug\toto.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\obj\Debug\toto.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\obj\Debug\toto.exe
+C:\Users\SzaboLeventeTamas\source\repos\toto\toto\obj\Debug\toto.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\bin\Debug\toto.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\bin\Debug\toto.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\bin\Debug\toto.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\obj\Debug\toto.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\obj\Debug\toto.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\obj\Debug\toto.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\toto\toto\obj\Debug\toto.pdb

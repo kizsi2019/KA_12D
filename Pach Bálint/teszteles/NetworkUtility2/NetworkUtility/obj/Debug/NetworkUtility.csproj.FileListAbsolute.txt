@@ -1,0 +1,14 @@
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
+C:\Users\RozsahegyiAkos\Desktop\Github\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\NetworkUtility.exe.config
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\NetworkUtility.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\NetworkUtility.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.csproj.AssemblyReference.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.exe
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.pdb

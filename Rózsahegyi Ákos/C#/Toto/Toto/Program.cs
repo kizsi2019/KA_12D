@@ -73,6 +73,29 @@ namespace Toto
             Console.WriteLine($"\tTelitalálat: {adatok[min].T13p1} db");
             Console.WriteLine($"\tNyeremény: {adatok[min].Ny13p1} Ft");
             Console.WriteLine($"\tEredmények: {adatok[min].Eredmenyek}");
+
+            //8. feladat
+            bool voltDontetlenNelkuliFordulo = false;
+
+            foreach (var adat in adatok)
+            {
+                var elemzo = new EredmenyElemzo(adat.Eredmenyek);
+
+                if (elemzo.NemvoltDontetlenMerkozes)
+                {
+                    voltDontetlenNelkuliFordulo = true;
+                    break; // Ha találtál egy olyan fordulót, ahol nincs döntetlen, nincs értelme tovább menni.
+                }
+            }
+
+            if (voltDontetlenNelkuliFordulo)
+            {
+                Console.WriteLine("Volt döntetlen nélküli forduló!");
+            }
+            else
+            {
+                Console.WriteLine("Nem volt döntetlen nélküli forduló!");
+            }
             Console.ReadKey();
         }
     }

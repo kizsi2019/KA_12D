@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {}
+    "C:\\Users\\PachBalint\\Desktop\\githubxd\\KA_12D.github.io\\Pach Bálint\\cscscs\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {
+    "C:\\Users\\PachBalint\\Desktop\\githubxd\\KA_12D.github.io\\Pach Bálint\\cscscs\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\PachBalint\\Desktop\\githubxd\\KA_12D.github.io\\Pach Bálint\\cscscs\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
         "projectName": "NetworkUtility.Tests",
-        "projectPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
-        "packagesPath": "C:\\Users\\SimonRoland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
+        "projectPath": "C:\\Users\\PachBalint\\Desktop\\githubxd\\KA_12D.github.io\\Pach Bálint\\cscscs\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+        "packagesPath": "C:\\Users\\PachBalint\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PachBalint\\Desktop\\githubxd\\KA_12D.github.io\\Pach Bálint\\cscscs\\NetworkUtility.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SimonRoland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PachBalint\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
-                "projectPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -87,21 +83,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
-        "projectName": "NetworkUtility",
-        "projectPath": "C:\\Users\\SimonRoland\\Desktop\\Suli\\KA_12D.github.io\\Simon Roland\\teszt\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }
