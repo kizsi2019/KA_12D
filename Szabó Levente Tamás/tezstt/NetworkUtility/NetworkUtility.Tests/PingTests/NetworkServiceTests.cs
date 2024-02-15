@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 using NetworkUtility.Ping;
 using Xunit;
 using FluentAssertions;
+using FluentAssertions.Extensions;
 
 namespace NetworkUtility.Tests.PingTests
 {
     private readonly NetworkServiceTests _pingservice;
     public NetworkServiceTests()
     {
-        _pingservice = new NetworkServiceTests
+        _pingservice = new NetworkServiceTests();
     }
     public class NetworkServiceTests
     {
@@ -45,6 +46,13 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().Be(expected);
             result.Should().BeGreaterThanOrEqualTo(2);
             result.Should().NotBeInRange(-1000, 0);
+        }
+        [Fact]
+        public void NetworkService_LastPingDate_ReturnDate()
+        {
+            var result = pingservice.LastPingDate();
+            result.Should().BeAfter(1.January(2010));
+            result.Should().BeBefore(1.January(2030));
         }
     }
 }
