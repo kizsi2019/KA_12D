@@ -2,6 +2,8 @@
 using FluentAssertions;
 using NetworkUtility.Ping;
 using System.Net.NetworkInformation;
+using FakeItEasy;
+using NetworkUtility.Tests.DNS;
 
 namespace NetworkUtility.Tests.PingTests
 {
@@ -9,15 +11,21 @@ namespace NetworkUtility.Tests.PingTests
     {
 
         private readonly NetworkService _pingService;
+        private readonly IDNS _dNs;
 
         public NetworkServiceTests()
         {
-            _pingService = new NetworkService();
+            // Dependencies
+            _dNs = A.Fake<IDNS>();
+
+            // SUT
+            _pingService = new NetworkService(_dNs); 
         }
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
-            // Arrange
+            // Arrange - variables, classe, mocks
+            A.CallTo(() => _dNs.sendDNS()).Returns(true); 
 
 
             // Act
@@ -34,7 +42,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var _pingService = new NetworkService();
+            var _pingService = new NetworkService(_dNs);
 
             // Act
             var result = _pingService.PingTimeout(a, b);
@@ -61,14 +69,15 @@ namespace NetworkUtility.Tests.PingTests
             var expected = new PingOptions()
             {
                 DontFragment = true,
-                Ttl = 0
+                Ttl = 1
             };
             // Act
             var result = _pingService.GetPingOptions();
             // Assert
             result.Should().BeOfType<PingOptions>();
             result.Should().BeEquivalentTo(expected);
-            result.Should().Be(1);
+            result.Ttl.Should().Be(1);
+            
 
            
         }
@@ -79,14 +88,14 @@ namespace NetworkUtility.Tests.PingTests
             var expected = new PingOptions()
             {
                 DontFragment = true,
-                Ttl = 0
+                Ttl = 1
             };
             // Act
             var result = _pingService.MostRecentPings();    
             // Assert
             result.Should().BeOfType<PingOptions[]> ();
             result.Should().ContainEquivalentOf(expected);
-            result.Should().Contain(x => x.DontFragment == true);
+            result.Should().Contain(x => x.DontFragment == true); 
         }
     }
 }

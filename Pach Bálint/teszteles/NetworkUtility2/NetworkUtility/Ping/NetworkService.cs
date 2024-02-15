@@ -1,6 +1,7 @@
 ﻿using NetworkUtility.Tests.DNS;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Runtime.Remoting.Messaging;
@@ -9,9 +10,14 @@ using System.Threading.Tasks;
 
 namespace NetworkUtility.Ping
 {
-    private readonly IDNS _dNS; 
-    public class NetworkService(IDNS dNS)
+
+    public class NetworkService
     {
+        private readonly IDNS _dNS;
+        public NetworkService(IDNS dNS)
+        {
+            _dNS = dNS;
+        }
         public string SendPing()
         {
             return "Success: Ping sent";
