@@ -1759,6 +1759,15 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "NetworkUtility/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/NetworkUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkUtility.dll": {}
+        }
       }
     }
   },
@@ -5645,12 +5654,18 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "NetworkUtility/1.0.0": {
+      "type": "project",
+      "path": "../NetworkUtility/NetworkUtility.csproj",
+      "msbuildProject": "../NetworkUtility/NetworkUtility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "NetworkUtility >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5662,11 +5677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
-      "projectName": "networkutility.Tests",
-      "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+      "projectName": "NetworkUtility.Tests",
+      "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
       "packagesPath": "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\obj\\",
+      "outputPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KocsisBalazsTamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5682,7 +5697,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
+              "projectPath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5739,5 +5758,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

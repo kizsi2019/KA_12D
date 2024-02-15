@@ -47,5 +47,37 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().BeGreaterThanOrEqualTo(2);
             result.Should().NotBeInRange(-1000, 0);
         }
+		
+		[Fact]
+		public void NetworkService_LastPingDate_ReturnDate()
+		{
+			// Arrange
+
+			// Act
+			var result = _pingService.LastPingDate();
+
+			// Assert
+			result.Should().BeAfter(1.January(2010));
+			result.Should().BeBefore(1.January(2030));
+		}
+
+		[Fact]
+		public void NetworkService_GetPingOptions_ReturnsObject()
+		{
+			// Arrange
+			var expected = new PingOptions()
+			{
+				DontFragment = true,
+				Ttl = 1
+			};
+
+			// Act
+			var result = _pingService.GetPingOptions();
+
+			// Assert WARNING: "Be" careful
+			result.Should().BeOfType<PingOptions>();
+			result.Should().BeEquivalentTo(expected);
+			result.Ttl.Should().Be(1);
+		}
     }
 }
