@@ -1,4 +1,5 @@
 ﻿using System;
+using FakeItEasy;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,17 +16,22 @@ namespace NetworkUtility.Tests.PingTests
     public class NetworkServiceTests
     {
         private readonly NetworkService _pingService;
+        private readonly DNS2.IDNS _dNS;
 
         public NetworkServiceTests()
         {
+            // Dependencies
+            _dNS = A.Fake<DNS2.IDNS>();
+            
             // SUT - System Under Test
-            _pingService = new NetworkService();
+            _pingService = new NetworkService(_dNS);
         }
 
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
+            A.CallTo(() => _dNS.SendDNS()).Returns(true);
 
             // Act
             var result = _pingService.SendPing();

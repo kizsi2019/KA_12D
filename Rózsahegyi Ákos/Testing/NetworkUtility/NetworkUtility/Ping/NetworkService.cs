@@ -1,4 +1,4 @@
-﻿using NetworkUtility.DNS1;
+﻿using NetworkUtility.DNS2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
