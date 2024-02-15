@@ -12,3 +12,8 @@ C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Krist
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\SarkadiKristofStefan\Desktop\SAR.KRI.STE\KA_12D.github.io\Sarkadi Kristóf Stefán\testeles\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete

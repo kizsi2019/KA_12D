@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NetworkUtility.DNS
 {
-    public interface DNSService : IDNS
+    public interface IDNS
     {
         bool SendDNS();
     }
