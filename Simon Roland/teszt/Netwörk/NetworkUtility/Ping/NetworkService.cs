@@ -20,11 +20,11 @@ namespace NetworkUtility.Ping
             var dnsSucces = _dNS.SendDNS();
             if (dnsSucces)
             {
-                return "Success: Ping sent! ";
+                return "Success: Ping sent";
             }
             else
             {
-                return "Failed: Ping not sent! ";
+                return "Failed: Ping not sent";
             }
         }
 
