@@ -8,9 +8,11 @@ namespace NetworkUtility.Tests.DNS
 {
     public class DNSService : IDNS
     {
-        public bool SendDNS()
+       
+
+        public bool sendDNS()
         {
-            return true; 
+            return true;
         }
     }
 }

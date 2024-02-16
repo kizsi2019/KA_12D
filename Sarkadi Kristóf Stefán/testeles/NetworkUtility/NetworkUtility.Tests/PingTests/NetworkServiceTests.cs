@@ -8,30 +8,35 @@ using Xunit;
 using FluentAssertions;
 using FluentAssertions.Extensions;
 using System.Net.NetworkInformation;
+using NetworkUtility.DNS;
+using FakeItEasy;
 
 namespace NetworkUtility.Tests.PingTests
 {
     public class NetworkServiceTests
     {
         private readonly NetworkService _pingService;
+        private readonly IDNS _dNS;
 
         public NetworkServiceTests()
         {
+            _dNS = A.Fake<IDNS>();
             //SUT
-            _pingService = new NetworkService();
+            _pingService = new NetworkService(_dNS);
         }
 
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
+
             // Arrange
-            var _pingService = new NetworkService();
+            A.CallTo(() => _dNS.SendDNS()).Returns(true);
 
             // Act
-            var result = _pingService.SendPing();
+            var result = _pingService.SendPing(_dNS);
 
             // Assert
-            result.Should().Be("Success: Ping sent");
+            result.Should().Be("Success: Ping sent!");
             result.Should().NotBeNullOrWhiteSpace();
             result.Should().Contain("Ping", Exactly.Once());
         }
