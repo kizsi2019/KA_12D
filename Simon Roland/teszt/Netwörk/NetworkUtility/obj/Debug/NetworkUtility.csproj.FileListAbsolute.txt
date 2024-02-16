@@ -12,3 +12,8 @@ C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\N
 C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
 C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\Netwörk\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
