@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S2zqOclg69avgs7v3j+BdC7ALobcUQMrKXdW1MiFk4v+9YXefiHSNFpEZZWrOVDrWXR24uT4JijLB7gfLF6Qog==",
+  "dgSpecHash": "iCbw20Oyc00f1vd8xBImbSRkNHiK4yJCiRDSf6QvBH/kviDnqZknnisDJuj2VSACvIS3TFrtI3KlEifjcJX9NQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\networkutility\\networkutility.Tests\\networkutility.Tests.csproj",
+  "projectFilePath": "C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
@@ -97,5 +97,12 @@
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\KocsisBalazsTamas\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\KocsisBalazsTamas\\Desktop\\12.d\\KA_12D.github.io\\Kocsis Balázs Tamás\\c#\\NetworkUtility\\NetworkUtility.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

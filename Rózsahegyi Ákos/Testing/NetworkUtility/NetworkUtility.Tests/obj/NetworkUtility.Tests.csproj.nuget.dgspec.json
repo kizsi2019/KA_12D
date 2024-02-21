@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {}
+    "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {
+    "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
         "projectName": "NetworkUtility.Tests",
-        "projectPath": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
-        "packagesPath": "C:\\Users\\BoldisAron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
+        "projectPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
+        "packagesPath": "C:\\Users\\RozsahegyiAkos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BoldisAron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RozsahegyiAkos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
-                "projectPath": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj"
+              "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
+                "projectPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.0, )"
@@ -89,11 +93,11 @@
         }
       }
     },
-    "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
+    "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
+        "projectUniqueName": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
         "projectName": "NetworkUtility",
-        "projectPath": "C:\\Users\\BoldisAron\\Desktop\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
+        "projectPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\Testing\\NetworkUtility\\NetworkUtility\\NetworkUtility.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
