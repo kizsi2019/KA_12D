@@ -13,3 +13,11 @@ C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2
 C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.csproj.CoreCompileInputs.cache
 C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.exe
 C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\BukkMarathon2019.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\FluentAssertions.dll
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\FluentAssertions.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\FluentAssertions.xml
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\bukkmarathon2019\bukkmarathon2019\obj\Debug\bukkmarathon2019.csproj.CopyComplete

@@ -98,7 +98,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var pingService = new NetworkService();
+            var pingService = new NetworkService(_dNS);
 
             // Act
             var result = pingService.PingTimeout(a, b);
