@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FakeItEasy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -6,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
 using FluentAssertions.Extensions;
+using NetworkUtility.DNS;
 using NetworkUtility.Ping;
 using Xunit;
 
@@ -14,16 +16,18 @@ namespace NetworkUtility.Tests.PingTests
     public class NetworkServiceTests
     {
         private readonly NetworkService _pingService;
+        private readonly IDNS _dns;
         public NetworkServiceTests()
         {
-            _pingService = new NetworkService();
+            _dns = A.Fake<IDNS>();
+            _pingService = new NetworkService(_dns);
         }
 
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
-            var _pingService = new NetworkService();
+            A.CallTo(() => _dns.SendDNS()).Returns(true);
 
             // Act
             var result = _pingService.SendPing();
@@ -87,7 +91,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var _pingService = new NetworkService();
+            var _pingService = new NetworkService(_dns);
 
             // Act
             var result = _pingService.PingTimeout(a, b);
