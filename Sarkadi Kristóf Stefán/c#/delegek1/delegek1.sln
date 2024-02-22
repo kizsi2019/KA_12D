@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegek1", "delegek1\delegek1.csproj", "{383D232C-6A09-4793-9301-AE7DD1835126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegek2", "delegek2\delegek2.csproj", "{3B453A0B-97A9-45F8-8585-84BEBD139B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383D232C-6A09-4793-9301-AE7DD1835126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D232C-6A09-4793-9301-AE7DD1835126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D232C-6A09-4793-9301-AE7DD1835126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D232C-6A09-4793-9301-AE7DD1835126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B453A0B-97A9-45F8-8585-84BEBD139B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B453A0B-97A9-45F8-8585-84BEBD139B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B453A0B-97A9-45F8-8585-84BEBD139B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B453A0B-97A9-45F8-8585-84BEBD139B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAF4916-C6ED-4473-A745-0D5AAE674D68}
+	EndGlobalSection
+EndGlobal

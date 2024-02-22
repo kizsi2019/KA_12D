@@ -26,6 +26,7 @@ namespace BukkMaraton2019
                     noiVersenyzoRovidTavon++;
                 }
             }
+            Console.WriteLine($"5. feladat: noi versenyzok szama:  {noiVersenyzoRovidTavon}fo");
             bool tobbminthat = false;
 
             foreach (var item in versenyzok)
@@ -36,6 +37,7 @@ namespace BukkMaraton2019
                     break;
                 }
             }
+            Console.WriteLine($"6. feladat: {(tobbminthat ? "Volt" : "Nem volt")} ilyen versenyzo");
             Versenyzo gyoztesFerfiRovidtTav = null;
             foreach (var item in versenyzok)
             {

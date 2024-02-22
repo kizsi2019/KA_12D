@@ -1,0 +1,7 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\bin\Debug\@delegate.exe.config
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\bin\Debug\@delegate.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\bin\Debug\@delegate.pdb
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\obj\Debug\delegate.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\obj\Debug\delegate.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\obj\Debug\@delegate.exe
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\Toto\delegate\delegate\obj\Debug\@delegate.pdb
