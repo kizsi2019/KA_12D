@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Pl8V7RpU/nCWqAJD1fQEZbaTmo4f5iwAqXMXeZuwCbrFOU1oeI2eSsbugUvrAvwk8Fc+jtYiIP0z7gJvi5n+CQ==",
+  "dgSpecHash": "rpzDQwYlGhCyziU6UGtN+xF8uDHTo6g3c3JU/SDjxUwUVoLF8mQiVNa1lQ7rabz6F9cg89KU4wnt/v8kxDuevA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SarkadiKristofStefan\\Desktop\\SAR.KRI.STE\\KA_12D.github.io\\Sarkadi Kristóf Stefán\\testeles\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\fakeiteasy\\8.1.0\\fakeiteasy.8.1.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
@@ -40,6 +42,7 @@
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\SarkadiKristofStefan\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",

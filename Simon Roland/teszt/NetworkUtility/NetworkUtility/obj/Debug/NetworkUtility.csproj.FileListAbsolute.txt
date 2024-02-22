@@ -1,0 +1,7 @@
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe.config
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.pdb
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.AssemblyReference.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
+C:\Users\SimonRoland\Desktop\Suli\KA_12D.github.io\Simon Roland\teszt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb

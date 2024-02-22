@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BukkMaraton2019", "BukkMaraton2019\BukkMaraton2019.csproj", "{89A71090-8267-4416-8DB0-0ACE3AB6CD7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BukkMaraton.tests", "BukkMaraton.tests\BukkMaraton.tests.csproj", "{0284B753-BBE5-43AC-A58D-3B8E2A00E695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{89A71090-8267-4416-8DB0-0ACE3AB6CD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A71090-8267-4416-8DB0-0ACE3AB6CD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A71090-8267-4416-8DB0-0ACE3AB6CD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0284B753-BBE5-43AC-A58D-3B8E2A00E695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0284B753-BBE5-43AC-A58D-3B8E2A00E695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0284B753-BBE5-43AC-A58D-3B8E2A00E695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0284B753-BBE5-43AC-A58D-3B8E2A00E695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
