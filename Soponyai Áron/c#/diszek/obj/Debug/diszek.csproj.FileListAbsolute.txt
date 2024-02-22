@@ -1,0 +1,8 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\obj\Debug\diszek.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\obj\Debug\diszek.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\obj\Debug\diszek.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\bin\Debug\diszek.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\bin\Debug\diszek.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\bin\Debug\diszek.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\obj\Debug\diszek.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\diszek\obj\Debug\diszek.pdb

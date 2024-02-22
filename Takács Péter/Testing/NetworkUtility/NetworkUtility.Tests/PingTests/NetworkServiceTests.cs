@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using NetworkUtility.Ping;
 using Xunit;
 using FluentAssertions;
+using FluentAssertions.Extensions;
+using System.Net.NetworkInformation;
+using NetworkUtility.Tests.DNS;
+using FakeItEasy;
 
 namespace NetworkUtility.Tests.PingTests
 {
@@ -13,17 +17,18 @@ namespace NetworkUtility.Tests.PingTests
     {
 
         private readonly NetworkService _pingService;
+        private readonly IDNS _dNS;
 
         public NetworkServiceTests()
         {
+            _dNS = A.Fake<IDNS>();
             _pingService = new NetworkService();
         }
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
- 
-
+            A.CallTo(() => _dNS.SendDNS()).Returns(true);
             // Act
             var result = _pingService.SendPing();
 
@@ -46,7 +51,49 @@ namespace NetworkUtility.Tests.PingTests
             // Assert
             result.Should().Be(expected);
             result.Should().BeGreaterThanOrEqualTo(2);
-            result.Should().NotBeInRange(-1000, 0);
+        }
+        [Fact]
+        public void NetworkService_LastPingDate_ReturnDate()
+        {
+            // Arrange
+
+            // Act
+            var result = _pingService.LastPingDate();
+            // Assert
+            result.Should().BeAfter(1.January(2010));
+            result.Should().BeBefore(1.January(2030));
+        }
+        [Fact]
+        public void NetworkService_GetPingOptions_ReturnsObject()
+        {
+            // Arrange
+            var expected = new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 1
+            };
+            // Act
+            var result = _pingService.GetPingOptions();
+            // Assert
+            result.Should().BeOfType<PingOptions>();
+            result.Should().BeEquivalentTo(expected);
+            result.Ttl.Should().Be(1);
+        }
+        [Fact]
+        public void NetworkService_MostRecentPings_ReturnsObject()
+        {
+            // Arrange
+            var expected = new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 1
+            };
+            // Act
+            var result = _pingService.GetPingOptions();
+            // Assert
+            result.Should().BeOfType<PingOptions>();
+            result.Should().BeEquivalentTo(expected);
+            result.Ttl.Should().Be(1);
         }
     }
 }

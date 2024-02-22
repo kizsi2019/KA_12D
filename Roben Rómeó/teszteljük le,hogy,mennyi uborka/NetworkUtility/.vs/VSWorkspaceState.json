@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NetworkUtility",
+    "\\NetworkUtility.Tests",
+    "\\NetworkUtility.Tests\\bin",
+    "\\NetworkUtility.Tests\\bin\\Debug",
+    "\\NetworkUtility.Tests\\obj",
+    "\\NetworkUtility.Tests\\obj\\Debug",
+    "\\NetworkUtility.Tests\\obj\\Debug\\net6.0",
+    "\\NetworkUtility.Tests\\obj\\Debug\\net6.0\\refint",
+    "\\NetworkUtility\\obj"
+  ],
+  "SelectedNode": "\\NetworkUtility.Tests\\obj\\Debug",
+  "PreviewInSolutionExplorer": false
+}

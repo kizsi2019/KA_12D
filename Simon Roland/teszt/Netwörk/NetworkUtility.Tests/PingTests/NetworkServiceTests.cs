@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FakeItEasy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,21 +10,29 @@ using FluentAssertions;
 using FluentAssertions.Extensions;
 using System.Net.NetworkInformation;
 using Xunit.Sdk;
+using NetworkUtility.DNS;
 
 namespace NetworkUtility.Tests.PingTests
 {
     public class NetworkServiceTests
     {
         private readonly NetworkService _pingService;
+        private readonly IDNS _dNS;
         public NetworkServiceTests()
         {
-            _pingService = new NetworkService();
+            // Dependencies
+            _dNS = A.Fake<IDNS>();
+            
+            // SUT 
+            _pingService = new NetworkService(_dNS);
         }
+
+
         [Fact]
         public void NetworkService_SendPing_ReturnString()
         {
             // Arrange
-           
+            A.CallTo(() => _dNS.SendDNS()).Returns(true);
 
             // Act
             var result = _pingService.SendPing();
@@ -89,7 +98,7 @@ namespace NetworkUtility.Tests.PingTests
         public void NetworkService_PingTimeout_ReturnInt(int a, int b, int expected)
         {
             // Arrange
-            var pingService = new NetworkService();
+            var pingService = new NetworkService(_dNS);
 
             // Act
             var result = pingService.PingTimeout(a, b);

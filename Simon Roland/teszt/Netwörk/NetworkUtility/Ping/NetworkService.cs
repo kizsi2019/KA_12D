@@ -10,14 +10,22 @@ namespace NetworkUtility.Ping
 {
     public class NetworkService
     {
-        private readonly IDNS _dns;
+        private readonly IDNS _dNS;
         public NetworkService(IDNS dns)
         {
-            _dns = dns;
+            _dNS = dns;
         }
         public string SendPing()
         {
-            return "Success: Ping sent";
+            var dnsSucces = _dNS.SendDNS();
+            if (dnsSucces)
+            {
+                return "Success: Ping sent";
+            }
+            else
+            {
+                return "Failed: Ping not sent";
+            }
         }
 
         public int PingTimeout(int a, int b)
