@@ -1,0 +1,13 @@
+body{
+    max-width: 100%;
+    max-height: 120%;
+}
+
+.wrapper{
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    position: absolute;
+    background-color: #979797b4;
+	opacity: 0.9;
+}
