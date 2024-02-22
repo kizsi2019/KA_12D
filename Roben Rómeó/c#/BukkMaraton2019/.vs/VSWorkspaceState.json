@@ -3,8 +3,9 @@
     "",
     "\\BukkMaraton2019",
     "\\BukkMaraton2019GUI",
-    "\\BukkMaraton2019GUI\\BukkMaraton2019GUI"
+    "\\BukkMaraton2019GUI\\BukkMaraton2019GUI",
+    "\\BukkMaraton2019\\bin"
   ],
-  "SelectedNode": "\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\MainWindow.xaml",
+  "SelectedNode": "\\BukkMaraton2019GUI\\BukkMaraton2019GUI\\obj",
   "PreviewInSolutionExplorer": false
 }
