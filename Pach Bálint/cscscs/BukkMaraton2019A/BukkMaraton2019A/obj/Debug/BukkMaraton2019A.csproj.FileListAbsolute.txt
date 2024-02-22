@@ -5,3 +5,15 @@ C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMa
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.csproj.CoreCompileInputs.cache
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.exe
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\Castle.Core.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\FakeItEasy.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\FluentAssertions.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\Castle.Core.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\FakeItEasy.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\FluentAssertions.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\FluentAssertions.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\cscscs\BukkMaraton2019A\BukkMaraton2019A\obj\Debug\BukkMaraton2019A.csproj.CopyComplete
