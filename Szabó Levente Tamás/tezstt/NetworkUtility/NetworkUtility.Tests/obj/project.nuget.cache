@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e5IYHm9PwQl2H6iFeM8dozpfSgiqPd2VXJWAxFXZsh/VCcl/Qd4Ixk0iSKgOLtx6FaEprA+EcwgW2k5n0QCceQ==",
+  "dgSpecHash": "rMptusluw4qm1YWPoOxIktFst3ne3StR7zfikF4rHdMgXZVOIOnz4mKwNNm7dzg4ZZzCecZWwApQDien4qTcEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SzaboLeventeTamas\\Desktop\\Eső\\githab\\KA_12D.github.io\\Szabó Levente Tamás\\tezstt\\NetworkUtility\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\fakeiteasy\\8.1.0\\fakeiteasy.8.1.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
@@ -40,6 +42,7 @@
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\SzaboLeventeTamas\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
