@@ -1,4 +1,7 @@
+using Xunit;
 using FluentAssertions;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace Bukkmarathon.Test
 {
@@ -33,10 +36,30 @@ namespace Bukkmarathon.Test
             actualCount.Should().Be(expectedCount);
         }
     }
-
-    public class Versenyzo
+    [Fact]
+    public void TobbMintHat_ExistsInVersenyzok_ReturnsCorrectResult()
     {
-        public bool NoiVersenyzo { get; set; }
+        // Arrange
+        var versenyzok = new List<Versenyzo>
+        {
+            new Versenyzo { TobbMintHat = false },
+            new Versenyzo { TobbMintHat = false },
+            new Versenyzo { TobbMintHat = true },
+            new Versenyzo { TobbMintHat = false }
+        };
+
+        // Act
+        bool result = versenyzok.Any(v => v.TobbMintHat);
+
+        // Assert
+        result.Should().BeTrue();
+    }
+}
+
+public class Versenyzo
+    {
+    public bool TobbMintHat { get; set; }   
+    public bool NoiVersenyzo { get; set; }
         public string Tav { get; set; }
     }
 }
