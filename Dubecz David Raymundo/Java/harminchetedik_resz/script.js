@@ -10,9 +10,9 @@ jatek();*/
     console.log(pont >=5);
 })();
 
-(function(test))
+(function(test)
 {
     var pont = math.random() * 10;
     console.log(pont >=5);
     console.log(teszt);
-}('Hello');
+})('Hello');

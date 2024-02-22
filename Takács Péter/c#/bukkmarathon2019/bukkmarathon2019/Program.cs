@@ -32,18 +32,18 @@ namespace BukkMarathon2019
             Console.WriteLine($"5. feladat: Női versenyzők száma a rövid távú versenyen: {noiVersenyzoRovidTavon} fő.");
 
             //6. feladat
-            bool tobbminthat = false;
+                bool tobbminthat = false;
 
-            foreach (var v in versenyzok)
-            {
-                if (v.TobbMintHat)
+                foreach (var v in versenyzok)
                 {
-                    tobbminthat = true;
-                    break;
+                    if (v.TobbMintHat)
+                    {
+                        tobbminthat = true;
+                        break;
+                    }
                 }
-            }
 
-            Console.WriteLine($"6. feladat: Ilyen ember {(  tobbminthat? "volt": "nem volt")}");
+                Console.WriteLine($"6. feladat: Ilyen ember {(  tobbminthat? "volt": "nem volt")}");
 
             //7. feladat
 

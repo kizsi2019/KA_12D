@@ -12,3 +12,8 @@ C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\Net
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\PachBalint\Desktop\githubxd\KA_12D.github.io\Pach Bálint\teszteles\NetworkUtility2\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
