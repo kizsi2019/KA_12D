@@ -17,6 +17,7 @@ namespace bukkmaraton2019
             {
                 versenyzok.Add(new versenyzo(sor));
             }
+            //4. feladat
             Console.WriteLine($"4. feladat: Versenytávot nem teljesító {(1 - versenyzok.Count / 691.0) * 100}%");
             // 5. feladat
             int noiVersenyzoRovidTavon = 0;
@@ -27,7 +28,7 @@ namespace bukkmaraton2019
                     noiVersenyzoRovidTavon++;
                 }
             }
-            Console.WriteLine($"$5. feladat: Női versenyzők száma a rövid távú versenyen: {noiVersenyzoRovidTavon} fő.");
+            Console.WriteLine($"5. feladat: Női versenyzők száma a rövid távú versenyen: {noiVersenyzoRovidTavon} fő.");
             // 6. feladat
             bool tobbMintHat = false;
             foreach (var v in versenyzok)

@@ -17,7 +17,16 @@ namespace NetworkUtility.Ping
         }
         public string SendPing()
         {
-            return "Success: Ping sent";
+            var dnsSuccess = _dns.SendDNS();
+            if (dnsSuccess)
+            {
+                return "Success: Ping sent";
+            }
+            else
+            {
+                return "Failed: Ping not sent!";
+            }
+            
         }
 
         public int PingTimeout(int a, int b)
