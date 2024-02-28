@@ -33,5 +33,16 @@ namespace CRUD
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show(i.ToString());
         }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string insertTable = "INSERT INTO test_table(id, name, fname) values (" + tb1.Text + ", '"+ tb2.Text + "', '" + tb3.Text + "')";
+            MySqlCommand cmd = new MySqlCommand(insertTable, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString());
+        }
     }
 }
