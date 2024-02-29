@@ -37,6 +37,13 @@
             this.tb_1 = new System.Windows.Forms.TextBox();
             this.tb_2 = new System.Windows.Forms.TextBox();
             this.tb_3 = new System.Windows.Forms.TextBox();
+            this.btn_Feladat2 = new System.Windows.Forms.Button();
+            this.btn_Feladat3 = new System.Windows.Forms.Button();
+            this.Feladat4 = new System.Windows.Forms.Button();
+            this.btn_Feladat5 = new System.Windows.Forms.Button();
+            this.btn_Feladat6 = new System.Windows.Forms.Button();
+            this.btn_Feladat7 = new System.Windows.Forms.Button();
+            this.btn_Feladat8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,11 +126,88 @@
             this.tb_3.Size = new System.Drawing.Size(207, 20);
             this.tb_3.TabIndex = 8;
             // 
+            // btn_Feladat2
+            // 
+            this.btn_Feladat2.Location = new System.Drawing.Point(256, 96);
+            this.btn_Feladat2.Name = "btn_Feladat2";
+            this.btn_Feladat2.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat2.TabIndex = 10;
+            this.btn_Feladat2.Text = "2";
+            this.btn_Feladat2.UseVisualStyleBackColor = true;
+            this.btn_Feladat2.Click += new System.EventHandler(this.btn_Feladat2_Click);
+            // 
+            // btn_Feladat3
+            // 
+            this.btn_Feladat3.Location = new System.Drawing.Point(337, 96);
+            this.btn_Feladat3.Name = "btn_Feladat3";
+            this.btn_Feladat3.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat3.TabIndex = 11;
+            this.btn_Feladat3.Text = "3";
+            this.btn_Feladat3.UseVisualStyleBackColor = true;
+            this.btn_Feladat3.Click += new System.EventHandler(this.btn_Feladat3_Click);
+            // 
+            // Feladat4
+            // 
+            this.Feladat4.Location = new System.Drawing.Point(418, 96);
+            this.Feladat4.Name = "Feladat4";
+            this.Feladat4.Size = new System.Drawing.Size(75, 23);
+            this.Feladat4.TabIndex = 12;
+            this.Feladat4.Text = "4";
+            this.Feladat4.UseVisualStyleBackColor = true;
+            this.Feladat4.Click += new System.EventHandler(this.Feladat4_Click);
+            // 
+            // btn_Feladat5
+            // 
+            this.btn_Feladat5.Location = new System.Drawing.Point(256, 125);
+            this.btn_Feladat5.Name = "btn_Feladat5";
+            this.btn_Feladat5.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat5.TabIndex = 13;
+            this.btn_Feladat5.Text = "5";
+            this.btn_Feladat5.UseVisualStyleBackColor = true;
+            this.btn_Feladat5.Click += new System.EventHandler(this.btn_Feladat5_Click);
+            // 
+            // btn_Feladat6
+            // 
+            this.btn_Feladat6.Location = new System.Drawing.Point(337, 125);
+            this.btn_Feladat6.Name = "btn_Feladat6";
+            this.btn_Feladat6.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat6.TabIndex = 14;
+            this.btn_Feladat6.Text = "6";
+            this.btn_Feladat6.UseVisualStyleBackColor = true;
+            this.btn_Feladat6.Click += new System.EventHandler(this.btn_Feladat6_Click);
+            // 
+            // btn_Feladat7
+            // 
+            this.btn_Feladat7.Location = new System.Drawing.Point(418, 125);
+            this.btn_Feladat7.Name = "btn_Feladat7";
+            this.btn_Feladat7.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat7.TabIndex = 15;
+            this.btn_Feladat7.Text = "7";
+            this.btn_Feladat7.UseVisualStyleBackColor = true;
+            this.btn_Feladat7.Click += new System.EventHandler(this.btn_Feladat7_Click);
+            // 
+            // btn_Feladat8
+            // 
+            this.btn_Feladat8.Location = new System.Drawing.Point(337, 154);
+            this.btn_Feladat8.Name = "btn_Feladat8";
+            this.btn_Feladat8.Size = new System.Drawing.Size(75, 23);
+            this.btn_Feladat8.TabIndex = 0;
+            this.btn_Feladat8.Text = "8";
+            this.btn_Feladat8.UseVisualStyleBackColor = true;
+            this.btn_Feladat8.Click += new System.EventHandler(this.btn_Feladat8_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 450);
+            this.Controls.Add(this.btn_Feladat8);
+            this.Controls.Add(this.btn_Feladat7);
+            this.Controls.Add(this.btn_Feladat6);
+            this.Controls.Add(this.btn_Feladat5);
+            this.Controls.Add(this.Feladat4);
+            this.Controls.Add(this.btn_Feladat3);
+            this.Controls.Add(this.btn_Feladat2);
             this.Controls.Add(this.tb_3);
             this.Controls.Add(this.tb_2);
             this.Controls.Add(this.tb_1);
@@ -152,6 +236,13 @@
         private System.Windows.Forms.TextBox tb_1;
         private System.Windows.Forms.TextBox tb_2;
         private System.Windows.Forms.TextBox tb_3;
+        private System.Windows.Forms.Button btn_Feladat2;
+        private System.Windows.Forms.Button btn_Feladat3;
+        private System.Windows.Forms.Button Feladat4;
+        private System.Windows.Forms.Button btn_Feladat5;
+        private System.Windows.Forms.Button btn_Feladat6;
+        private System.Windows.Forms.Button btn_Feladat7;
+        private System.Windows.Forms.Button btn_Feladat8;
     }
 }
 
