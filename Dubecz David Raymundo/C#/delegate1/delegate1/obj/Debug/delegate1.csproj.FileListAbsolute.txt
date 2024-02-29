@@ -1,0 +1,7 @@
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\bin\Debug\delegate1.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\bin\Debug\delegate1.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\bin\Debug\delegate1.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\obj\Debug\delegate1.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\obj\Debug\delegate1.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\obj\Debug\delegate1.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate1\delegate1\obj\Debug\delegate1.pdb

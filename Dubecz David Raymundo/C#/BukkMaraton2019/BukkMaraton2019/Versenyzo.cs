@@ -15,7 +15,6 @@ namespace BukkMaraton2019
         public string Egyesulet { get; private set; }
         public TimeSpan Ido { get; private set; }
         public string Tav { get; private set; }
-
         public bool NoiVersenyzo
         {
             get
@@ -30,6 +29,7 @@ namespace BukkMaraton2019
                 return Ido > new TimeSpan(6, 0, 0);
             }
         }
+
         public Versenyzo(string sor)
         {
             string[] matrix = sor.Split(';');
