@@ -1,0 +1,5 @@
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\MYSQL2\MYSQL2\obj\Debug\MYSQL2.csproj.AssemblyReference.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\MYSQL2\MYSQL2\obj\Debug\CRUD.Form1.resources
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\MYSQL2\MYSQL2\obj\Debug\MYSQL2.Properties.Resources.resources
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\MYSQL2\MYSQL2\obj\Debug\MYSQL2.csproj.GenerateResource.cache
+C:\Users\Bálint\Desktop\github\KA_12D.github.io\Takács Péter\c#\MYSQL2\MYSQL2\obj\Debug\MYSQL2.csproj.CoreCompileInputs.cache
