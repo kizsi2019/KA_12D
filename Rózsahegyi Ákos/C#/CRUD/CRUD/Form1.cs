@@ -68,5 +68,16 @@ namespace CRUD
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show(i.ToString());
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string updateTable = "DELETE FROM test_table WHERE id='10'";
+            MySqlCommand cmd = new MySqlCommand(updateTable, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString());
+        }
     }
 }
