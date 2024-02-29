@@ -68,6 +68,7 @@
             this.btnRead.TabIndex = 2;
             this.btnRead.Text = "Read Data From Table";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnUpdate
             // 
@@ -77,6 +78,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update Table";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -86,6 +88,7 @@
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete Record";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // tb1
             // 
@@ -111,9 +114,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(473, 156);
+            this.dataGridView1.Location = new System.Drawing.Point(420, 156);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(272, 242);
+            this.dataGridView1.Size = new System.Drawing.Size(368, 242);
             this.dataGridView1.TabIndex = 8;
             // 
             // Form1
