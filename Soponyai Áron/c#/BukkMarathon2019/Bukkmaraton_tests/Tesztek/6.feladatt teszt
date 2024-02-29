@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bukkmaraton_tests.Tesztek
+{
+    class _6
+    {
+     [Fact]
+    public void TobbMintHatVersenyzoTest()
+    {
+        // Arrange
+        var versenyzok = new List<Versenyzo>
+        {
+            new Versenyzo { TobbMintHat = false },
+            new Versenyzo { TobbMintHat = true },
+            new Versenyzo { TobbMintHat = false },
+            new Versenyzo { TobbMintHat = true }
+        };
+
+        // Act
+        bool tobbMintHat = versenyzok.Any(v => v.TobbMintHat);
+
+        // Assert
+        tobbMintHat.Should().BeTrue(); // Legalább egy versenyzőnek igaznak kell lennie a TobbMintHat tulajdonságára
+    }
+}
+
+public class Versenyzo
+{
+    public bool TobbMintHat { get; set; }
+}
+    }
+}

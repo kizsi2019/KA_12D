@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nobel-dij", "Nobel-dij.csproj", "{A661D6B9-E7AD-4242-AC5B-A0AE166BFDE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A661D6B9-E7AD-4242-AC5B-A0AE166BFDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A661D6B9-E7AD-4242-AC5B-A0AE166BFDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A661D6B9-E7AD-4242-AC5B-A0AE166BFDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A661D6B9-E7AD-4242-AC5B-A0AE166BFDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCD7C259-71CF-4DC8-A98B-99829838D5B4}
+	EndGlobalSection
+EndGlobal

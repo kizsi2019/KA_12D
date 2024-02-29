@@ -1,0 +1,16 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\bin\Debug\NobelGUIWPF.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\bin\Debug\NobelGUIWPF.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\bin\Debug\NobelGUIWPF.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\MainWindow.g.cs
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\App.g.cs
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF_MarkupCompile.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF_MarkupCompile.lref
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\MainWindow.baml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.g.resources
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.Properties.Resources.resources
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.csproj.GenerateResource.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\NobelGUIWPF\obj\Debug\NobelGUIWPF.pdb

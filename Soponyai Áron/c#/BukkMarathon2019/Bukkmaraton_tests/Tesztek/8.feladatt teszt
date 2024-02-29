@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bukkmaraton_tests.Tesztek
+{
+    class _7
+    {
+    [Fact]
+    public void VersenyzoStatisztikaTest()
+    {
+        // Arrange
+        var versenyzok = new List<Versenyzo>
+        {
+            new Versenyzo { NoiVersenyzo = true, Kategoria = "ff" },
+            new Versenyzo { NoiVersenyzo = false, Kategoria = "ff" },
+            new Versenyzo { NoiVersenyzo = false, Kategoria = "női" },
+            new Versenyzo { NoiVersenyzo = false, Kategoria = "ff" },
+            new Versenyzo { NoiVersenyzo = false, Kategoria = "férfi" },
+            new Versenyzo { NoiVersenyzo = true, Kategoria = "női" }
+        };
+
+        var stat = new Dictionary<string, int>
+        {
+            { "ff", 0 },
+            { "női", 0 },
+            { "férfi", 0 }
+        };
+
+        // Act
+        foreach (var item in versenyzok)
+        {
+            if (!item.NoiVersenyzo && stat.ContainsKey(item.Kategoria))
+            {
+                stat[item.Kategoria]++;
+            }
+        }
+
+        // Assert
+        stat.Should().ContainKey("ff").And.ContainValue(2); // Férfi felnőtt kategóriában 2 fő versenyző
+        stat.Should().ContainKey("női").And.ContainValue(1); // Női kategóriában 1 fő versenyző
+        stat.Should().ContainKey("férfi").And.ContainValue(1); // Férfi kategóriában 1 fő versenyző
+    }
+}
+
+public class Versenyzo
+{
+    public bool NoiVersenyzo { get; set; }
+    public string Kategoria { get; set; }
+}
+    }
+}
