@@ -68,6 +68,7 @@
             this.btnRead.TabIndex = 2;
             this.btnRead.Text = "Read data from table";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnUpdate
             // 
@@ -77,6 +78,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update table";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 

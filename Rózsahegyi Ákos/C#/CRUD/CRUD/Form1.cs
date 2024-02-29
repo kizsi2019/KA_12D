@@ -44,5 +44,29 @@ namespace CRUD
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show(i.ToString());
         }
+
+        private void btnRead_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT * FROM test_table";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string updateTable = "UPDATE test_table set name='Gyula' WHERE fname='Connor'";
+            MySqlCommand cmd = new MySqlCommand(updateTable, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString());
+        }
     }
 }
