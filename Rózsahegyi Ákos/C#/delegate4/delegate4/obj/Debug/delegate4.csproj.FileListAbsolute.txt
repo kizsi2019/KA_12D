@@ -1,0 +1,7 @@
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\bin\Debug\delegate4.exe.config
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\bin\Debug\delegate4.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\bin\Debug\delegate4.pdb
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\obj\Debug\delegate4.csproj.AssemblyReference.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\obj\Debug\delegate4.csproj.CoreCompileInputs.cache
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\obj\Debug\delegate4.exe
+C:\Users\RozsahegyiAkos\Desktop\Github3\KA_12D.github.io\Rózsahegyi Ákos\C#\delegate4\delegate4\obj\Debug\delegate4.pdb

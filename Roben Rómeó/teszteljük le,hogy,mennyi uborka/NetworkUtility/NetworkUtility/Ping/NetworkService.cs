@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace NetworkUtility.Ping
 {
-    internal class NetworkService
+    public class NetworkService
     {
         public string SendPing()
         {
             return "Success: Ping sent!";
         }
-        public int PingTimeot(int a, int b)
+        public int PingTimeout(int a, int b)
         {
             return a + b;
         }

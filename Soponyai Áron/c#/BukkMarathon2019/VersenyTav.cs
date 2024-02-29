@@ -4,29 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BukkMarathon2019
+namespace BukkMaraton2019
 {
-        class VersenyTav
+    public class Versenytav
+    {
+        private string Rajtszam;
+        public string Tav
         {
-            private string Rajtszam;
-            public string Tav
+            get
             {
-                get
+                switch (Rajtszam[0])
                 {
-                    switch (Rajtszam[0])
-                    {
-                        case 'M': return "Mini";
-                        case 'R': return "Rövid";
-                        case 'K': return "Közép";
-                        case 'H': return "Hosszú";
-                        case 'E': return "Pedelec";
-                    }
-                    return "Hibás rajtszám";
+                    case 'M': return "Mini";
+                    case 'R': return "Rövid";
+                    case 'K': return "Közép";
+                    case 'H': return "Hosszú";
+                    case 'E': return "Pedelec";
                 }
-            }
-            public VersenyTav(string rajtszam)
-            {
-                Rajtszam = rajtszam;
+                return "Hibás rajtszám";
             }
         }
+        public Versenytav(string rajtszam)
+        {
+            Rajtszam = rajtszam;
+        }
     }
+}

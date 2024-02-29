@@ -1,0 +1,7 @@
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\bin\Debug\órai 19 delegate.exe.config
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\bin\Debug\órai 19 delegate.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\bin\Debug\órai 19 delegate.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\obj\Debug\órai 19 delegate.csproj.AssemblyReference.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\obj\Debug\órai 19 delegate.csproj.CoreCompileInputs.cache
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\obj\Debug\órai 19 delegate.exe
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\órai 19 delegate\órai 19 delegate\obj\Debug\órai 19 delegate.pdb

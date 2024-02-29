@@ -6,3 +6,23 @@ C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\bin\
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\bin\Debug\BukkMarathon2019.pdb
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.exe
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\BukkMarathon2019\obj\Debug\BukkMarathon2019.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\BukkMarathon2019.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\BukkMarathon2019.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\BukkMarathon2019.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\Castle.Core.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\FakeItEasy.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\FluentAssertions.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\Castle.Core.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\FakeItEasy.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\FluentAssertions.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\FluentAssertions.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.csproj.CopyComplete
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\bukkmaraton teszt\obj\Debug\BukkMarathon2019.pdb

@@ -12,3 +12,8 @@ C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente T
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\tezstt\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
