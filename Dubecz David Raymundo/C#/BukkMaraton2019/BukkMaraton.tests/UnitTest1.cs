@@ -1,4 +1,4 @@
-namespace BukkMaraton.tests
+namespace BukkMaraton.Tests
 {
     public class UnitTest1
     {
