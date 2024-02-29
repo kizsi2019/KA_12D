@@ -1,0 +1,8 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\bin\Debug\CB-rádio.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\bin\Debug\CB-rádio.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\bin\Debug\CB-rádio.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\obj\Debug\CB-rádio.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\obj\Debug\CB-rádio.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\obj\Debug\CB-rádio.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\obj\Debug\CB-rádio.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\CB-rádio\obj\Debug\CB-rádio.pdb

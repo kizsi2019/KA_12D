@@ -5,7 +5,13 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility\NetworkUtility.csproj", "{A2A89439-DD75-48CB-A534-2D93194FB555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{2BE8B60C-3E05-4657-A360-C5CE1E730731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{2BE8B60C-3E05-4657-A360-C5CE1E730731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dns", "dns", "{41F23FA8-CE54-4AB8-BCBB-0B4288F1341B}"
+	ProjectSection(SolutionItems) = preProject
+		idns.cs = idns.cs
+		idnss.cs = idnss.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

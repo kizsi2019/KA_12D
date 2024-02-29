@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bukkmaraton_tests.Tesztek
+{
+    class _6
+    {
+     [Fact]
+    public void GyoztesFelnottFerfiRovidTavTest()
+    {
+        // Arrange
+        var versenyzok = new List<Versenyzo>
+        {
+            new Versenyzo { Rajtszam = 1, Nev = "Teszt Elek", Egyesulet = "TESZT", Ido = TimeSpan.FromMinutes(10), Kategoria = "ff", Tav = "Rövid" },
+            new Versenyzo { Rajtszam = 2, Nev = "Kovács Géza", Egyesulet = "TEST", Ido = TimeSpan.FromMinutes(9), Kategoria = "ff", Tav = "Rövid" },
+            new Versenyzo { Rajtszam = 3, Nev = "Nagy Béla", Egyesulet = "TESZT", Ido = TimeSpan.FromMinutes(11), Kategoria = "ff", Tav = "Rövid" },
+            new Versenyzo { Rajtszam = 4, Nev = "Kiss János", Egyesulet = "TEST", Ido = TimeSpan.FromMinutes(8), Kategoria = "ff", Tav = "Hosszú" }
+        };
+        Versenyzo gyoztesFelnottFerfiRovidTav = null;
+
+        // Act
+        foreach (var item in versenyzok)
+        {
+            if (item.Tav == "Rövid" && item.Kategoria == "ff")
+            {
+                if (gyoztesFelnottFerfiRovidTav == null)
+                {
+                    gyoztesFelnottFerfiRovidTav = item;
+                }
+                else
+                {
+                    if (item.Ido < gyoztesFelnottFerfiRovidTav.Ido)
+                    {
+                        gyoztesFelnottFerfiRovidTav = item;
+                    }
+                }
+            }
+        }
+
+        // Assert
+        gyoztesFelnottFerfiRovidTav.Should().NotBeNull(); // A győztes nem lehet null
+        gyoztesFelnottFerfiRovidTav.Rajtszam.Should().Be(2); // Elvárt rajtszám
+        gyoztesFelnottFerfiRovidTav.Nev.Should().Be("Kovács Géza"); // Elvárt név
+        gyoztesFelnottFerfiRovidTav.Egyesulet.Should().Be("TEST"); // Elvárt egyesület
+        gyoztesFelnottFerfiRovidTav.Ido.Should().Be(TimeSpan.FromMinutes(9)); // Elvárt idő
+    }
+}
+
+public class Versenyzo
+{
+    public int Rajtszam { get; set; }
+    public string Nev { get; set; }
+    public string Egyesulet { get; set; }
+    public TimeSpan Ido { get; set; }
+    public string Kategoria { get; set; }
+    public string Tav { get; set; }
+}
+    }
+}

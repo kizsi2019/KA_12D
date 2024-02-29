@@ -5,3 +5,8 @@ C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente T
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
 C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\Castle.Core.dll
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FakeItEasy.dll
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\Castle.Core.xml
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FakeItEasy.xml
+C:\Users\SzaboLeventeTamas\Desktop\Eső\githab\KA_12D.github.io\Szabó Levente Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CopyComplete

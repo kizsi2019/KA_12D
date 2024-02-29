@@ -1,0 +1,8 @@
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\bin\Debug\Nobel-dij.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\bin\Debug\Nobel-dij.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\bin\Debug\Nobel-dij.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\obj\Debug\Nobel-dij.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\obj\Debug\Nobel-dij.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\obj\Debug\Nobel-dij.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\obj\Debug\Nobel-dij.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\c#\Nobel-dij\obj\Debug\Nobel-dij.pdb

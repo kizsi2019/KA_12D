@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xenon\\OneDrive\\Desktop\\suli v3\\KA_12D.github.io\\Dubecz David Raymundo\\C#\\BukkMaraton2019\\BukkMaraton.tests\\BukkMaraton.tests.csproj": {}
+    "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019\\BukkMaraton.Tests\\BukkMaraton.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xenon\\OneDrive\\Desktop\\suli v3\\KA_12D.github.io\\Dubecz David Raymundo\\C#\\BukkMaraton2019\\BukkMaraton.tests\\BukkMaraton.tests.csproj": {
+    "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019\\BukkMaraton.Tests\\BukkMaraton.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xenon\\OneDrive\\Desktop\\suli v3\\KA_12D.github.io\\Dubecz David Raymundo\\C#\\BukkMaraton2019\\BukkMaraton.tests\\BukkMaraton.tests.csproj",
-        "projectName": "BukkMaraton.tests",
-        "projectPath": "C:\\Users\\xenon\\OneDrive\\Desktop\\suli v3\\KA_12D.github.io\\Dubecz David Raymundo\\C#\\BukkMaraton2019\\BukkMaraton.tests\\BukkMaraton.tests.csproj",
-        "packagesPath": "C:\\Users\\xenon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xenon\\OneDrive\\Desktop\\suli v3\\KA_12D.github.io\\Dubecz David Raymundo\\C#\\BukkMaraton2019\\BukkMaraton.tests\\obj\\",
+        "projectUniqueName": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019\\BukkMaraton.Tests\\BukkMaraton.Tests.csproj",
+        "projectName": "BukkMaraton.Tests",
+        "projectPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019\\BukkMaraton.Tests\\BukkMaraton.Tests.csproj",
+        "packagesPath": "C:\\Users\\RozsahegyiAkos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RozsahegyiAkos\\Desktop\\Github5\\KA_12D.github.io\\Rózsahegyi Ákos\\C#\\BukkMaraton2019\\BukkMaraton.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\xenon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RozsahegyiAkos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,10 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FakeItEasy": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.0, )"
@@ -90,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
