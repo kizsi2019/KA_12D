@@ -85,7 +85,10 @@ namespace MySQL2
             string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
             MySqlConnection con = new MySqlConnection(conString);
             con.Open();
-            string sql = "SELECT film.ev, film.cim FROM film WHERE nyert ORDER BY ev;";
+            string sql = "SELECT film.ev, film.cim " +
+                "FROM film " +
+                "WHERE nyert " +
+                "ORDER BY ev;";
             MySqlCommand cmd = new MySqlCommand(sql, con);
             MySqlDataReader reader = cmd.ExecuteReader();
             DataTable dt = new DataTable();
@@ -98,7 +101,9 @@ namespace MySQL2
             string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
             MySqlConnection con = new MySqlConnection(conString);
             con.Open();
-            string sql = "SELECT film.ev FROM film GROUP BY ev HAVING Count(id)>=10;";
+            string sql = "SELECT film.ev " +
+                "FROM film " +
+                "GROUP BY ev HAVING Count(id)>=10;";
             MySqlCommand cmd = new MySqlCommand(sql, con);
             MySqlDataReader reader = cmd.ExecuteReader();
             DataTable dt = new DataTable();
@@ -108,27 +113,70 @@ namespace MySQL2
 
         private void btnFeladat4_Click(object sender, EventArgs e)
         {
-
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT film.cim FROM film " +
+                "WHERE ev BETWEEN 1939 And 1945 AND bemutato BETWEEN '1939-1-1' AND '1945-12-31';";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnFeladat5_Click(object sender, EventArgs e)
         {
-
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT film.cim FROM film " +
+                "WHERE Year(bemutato)-ev>=10 " +
+                "AND nyert;";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnFeladat6_Click(object sender, EventArgs e)
         {
-
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT keszito.nev, COUNT(film.id) AS db, MAX(film.ev)-MIN(film.ev) AS eltelt FROM film, kapcsolat, keszito WHERE film.id=kapcsolat.filmid AND kapcsolat.keszitoid=keszito.id AND keszito.producer GROUP BY keszito.nev HAVING COUNT(film.id)>1;;";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnFeladat7_Click(object sender, EventArgs e)
         {
-
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT DISTINCT keszito.nev FROM keszito, kapcsolat WHERE keszito.id=kapcsolat.keszitoid AND kapcsolat.filmid IN (SELECT kapcsolat.filmid FROM kapcsolat, keszito WHERE keszito.id=kapcsolat.keszitoid AND nev='Clint Eastwood') AND nev<>'Clint Eastwood';";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnFeladat8_Click(object sender, EventArgs e)
         {
-
+            string conString = "server=" + server + ";uid=" + userID + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string sql = "SELECT keszito.nev FROM keszito WHERE keszito.id NOT IN (SELECT kapcsolat.keszitoid FROM kapcsolat, film WHERE kapcsolat.filmid=film.id AND film.bemutato IS NOT NULL) AND keszito.producer;";
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
     }
 }
