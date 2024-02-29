@@ -12,3 +12,15 @@ C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c
 C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
 C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
 C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\Castle.Core.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FakeItEasy.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FluentAssertions.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\Castle.Core.xml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FakeItEasy.xml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FluentAssertions.pdb
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\FluentAssertions.xml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\KocsisBalazsTamas\Desktop\12.d\KA_12D.github.io\Kocsis Balázs Tamás\c#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CopyComplete

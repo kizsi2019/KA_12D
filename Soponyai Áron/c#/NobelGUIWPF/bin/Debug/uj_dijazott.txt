@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2012; Soponyai Áron; 2004-2100; System.Windows.Controls.TextBox: Magyarország

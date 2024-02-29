@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bukkmaraton_tests.Tesztek
+{
+    class _5
+    {
+     [Fact]
+    public void NoiVersenyzoRovidTavonTest()
+    {
+        // Arrange
+        var versenyzok = new List<Versenyzo>
+        {
+            new Versenyzo { NoiVersenyzo = true, Tav = "Rövid" },
+            new Versenyzo { NoiVersenyzo = false, Tav = "Hosszú" },
+            new Versenyzo { NoiVersenyzo = true, Tav = "Rövid" },
+            new Versenyzo { NoiVersenyzo = true, Tav = "Rövid" },
+            new Versenyzo { NoiVersenyzo = false, Tav = "Rövid" }
+        };
+        int noiVersenyzoRovidTavon = 0;
+
+        // Act
+        foreach (var item in versenyzok)
+        {
+            if (item.NoiVersenyzo && item.Tav == "Rövid")
+            {
+                noiVersenyzoRovidTavon++;
+            }
+        }
+
+        // Assert
+        noiVersenyzoRovidTavon.Should().Be(3); // Az elvárt érték: 3 női versenyző rövid távon
+    }
+}
+
+public class Versenyzo
+{
+    public bool NoiVersenyzo { get; set; }
+    public string Tav { get; set; }
+}
+    }
+}
