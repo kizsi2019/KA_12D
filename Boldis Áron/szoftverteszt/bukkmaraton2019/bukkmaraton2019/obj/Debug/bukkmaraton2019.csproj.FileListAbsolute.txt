@@ -5,3 +5,15 @@ C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmara
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.csproj.CoreCompileInputs.cache
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.exe
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\Castle.Core.dll
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\FakeItEasy.dll
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\FluentAssertions.dll
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\Castle.Core.xml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\FakeItEasy.xml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\FluentAssertions.pdb
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\FluentAssertions.xml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\szoftverteszt\bukkmaraton2019\bukkmaraton2019\obj\Debug\bukkmaraton2019.csproj.CopyComplete
