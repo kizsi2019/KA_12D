@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34024.191
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYSQL2", "MYSQL2\MYSQL2.csproj", "{8658C936-C104-4F61-A054-19B026BE49E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQL2", "MySQL2\MySQL2.csproj", "{B3184210-24F5-4444-9DF7-908D63A42B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8658C936-C104-4F61-A054-19B026BE49E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8658C936-C104-4F61-A054-19B026BE49E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8658C936-C104-4F61-A054-19B026BE49E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8658C936-C104-4F61-A054-19B026BE49E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3184210-24F5-4444-9DF7-908D63A42B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3184210-24F5-4444-9DF7-908D63A42B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3184210-24F5-4444-9DF7-908D63A42B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3184210-24F5-4444-9DF7-908D63A42B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {99B21433-FFD6-405B-9285-92AE1773CAA6}
+		SolutionGuid = {1DF99D71-37D6-450F-BFFE-A6FB0EE3D5F7}
 	EndGlobalSection
 EndGlobal

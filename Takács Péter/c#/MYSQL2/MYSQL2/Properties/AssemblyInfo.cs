@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MYSQL2")]
+[assembly: AssemblyTitle("MySQL2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MYSQL2")]
+[assembly: AssemblyProduct("MySQL2")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8658c936-c104-4f61-a054-19b026be49e4")]
+[assembly: Guid("b3184210-24f5-4444-9df7-908d63a42b6a")]
 
 // Version information for an assembly consists of the following four values:
 //

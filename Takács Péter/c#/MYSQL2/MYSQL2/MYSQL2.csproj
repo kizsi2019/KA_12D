@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8658C936-C104-4F61-A054-19B026BE49E4}</ProjectGuid>
+    <ProjectGuid>{B3184210-24F5-4444-9DF7-908D63A42B6A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MYSQL2</RootNamespace>
-    <AssemblyName>MYSQL2</AssemblyName>
+    <RootNamespace>MySQL2</RootNamespace>
+    <AssemblyName>MySQL2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
