@@ -14,7 +14,7 @@ namespace bukkmaraton2019
         public string Egyesulet { get; private set; }
         public string Tav {  get; private set; }
         public TimeSpan Ido { get; private set; }
-        public bool NoiVersnyzo
+        public bool NoiVersenyzo
         {
             get
             {

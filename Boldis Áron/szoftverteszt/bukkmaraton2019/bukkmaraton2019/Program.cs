@@ -10,6 +10,7 @@ namespace bukkmaraton2019
     {
         static void Main(string[] args)
         {
+
             //3. Feladat
             List<versenyzo> versenyzok = new List<versenyzo>();
             foreach (var sor in File.ReadAllLines("bukkm2019.txt").Skip(1))
@@ -21,7 +22,7 @@ namespace bukkmaraton2019
             int noiVersenyzoRovidTavon = 0;
             foreach (var v in versenyzok)
             {
-                if (v.NoiVersnyzo && v.Tav == "Rövid")
+                if (v.NoiVersenyzo && v.Tav == "Rövid")
                 {
                     noiVersenyzoRovidTavon++;
                 }
@@ -67,7 +68,7 @@ namespace bukkmaraton2019
             Dictionary<string, int> stat = new Dictionary<string, int>();
             foreach (var v in versenyzok)
             {
-                if (!v.NoiVersnyzo)
+                if (!v.NoiVersenyzo)
                 {
                     if (stat.ContainsKey(v.Kategoria))
                     {
