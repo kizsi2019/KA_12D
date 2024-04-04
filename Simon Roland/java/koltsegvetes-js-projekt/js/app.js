@@ -28,3 +28,6 @@ document.addEventListener('keydown', function(event){
 });
 
 })(koltsegvetesvezerlo, feluletvezerlo)
+
+
+
