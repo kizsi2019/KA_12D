@@ -13,3 +13,8 @@ C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtilit
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Soponyai Áron\tesztelés\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
