@@ -17,3 +17,16 @@ C:\Users\RozsahegyiAkos\Desktop\Github5\KA_12D.github.io\Rózsahegyi Ákos\Testi
 C:\Users\RozsahegyiAkos\Desktop\Github5\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
 C:\Users\RozsahegyiAkos\Desktop\Github5\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
 C:\Users\RozsahegyiAkos\Desktop\Github5\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe.config
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\NetworkUtility.pdb
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.dll
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\Castle.Core.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\bin\Debug\FakeItEasy.xml
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.AssemblyReference.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CoreCompileInputs.cache
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.csproj.CopyComplete
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.exe
+C:\Users\User\Suli!!!!!\KA_12D.github.io\Rózsahegyi Ákos\Testing\NetworkUtility\NetworkUtility\obj\Debug\NetworkUtility.pdb

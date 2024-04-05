@@ -187,10 +187,10 @@ belaHivatalosReggeli();*/
 
 var evek = [1954, 1990, 1963, 2000, 2010];
 
-function tombMuvelet(tomb, Tv) {
+function tombMuvelet(tomb, Fv) {
     var eredmeny = [];
     for (var i = 0; i < tomb.length; i++) {
-        eredmeny.push(Tv(tomb[i]));
+        eredmeny.push(Fv(tomb[i]));
     }
     return eredmeny;
 }
