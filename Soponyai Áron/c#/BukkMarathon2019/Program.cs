@@ -30,7 +30,7 @@ namespace BukkMaraton2019
                     noiVersenyzoRovidTavon++;
                 }
             }
-            Console.WriteLine($"5. feladat: Női versenyzők száma rövid távú versenyen: {noiVersenyzoRovidTavon}fő");
+            Console.WriteLine($"5. feladat: Női versenyzők száma rövid távú versenyen: {noiVersenyzoRovidTavon} fő");
 
             // 6. feladat
             bool tobbMintHat = false;

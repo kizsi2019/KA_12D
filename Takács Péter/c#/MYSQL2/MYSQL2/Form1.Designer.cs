@@ -1,4 +1,4 @@
-﻿namespace CRUD
+﻿namespace MySQL2
 {
     partial class Form1
     {
@@ -28,185 +28,233 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTable = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.tb1 = new System.Windows.Forms.TextBox();
+            this.tb2 = new System.Windows.Forms.TextBox();
+            this.tb3 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnFeladat2 = new System.Windows.Forms.Button();
+            this.btnFeladat3 = new System.Windows.Forms.Button();
+            this.btnFeladat4 = new System.Windows.Forms.Button();
+            this.btnFeladat5 = new System.Windows.Forms.Button();
+            this.btnFeladat6 = new System.Windows.Forms.Button();
+            this.btnFeladat7 = new System.Windows.Forms.Button();
+            this.btnFeladat8 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnTable
+            // btnCreate
             // 
-            this.btnTable.Location = new System.Drawing.Point(50, 12);
-            this.btnTable.Name = "btnTable";
-            this.btnTable.Size = new System.Drawing.Size(109, 53);
-            this.btnTable.TabIndex = 0;
-            this.btnTable.Text = "Create Table";
-            this.btnTable.UseVisualStyleBackColor = true;
+            this.btnCreate.BackColor = System.Drawing.Color.White;
+            this.btnCreate.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnCreate.Location = new System.Drawing.Point(37, 34);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(108, 49);
+            this.btnCreate.TabIndex = 0;
+            this.btnCreate.Text = "Create table";
+            this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
-            // button2
+            // btnInsert
             // 
-            this.button2.Location = new System.Drawing.Point(49, 71);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 53);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Insert Data in Table";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnInsert.BackColor = System.Drawing.Color.White;
+            this.btnInsert.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnInsert.Location = new System.Drawing.Point(151, 34);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(108, 49);
+            this.btnInsert.TabIndex = 1;
+            this.btnInsert.Text = "Insert data in table";
+            this.btnInsert.UseVisualStyleBackColor = false;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
-            // button3
+            // btnRead
             // 
-            this.button3.Location = new System.Drawing.Point(49, 130);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 53);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Read Data From Table";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRead.BackColor = System.Drawing.Color.White;
+            this.btnRead.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnRead.Location = new System.Drawing.Point(265, 34);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(108, 49);
+            this.btnRead.TabIndex = 2;
+            this.btnRead.Text = "Read data from table";
+            this.btnRead.UseVisualStyleBackColor = false;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
-            // button4
+            // btnUpdate
             // 
-            this.button4.Location = new System.Drawing.Point(49, 189);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 53);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Update Table";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnUpdate.BackColor = System.Drawing.Color.White;
+            this.btnUpdate.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnUpdate.Location = new System.Drawing.Point(37, 89);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(108, 49);
+            this.btnUpdate.TabIndex = 3;
+            this.btnUpdate.Text = "Update table";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // button5
+            // btnDelete
             // 
-            this.button5.Location = new System.Drawing.Point(49, 248);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 53);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Delete Table";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDelete.BackColor = System.Drawing.Color.White;
+            this.btnDelete.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnDelete.Location = new System.Drawing.Point(151, 89);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(108, 49);
+            this.btnDelete.TabIndex = 4;
+            this.btnDelete.Text = "Delete record";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // textBox1
+            // tb1
             // 
-            this.textBox1.Location = new System.Drawing.Point(211, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 20);
-            this.textBox1.TabIndex = 5;
+            this.tb1.Location = new System.Drawing.Point(390, 223);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(152, 20);
+            this.tb1.TabIndex = 5;
             // 
-            // textBox2
+            // tb2
             // 
-            this.textBox2.Location = new System.Drawing.Point(211, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 20);
-            this.textBox2.TabIndex = 6;
+            this.tb2.Location = new System.Drawing.Point(390, 258);
+            this.tb2.Name = "tb2";
+            this.tb2.Size = new System.Drawing.Size(152, 20);
+            this.tb2.TabIndex = 6;
             // 
-            // textBox3
+            // tb3
             // 
-            this.textBox3.Location = new System.Drawing.Point(211, 147);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(235, 20);
-            this.textBox3.TabIndex = 7;
+            this.tb3.Location = new System.Drawing.Point(390, 295);
+            this.tb3.Name = "tb3";
+            this.tb3.Size = new System.Drawing.Size(152, 20);
+            this.tb3.TabIndex = 7;
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(472, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(37, 181);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(799, 350);
+            this.dataGridView1.Size = new System.Drawing.Size(336, 257);
             this.dataGridView1.TabIndex = 8;
             // 
-            // button1
+            // btnFeladat2
             // 
-            this.button1.Location = new System.Drawing.Point(472, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 53);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "2";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnFeladat2.BackColor = System.Drawing.Color.White;
+            this.btnFeladat2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat2.Location = new System.Drawing.Point(390, 23);
+            this.btnFeladat2.Name = "btnFeladat2";
+            this.btnFeladat2.Size = new System.Drawing.Size(108, 42);
+            this.btnFeladat2.TabIndex = 9;
+            this.btnFeladat2.Text = "2";
+            this.btnFeladat2.UseVisualStyleBackColor = false;
+            this.btnFeladat2.Click += new System.EventHandler(this.btnFeladat2_Click);
             // 
-            // button6
+            // btnFeladat3
             // 
-            this.button6.Location = new System.Drawing.Point(587, 29);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(109, 53);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "3";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnFeladat3.BackColor = System.Drawing.Color.White;
+            this.btnFeladat3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat3.Location = new System.Drawing.Point(504, 25);
+            this.btnFeladat3.Name = "btnFeladat3";
+            this.btnFeladat3.Size = new System.Drawing.Size(108, 40);
+            this.btnFeladat3.TabIndex = 10;
+            this.btnFeladat3.Text = "3";
+            this.btnFeladat3.UseVisualStyleBackColor = false;
+            this.btnFeladat3.Click += new System.EventHandler(this.btnFeladat3_Click);
             // 
-            // button7
+            // btnFeladat4
             // 
-            this.button7.Location = new System.Drawing.Point(702, 29);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(109, 53);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "4";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnFeladat4.BackColor = System.Drawing.Color.White;
+            this.btnFeladat4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat4.Location = new System.Drawing.Point(390, 71);
+            this.btnFeladat4.Name = "btnFeladat4";
+            this.btnFeladat4.Size = new System.Drawing.Size(108, 41);
+            this.btnFeladat4.TabIndex = 11;
+            this.btnFeladat4.Text = "4";
+            this.btnFeladat4.UseVisualStyleBackColor = false;
+            this.btnFeladat4.Click += new System.EventHandler(this.btnFeladat4_Click);
             // 
-            // button8
+            // btnFeladat5
             // 
-            this.button8.Location = new System.Drawing.Point(817, 29);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(109, 53);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "5";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnFeladat5.BackColor = System.Drawing.Color.White;
+            this.btnFeladat5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat5.Location = new System.Drawing.Point(504, 75);
+            this.btnFeladat5.Name = "btnFeladat5";
+            this.btnFeladat5.Size = new System.Drawing.Size(108, 39);
+            this.btnFeladat5.TabIndex = 12;
+            this.btnFeladat5.Text = "5";
+            this.btnFeladat5.UseVisualStyleBackColor = false;
+            this.btnFeladat5.Click += new System.EventHandler(this.btnFeladat5_Click);
             // 
-            // button9
+            // btnFeladat6
             // 
-            this.button9.Location = new System.Drawing.Point(932, 29);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(109, 53);
-            this.button9.TabIndex = 13;
-            this.button9.Text = "6";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnFeladat6.BackColor = System.Drawing.Color.White;
+            this.btnFeladat6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat6.Location = new System.Drawing.Point(390, 120);
+            this.btnFeladat6.Name = "btnFeladat6";
+            this.btnFeladat6.Size = new System.Drawing.Size(108, 39);
+            this.btnFeladat6.TabIndex = 13;
+            this.btnFeladat6.Text = "6";
+            this.btnFeladat6.UseVisualStyleBackColor = false;
+            this.btnFeladat6.Click += new System.EventHandler(this.btnFeladat6_Click);
             // 
-            // button10
+            // btnFeladat7
             // 
-            this.button10.Location = new System.Drawing.Point(1047, 29);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(109, 53);
-            this.button10.TabIndex = 14;
-            this.button10.Text = "7";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnFeladat7.BackColor = System.Drawing.Color.White;
+            this.btnFeladat7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat7.Location = new System.Drawing.Point(504, 122);
+            this.btnFeladat7.Name = "btnFeladat7";
+            this.btnFeladat7.Size = new System.Drawing.Size(108, 37);
+            this.btnFeladat7.TabIndex = 14;
+            this.btnFeladat7.Text = "7";
+            this.btnFeladat7.UseVisualStyleBackColor = false;
+            this.btnFeladat7.Click += new System.EventHandler(this.btnFeladat7_Click);
             // 
-            // button11
+            // btnFeladat8
             // 
-            this.button11.Location = new System.Drawing.Point(1162, 29);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(109, 53);
-            this.button11.TabIndex = 15;
-            this.button11.Text = "8";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnFeladat8.BackColor = System.Drawing.Color.White;
+            this.btnFeladat8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFeladat8.Location = new System.Drawing.Point(450, 165);
+            this.btnFeladat8.Name = "btnFeladat8";
+            this.btnFeladat8.Size = new System.Drawing.Size(108, 34);
+            this.btnFeladat8.TabIndex = 15;
+            this.btnFeladat8.Text = "8";
+            this.btnFeladat8.UseVisualStyleBackColor = false;
+            this.btnFeladat8.Click += new System.EventHandler(this.btnFeladat8_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(34, 160);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 18);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Táblázat";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 450);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnFeladat8);
+            this.Controls.Add(this.btnFeladat7);
+            this.Controls.Add(this.btnFeladat6);
+            this.Controls.Add(this.btnFeladat5);
+            this.Controls.Add(this.btnFeladat4);
+            this.Controls.Add(this.btnFeladat3);
+            this.Controls.Add(this.btnFeladat2);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnTable);
+            this.Controls.Add(this.tb3);
+            this.Controls.Add(this.tb2);
+            this.Controls.Add(this.tb1);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnRead);
+            this.Controls.Add(this.btnInsert);
+            this.Controls.Add(this.btnCreate);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -217,22 +265,23 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnTable;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.TextBox tb1;
+        private System.Windows.Forms.TextBox tb2;
+        private System.Windows.Forms.TextBox tb3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnFeladat2;
+        private System.Windows.Forms.Button btnFeladat3;
+        private System.Windows.Forms.Button btnFeladat4;
+        private System.Windows.Forms.Button btnFeladat5;
+        private System.Windows.Forms.Button btnFeladat6;
+        private System.Windows.Forms.Button btnFeladat7;
+        private System.Windows.Forms.Button btnFeladat8;
+        private System.Windows.Forms.Label label1;
     }
 }
 

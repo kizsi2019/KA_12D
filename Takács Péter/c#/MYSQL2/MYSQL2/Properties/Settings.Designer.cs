@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MYSQL2.Properties
+namespace MySQL2.Properties
 {
 
 
