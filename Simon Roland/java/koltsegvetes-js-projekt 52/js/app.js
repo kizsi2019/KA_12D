@@ -71,7 +71,7 @@ var feluletvezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista',
+        kiadasTarolo: '.kiadasok__lista'
     }
     return {
         getInput: function(){
@@ -91,14 +91,22 @@ var feluletvezerlo = (function(){
             //HTML string letrehozasa placeholder ertekekkel
             if (tipus === 'bev'){
                 elem = DOMElemek.bevetelTarolo;
-                html = ' <div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>'
+                html = ' <div class="tetel clearfix" id="bev-%id%"> <div class="tetel__leiras">%leiras%</div> <div class="right clearfix"> <div class="tetel__ertek">%ertek%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>';
                     
             } else if (tipus === 'kia'){
                 elem = DOMElemek.kiadasTarolo;
-                html = '<div class="tetel clearfix" id="expense-0"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> '
+                html = '<div class="tetel clearfix" id="kia-%id%"> <div class="tetel__leiras">%leiras%</div> <div class="right clearfix"> <div class="tetel__ertek">%ertek%</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> ';
             }
+
+            //HTML string placeholder ertekekkel csereje
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leiras%', obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+
+            //HTML beszurasa a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         }
-    }
+    };
 
 })();
 
@@ -120,13 +128,15 @@ document.addEventListener('keydown', function(event){
 });
 }
 vezTetelHozzaadas = function(){
+    var input, ujTetel;
     // 1. bevitt adatok megszerzese 
-    var input = feluletvezerlo.getInput();
+    input = feluletvezerlo.getInput();
  
     
     // 2. adatok atadasa a koltsegvetesvezerlo modulnak
-    
+    ujTetel = koltsegvetesvezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
     // 3. megjelenites ui-n
+    feluletvezerlo.tetelMegjelenites(ujTetel,input.tipus);
     
     // 4. koltsegvetes ujraszamolasa
 
