@@ -1,6 +1,6 @@
 // objektum letrehozasa
 
-/*var odon = {
+var odon = {
     nev: 'Ödön',
     szuletesiEv: 1978,
     foglalkozas: 'grafikus'
@@ -10,7 +10,7 @@ var Szemely = function(nev, szuletesiEv, foglalkozas){
     this.nev = nev;
     this.szuletesiEv = szuletesiEv;
     this.foglalkozas = foglalkozas;
-    /*this.korszamitas = function(){
+    this.korszamitas = function(){
         console.log(2024 - this.szuletesiEv);
     }
 };
@@ -29,5 +29,5 @@ erzsi.korszamitas();
 
 console.log(Szemely);
 console.log(odon);
-console.log(odon.test);*/
+console.log(odon.test);
 
