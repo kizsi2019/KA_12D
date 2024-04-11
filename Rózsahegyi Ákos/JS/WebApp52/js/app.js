@@ -93,6 +93,14 @@ var feluletVezerlo = (function() {
                 elem = DOM_elemek.kiadasTarolo;
                 html = '<div class="tetel clearfix" id="expense-0"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             }
+
+            // HTML string placeholder cseréje értékekkel
+            ujHtml = html.replace('%id', obj.id);
+            ujHtml = ujHtml.replace('%leiras', obj.leiras);
+            ujHtml = ujHtml.replace('%ertek', obj.ertek);
+
+            // HTML beszúrása a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         }
     }
 })();
@@ -113,13 +121,19 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         });
     }
 
-    vezTetelHozzaadas = function() {
+    var vezTetelHozzaadas = function() {
+        var input, ujTetel;
+        
         // 1. bevitt adatok megszerzése
         var input = feluletVezerlo.getInput();
         console.log(input);
 
         // 2. adatok átadása a koltsegvetesVezerlo modulnak
+        ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
+        
         // 3. Megjelenítés UI-n
+        feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
+
         // 4. Költségvetés újraszámolása
         // 5. Összeg megjelenítése a felületen
     }
