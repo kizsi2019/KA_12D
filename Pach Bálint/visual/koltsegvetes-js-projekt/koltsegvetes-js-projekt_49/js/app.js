@@ -14,8 +14,8 @@ var feluletVezerlo = (function(){
       getInput: function(){
          return{
             tipus: document.querySelector(DOMElemek.inputTipus).value,
-            leiras: document.querySelector(DOMElemek).value,
-            ertek: document.querySelector(DOMElemek).value,
+            leiras: document.querySelector(DOMElemek.inputLeiras).value,
+            ertek: document.querySelector(DOMElemek.inputErtek).value,
          }
       },
    
@@ -27,8 +27,11 @@ var feluletVezerlo = (function(){
 
 
 var vezerlo = (function(koltsegvetesVez, feluletVez){
-
-   var DOM = feluletVezerlo.getDOMEelemek();
+   var esemenykezelokBeallit = function(){
+      var DOM = feluletVezerlo.getDOMEelemek();
+      document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzadas);
+      
+   }
    vezTetelHozzadas = function(){
       var input = feluletVezerlo.getInput();
       console.log(input);
@@ -45,8 +48,15 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
     //5. Össszeg megjelenítése a felületen
 
    });
+   return {
+      init: function(){
+         console.log("Alkalmazás fut");
+         esemenykezelokBeallit();
+      }
+   }
+   
 
-document.querySelectorAll(DOM.inputGomb).addEventListener("click", vezTetelHozzadas);
+   document.querySelectorAll(DOM.inputGomb).addEventListener("click", vezTetelHozzadas);
 
    document.addEventListener("keydown", function(event){
       if (event.key !== undefined && event.key === "Enter" ){
@@ -57,4 +67,6 @@ document.querySelectorAll(DOM.inputGomb).addEventListener("click", vezTetelHozza
    });
 
 })(koltsegvetesVezerlo, feluletVezerlo);
+
+vezerlo.init();
 
