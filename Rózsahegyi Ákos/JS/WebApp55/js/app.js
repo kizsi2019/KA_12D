@@ -128,10 +128,10 @@ var feluletVezerlo = (function() {
             //HTML string létrehozása placeholder értékekkel
             if (tipus === 'bev') {
                 elem = DOM_elemek.bevetelTarolo;
-                html = '<div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+                html = '<div class="tetel clearfix" id="bev-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             } else if (tipus === 'kia') {
                 elem = DOM_elemek.kiadasTarolo;
-                html = '<div class="tetel clearfix" id="expense-0"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+                html = '<div class="tetel clearfix" id="kia-0"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             }
 
             // HTML string placeholder cseréje értékekkel
@@ -188,19 +188,19 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         
         // 1. bevitt adatok megszerzése
         input = feluletVezerlo.getInput();
-        console.log(input);
-
-        // 2. adatok átadása a koltsegvetesVezerlo modulnak
-        ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
+        if (input.leiras !== '' && !isNaN(input.ertek) && input.ertek > 0) {
+            // 2. adatok átadása a koltsegvetesVezerlo modulnak
+            ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
         
-        // 3. Megjelenítés UI-n
-        feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
+            // 3. Megjelenítés UI-n
+            feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
 
-        // 4. Mezők törlése
-        feluletVezerlo.urlapTorles();
+            // 4. Mezők törlése
+            feluletVezerlo.urlapTorles();
 
-        // 5. Költségvetés újraszámolása és frissítése a felületen
-        osszegFrissitese();
+            // 5. Költségvetés újraszámolása és frissítése a felületen
+            osszegFrissitese();
+        }
     }
     return {
         init: function() {
