@@ -3,12 +3,12 @@ var koltsegvetesvezerlo = (function(){
     var Kiadas = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
     var Bevetel = function(id, leiras, ertek){
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
     var vegosszegSzamolas = function(tip){
         var osszeg = 0;
@@ -163,21 +163,23 @@ var feluletvezerlo = (function(){
 })();
 
 // alkalmazasvezerlo
-var vezerlo = (function(koltsegvetesvez, feluletvez){
-var esemenykezelokBeallit = function(){
-    var DOM = feluletvezerlo.getDOMElemek();
+var vezerlo = (function(koltsegvetesvezerlo, feluletvezerlo){
+    var esemenykezeloBeallit = function(){
+        var DOM = feluletvezerlo.getDOMElemek();
 
-document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
+    document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
 
-document.addEventListener('keydown', function(event){
-    if (event.key !== undefined && event.key === 'Enter'){
-        vezTetelHozzaadas();
-    }
-    else if (event.keyCode !== undefined && event.keyCode === 13){
-        vezTetelHozzaadas();
-    }
+    document.addEventListener('keydown', function(event){
+        if (event.key !== undefined && event.key === 'Enter'){
+           vezTetelHozzaadas();
+        }
+        else if (event.keyCode !== undefined && event.keyCode === 13){
+            vezTetelHozzaadas();
+        }
 
-});
+    });
+    };
+
 
 var osszegFrissitese = function(){
     // 1. Koltsegvetes ujraszamolasa
@@ -195,7 +197,6 @@ var osszegFrissitese = function(){
 
 
 
-}
 vezTetelHozzaadas = function(){
     var input, ujTetel;
     // 1. bevitt adatok megszerzese 
@@ -217,7 +218,7 @@ vezTetelHozzaadas = function(){
 return{
     init: function(){
         console.log('Alkalmazás fut');
-        esemenykezelokBeallit();
+        esemenykezeloBeallit();
     }
 }
 
