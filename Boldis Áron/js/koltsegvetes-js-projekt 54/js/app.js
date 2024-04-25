@@ -90,11 +90,11 @@ var feluletVezerlo = (function(){
       //HTML string létrehozása
       if (tipus ===  "bev"){
          elem = DOMElemek.bevetelTarolo;
-         html = '<div class="tetel clearfix" id="bevetelek-%id%"> <div class="tetel__leiras">%leiras%</div> <div class="right clearfix"> <div class="tetel__ertek">%ertek%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>';
+         html = '<div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> <div class="tetel clearfix" id="bevetelek-1"> <div class="tetel__leiras">Autó eladás</div> <div class="right clearfix"> <div class="tetel__ertek">+ 1,500.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>'
       }
       else if (tipus === "kia"){
          elem = DOMElemek.kiadasTarolo;
-         html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div> <div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+         html = '<div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> <div class="tetel clearfix" id="bevetelek-1"> <div class="tetel__leiras">Autó eladás</div> <div class="right clearfix"> <div class="tetel__ertek">+ 1,500.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>'
       }
 
       ujHtml = html.replace('°%id%', obj.id);
