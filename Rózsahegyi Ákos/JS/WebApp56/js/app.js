@@ -106,7 +106,11 @@ var feluletVezerlo = (function() {
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
+        kiadasTarolo: '.kiadasok__lista',
+        koltsegvetesCimke: '.koltsegvetes__ertek',
+        osszebevetelCimke: '.koltsegvetes__bevetelek--ertek',
+        osszkiadasCimke: '.koltsegvetes__kiadosok--ertek',
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
     }
     return {
         getInput: function() {
@@ -127,10 +131,10 @@ var feluletVezerlo = (function() {
             //HTML string létrehozása placeholder értékekkel
             if (tipus === 'bev') {
                 elem = DOM_elemek.bevetelTarolo;
-                html = '<div class="tetel clearfix" id="bev-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+                html = '<div class="tetel clearfix" id="bev-id%"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             } else if (tipus === 'kia') {
                 elem = DOM_elemek.kiadasTarolo;
-                html = '<div class="tetel clearfix" id="kia-0"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+                html = '<div class="tetel clearfix" id="kia-id%"> <div class="tetel__leiras">Lakás bérleti díj</div> <div class="right clearfix"> <div class="tetel__ertek">- 900.00</div> <div class="tetel__szazalek">21%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             }
 
             // HTML string placeholder cseréje értékekkel
@@ -151,6 +155,19 @@ var feluletVezerlo = (function() {
                 currentvalue.value = '';
             });
             mezokTomb[0].focus();
+        },
+
+        koltsegvetesMegjelenites: function(obj) {
+            document.querySelector(DOM_elemek.koltsegvetesCimke).textContent = obj.osszeg;
+            document.querySelector(DOM_elemek.osszebevetelCimke).textContent = obj.bev;
+            document.querySelector(DOM_elemek.osszkiadasCimke).textContent = obj.kia;
+
+            if (obj.szazalek > 0) {
+                document.querySelector(DOM_elemek.szazalekCimke).textContent = obj.szazalek + '%';
+            }
+            else {
+                document.querySelector(DOM_elemek.szazalekCimke).textContent = '---';
+            }
         }
     }
 })();
@@ -204,6 +221,12 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
     return {
         init: function() {
             console.log("Alkalmazás fut");
+            feluletVezerlo.koltsegvetesMegjelenites({
+                osszeg: 0,
+                bev: 0,
+                kia: 0,
+                szazalek: -1
+            });
             esemenykezelokBeallit();
         }
     }
