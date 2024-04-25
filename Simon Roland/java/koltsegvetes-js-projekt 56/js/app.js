@@ -112,13 +112,8 @@ var feluletvezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista',
-        koltsegvetesCimke: '.koltsegvetes__ertek',
-        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
-        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
-        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
-    };
-
+        kiadasTarolo: '.kiadasok__lista'
+    }
     return {
         getInput: function(){
             return{
@@ -162,17 +157,6 @@ var feluletvezerlo = (function(){
                 currentValue.value = '';
             });
             mezokTomb[0].focus();
-        },
-        koltsegvetesMegjelenites: function(obj){
-            document.querySelector(DOMElemek.koltsegvetesCimke).textContent = obj.osszeg;
-            document.querySelector(DOMElemek.osszbevetelCimke).textContent = obj.bev;
-            document.querySelector(DOMElemek.osszkiadasCimke).textContent = obj.kia;
-
-            if (obj.szazalek > 0){
-                document.querySelector(DOMElemek.szazalekCimke).textContent = obj.szazalek + '%';
-            }else{
-                document.querySelector(DOMElemek.szazalekCimke).textContent = '---';
-            }
         }
     };
 
@@ -234,12 +218,6 @@ vezTetelHozzaadas = function(){
 return{
     init: function(){
         console.log('Alkalmazás fut');
-        feluletvezerlo.koltsegvetesMegjelenites({
-            osszeg: 0,
-            bev: 0,
-            kia: 0,
-            szazalek: -1
-        });
         esemenykezeloBeallit();
     }
 }
