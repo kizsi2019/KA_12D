@@ -68,6 +68,22 @@ var koltsegvetesvezerlo = (function(){
             //uj tetel visszaadasa
             return ujTetel;
         },
+
+        tetelTorol: function(tip, id){
+            var idTomb, index;
+            if (adat.tetelek && adat.tetelek[tip]){
+                idTomb = adat.tetelek[tip].map(function(aktualis){
+                    return aktualis.id;
+                });
+                index = idTomb.indexOf(id);
+                if ( index !== -1){
+                    adat.tetelek[tip].splice(index,1);
+                }
+            }
+            else{
+                console.error('A tetelek objektum vagy a tip kulcs nem letezik.');
+            }
+        },
         koltsegvetesSzamolas: function(){
             //1. bevetel es kiadasok osszegenek kiszamitasa
 
@@ -112,8 +128,14 @@ var feluletvezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
-    }
+        kiadasTarolo: '.kiadasok__lista',
+        koltsegvetesCimke: '.koltsegvetes__ertek',
+        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
+        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
+        kontener: '.kontener'
+    };
+
     return {
         getInput: function(){
             return{
@@ -147,6 +169,12 @@ var feluletvezerlo = (function(){
             //HTML beszurasa a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
+        
+        tetelTorles:function(tetelID){
+            var elem = document.getElementById(tetelID);
+            elem.parentNode.removeChild(elem);
+        },
+
         urlapTorles : function(){
             var mezok, mezokTomb;
             mezok = document.querySelectorAll(DOMElemek.inputLeiras + ', ' + DOMElemek.inputErtek);
@@ -157,6 +185,17 @@ var feluletvezerlo = (function(){
                 currentValue.value = '';
             });
             mezokTomb[0].focus();
+        },
+        koltsegvetesMegjelenites: function(obj){
+            document.querySelector(DOMElemek.koltsegvetesCimke).textContent = obj.osszeg;
+            document.querySelector(DOMElemek.osszbevetelCimke).textContent = obj.bev;
+            document.querySelector(DOMElemek.osszkiadasCimke).textContent = obj.kia;
+
+            if (obj.szazalek > 0){
+                document.querySelector(DOMElemek.szazalekCimke).textContent = obj.szazalek + '%';
+            }else{
+                document.querySelector(DOMElemek.szazalekCimke).textContent = '---';
+            }
         }
     };
 
@@ -178,6 +217,7 @@ var vezerlo = (function(koltsegvetesvezerlo, feluletvezerlo){
         }
 
     });
+    document.querySelector(DOM.kontener).addEventListener('click', vezTetelTorles);
     };
 
 
@@ -189,7 +229,7 @@ var osszegFrissitese = function(){
     var koltsegvetes = koltsegvetesvezerlo.getkoltsegvetes();
 
     //3. Osszeg megjelenitese a feluleten
-    console.log(koltsegvetes);
+    feluletvezerlo.koltsegvetesMegjelenites(koltsegvetes);
 
 
 
@@ -214,10 +254,35 @@ vezTetelHozzaadas = function(){
     // 5. koltsegvetes ujraszamolasa
     osszegFrissitese();
     // 6. osszeg megjelenitese a feluleten
-}
+};
+var vezTetelTorles = function(event){
+    var tetelID, splitID, tip, ID
+    tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+    if (tetelID){
+        splitID = tetelID.split('-');
+        tip = splitID[0];
+        ID = parseInt(splitID[1]);
+    
+
+    //1. tetel torlese az adaz obj-bol
+    koltsegvetesvezerlo.tetelTorol(tip, ID);
+
+    //2. tetel torlese a feluletrol
+    feluletvezerlo.tetelTorles(tetelID);
+
+    //3. osszegek ujraszamolasa es megjelenitese a feluleten
+    osszegFrissitese();
+    }
+};
 return{
     init: function(){
         console.log('Alkalmazás fut');
+        feluletvezerlo.koltsegvetesMegjelenites({
+            osszeg: 0,
+            bev: 0,
+            kia: 0,
+            szazalek: -1
+        });
         esemenykezeloBeallit();
     }
 }
