@@ -205,7 +205,7 @@ var osszegFrissitese = function(){
     var koltsegvetes = koltsegvetesvezerlo.getkoltsegvetes();
 
     //3. Osszeg megjelenitese a feluleten
-    console.log(koltsegvetes);
+    feluletvezerlo.koltsegvetesMegjelenites(koltsegvetes);
 
 
 
