@@ -196,7 +196,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         var koltsegvetes = koltsegvetesVezerlo.getkoltsegvetes();
 
         // 3. Összeg megjelenítése a felületen
-        console.log(koltsegvetes);
+        feluletVezerlo.koltsegvetesMegjelenites(koltsegvetes);
     }
     
     var vezTetelHozzaadas = function() {
@@ -204,6 +204,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         
         // 1. bevitt adatok megszerzése
         input = feluletVezerlo.getInput();
+        
         if (input.leiras !== '' && !isNaN(input.ertek) && input.ertek > 0) {
             // 2. adatok átadása a koltsegvetesVezerlo modulnak
             ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
