@@ -50,4 +50,4 @@ namespace BukkMarathon.Test.Tesztek
         public string Kategoria { get; set; }
     }
 }
-}
+

@@ -10,13 +10,16 @@ leptet();
 leptet();
 leptet();*/
 
-var leptet = 0;
+var leptet =(
 
 function ()
 {
+    var szamlalo;
     szamlalo++;
     console.log(szamlalo);
+
 }
+)();
 leptet();
 leptet();
 leptet();
