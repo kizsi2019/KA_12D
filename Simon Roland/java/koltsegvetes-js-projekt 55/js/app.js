@@ -3,12 +3,12 @@ var koltsegvetesvezerlo = (function(){
     var Kiadas = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
     var Bevetel = function(id, leiras, ertek){
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
     var vegosszegSzamolas = function(tip){
         var osszeg = 0;
@@ -112,8 +112,13 @@ var feluletvezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
-    }
+        kiadasTarolo: '.kiadasok__lista',
+        koltsegvetesCimke: '.koltsegvetes__ertek',
+        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
+        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
+    };
+
     return {
         getInput: function(){
             return{
@@ -157,27 +162,40 @@ var feluletvezerlo = (function(){
                 currentValue.value = '';
             });
             mezokTomb[0].focus();
+        },
+        koltsegvetesMegjelenites: function(obj){
+            document.querySelector(DOMElemek.koltsegvetesCimke).textContent = obj.osszeg;
+            document.querySelector(DOMElemek.osszbevetelCimke).textContent = obj.bev;
+            document.querySelector(DOMElemek.osszkiadasCimke).textContent = obj.kia;
+
+            if (obj.szazalek > 0){
+                document.querySelector(DOMElemek.szazalekCimke).textContent = obj.szazalek + '%';
+            }else{
+                document.querySelector(DOMElemek.szazalekCimke).textContent = '---';
+            }
         }
     };
 
 })();
 
 // alkalmazasvezerlo
-var vezerlo = (function(koltsegvetesvez, feluletvez){
-var esemenykezelokBeallit = function(){
-    var DOM = feluletvezerlo.getDOMElemek();
+var vezerlo = (function(koltsegvetesvezerlo, feluletvezerlo){
+    var esemenykezeloBeallit = function(){
+        var DOM = feluletvezerlo.getDOMElemek();
 
-document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
+    document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
 
-document.addEventListener('keydown', function(event){
-    if (event.key !== undefined && event.key === 'Enter'){
-        vezTetelHozzaadas();
-    }
-    else if (event.keyCode !== undefined && event.keyCode === 13){
-        vezTetelHozzaadas();
-    }
+    document.addEventListener('keydown', function(event){
+        if (event.key !== undefined && event.key === 'Enter'){
+           vezTetelHozzaadas();
+        }
+        else if (event.keyCode !== undefined && event.keyCode === 13){
+            vezTetelHozzaadas();
+        }
 
-});
+    });
+    };
+
 
 var osszegFrissitese = function(){
     // 1. Koltsegvetes ujraszamolasa
@@ -195,7 +213,6 @@ var osszegFrissitese = function(){
 
 
 
-}
 vezTetelHozzaadas = function(){
     var input, ujTetel;
     // 1. bevitt adatok megszerzese 
@@ -217,7 +234,13 @@ vezTetelHozzaadas = function(){
 return{
     init: function(){
         console.log('Alkalmazás fut');
-        esemenykezelokBeallit();
+        feluletvezerlo.koltsegvetesMegjelenites({
+            osszeg: 0,
+            bev: 0,
+            kia: 0,
+            szazalek: -1
+        });
+        esemenykezeloBeallit();
     }
 }
 
