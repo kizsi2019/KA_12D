@@ -66,3 +66,24 @@ console.log(nev.endsWith("ba"));
 console.log(nev.includes("gub"));
 console.log(vezeteknev.repeat(3));
 console.log(keresztnev.repeat(3));
+
+////////////////////////////////
+///////// Nyíl függvény ////////
+////////////////////////////////
+
+const evek = [1, 1970, 1980, 1990, 2000];
+
+var korokES5 = evek.map(function(elem){
+    return 2024 - elem;
+});
+console.log(korokES5);
+
+let korokES6 = evek.map(elem => 2024 - elem);
+console.log(korokES6);
+
+kororkES6 = evek.map((elem, index)=>{
+    const aktEv = new Date().getFullYear();
+    const kor = aktEv - elem;
+    return `kor ${index}: ${kor},`;
+});
+console.log(korokES6);
