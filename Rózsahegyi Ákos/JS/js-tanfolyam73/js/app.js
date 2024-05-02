@@ -68,7 +68,7 @@ console.log(i);
 })();
 console.log(c);
 
-*/
+
 ////////////////////////////////////////////////////////////////
 // Sztringek ES6-ban
 
@@ -94,3 +94,29 @@ console.log(nev.endsWith('ek'));
 console.log(nev.includes('icc'));
 console.log(vezetekNev.repeat(3));
 console.log(`${vezetekNev} `.repeat(3));
+
+*/
+////////////////////////////////////////////////////////////////
+// Nyíl függvények
+
+const evek = [1970, 1975, 1954, 2010, 1981];
+
+// ES5
+var korokES5 = evek.map(function(elem) {
+    return 2024 - elem;
+});
+console.log(korokES5);
+
+// ES6
+let korokES6 = evek.map(elem => 2024 - elem);
+console.log(korokES6);
+
+korokES6 = evek.map((elem, index) => `Kor ${index}: ${2024 - elem}.`);
+console.log(korokES6);
+
+korokES6 = evek.map((elem, index) => {
+    const aktEv = new Date().getFullYear();
+    const kor = aktEv - elem;
+    return `Kor ${index}: ${kor},`;
+});
+console.log(korokES6);
