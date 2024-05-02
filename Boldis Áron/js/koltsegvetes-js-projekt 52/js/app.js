@@ -90,12 +90,19 @@ var feluletVezerlo = (function(){
       //HTML string létrehozása
       if (tipus ===  "bev"){
          elem = DOMElemek.bevetelTarolo;
-         html = '<div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> <div class="tetel clearfix" id="bevetelek-1"> <div class="tetel__leiras">Autó eladás</div> <div class="right clearfix"> <div class="tetel__ertek">+ 1,500.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>'
+         html = '<div class="tetel clearfix" id="bevetelek-%id%"> <div class="tetel__leiras">%leiras%</div> <div class="right clearfix"> <div class="tetel__ertek">%ertek%</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>';
       }
       else if (tipus === "kia"){
          elem = DOMElemek.kiadasTarolo;
-         html = '<div class="tetel clearfix" id="bevetelek-0"> <div class="tetel__leiras">Fizetés</div> <div class="right clearfix"> <div class="tetel__ertek">+ 2,100.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div> <div class="tetel clearfix" id="bevetelek-1"> <div class="tetel__leiras">Autó eladás</div> <div class="right clearfix"> <div class="tetel__ertek">+ 1,500.00</div> <div class="tetel__torol"> <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button> </div> </div> </div>'
+         html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div> <div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
       }
+
+      ujHtml = html.replace('°%id%', obj.id);
+      ujHtml = ujHtml.replace('%leiras%', obj.leiras);
+      ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+
+      // HTML beszúrása a DOM-ba
+      document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
    }
    }
 })();
@@ -108,17 +115,21 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
       
    }
    vezTetelHozzadas = function(){
+
       var input = feluletVezerlo.getInput();
       console.log(input);
    }
    document.querySelector(".hozzaad__gomb").addEventListener("click", function(){
     //1. bevitt adatok megszerzese
-      
+      input = feluletVezerlo.getInput();
+
     //2. adatok átadása a koltsegvetesVezerlo modulnak
-
+    ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
+   
     //3. Megjelenítés UI-n
+    feluletVezerlo.tetelMegjelenítés(ujTetel, input.tipus);
 
-    //4. Költségvetés újraszámolása
+    //4. Költségvetés újraszámolása 
 
     //5. Össszeg megjelenítése a felületen
 
@@ -144,4 +155,3 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 })(koltsegvetesVezerlo, feluletVezerlo);
 
 vezerlo.init();
-
