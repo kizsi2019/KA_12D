@@ -3,22 +3,28 @@ var koltsegvetesvezerlo = (function(){
     var Kiadas = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = parseInt(ertek);
+        this.ertek = ertek;
     }
     var Bevetel = function(id, leiras, ertek){
         this.id = id;
         this.leiras = leiras;
-        this.ertek = parseInt(ertek);
+        this.ertek = ertek;
     }
-    var vegosszegSzamolas = function(tip){
-        var osszeg = 0;
-        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0){
-            adat.tetelek[tip].forEach(function(currentValue){
-                if(!isNaN(currentValue.ertek)){
+
+    var vegosszegszamolas = function(tip)
+    {
+        var osszeg = 0 
+        if(adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0)
+        {
+            adat.tetelek[tip].forEach(function(currentValue)
+            {
+                if (!isNaN(currentValue.ertek))
+                {
                     osszeg += currentValue.ertek;
                 }
-            });
-            adat.osszegek[tip] = osszeg;
+            }
+            );
+            adat.osszegek();
         }
     }
 
@@ -30,9 +36,7 @@ var koltsegvetesvezerlo = (function(){
         osszegek: {
             bev: 0,
             kia: 0
-        },
-        koltsegvetes: 0,
-        szazalek: -1
+        }
     }
     
     return{
@@ -68,32 +72,22 @@ var koltsegvetesvezerlo = (function(){
             //uj tetel visszaadasa
             return ujTetel;
         },
-        koltsegvetesSzamolas: function(){
-            //1. bevetel es kiadasok osszegenek kiszamitasa
 
-            vegosszegSzamolas('bev');
-            vegosszegSzamolas('kia');
-
-            //2. szazalek szamolasa: kiadasok / bevetel * 100
+        koltsegvetesszamolas: function()
+        {
+            vegosszegszamolas('bev');
+            vegosszegszamolas('kia');
 
             adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia;
 
-            //3. szazalek szamolasa: kiadasok / bevetel * 100
-
-            if (adat.osszegek.bev > 0){
-                adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) * 100);
-            }else {
-                adat.szazalek = -1;
+            if(adat.osszegek.bev> 0)
+            {
+                adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev)*100);
+            
             }
-        },
-        
-        getkoltsegvetes: function() {
-            return {
-                osszeg: adat.koltsegvetes,
-                bev: adat.osszegek.bev,
-                kia: adat.osszegek.kia,
-                szazalek: adat.szazalek
-
+            else
+            {
+                adat.szazalek = -1;
             }
         },
 
@@ -112,13 +106,8 @@ var feluletvezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista',
-        koltsegvetesCimke: '.koltsegvetes__ertek',
-        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
-        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
-        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
-    };
-
+        kiadasTarolo: '.kiadasok__lista'
+    }
     return {
         getInput: function(){
             return{
@@ -152,67 +141,54 @@ var feluletvezerlo = (function(){
             //HTML beszurasa a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
-        urlapTorles : function(){
-            var mezok, mezokTomb;
-            mezok = document.querySelectorAll(DOMElemek.inputLeiras + ', ' + DOMElemek.inputErtek);
-            
-            mezokTomb = Array.prototype.slice.call(mezok);
-            
-            mezokTomb.forEach(function(currentValue, index, array){
-                currentValue.value = '';
-            });
-            mezokTomb[0].focus();
-        },
-        koltsegvetesMegjelenites: function(obj){
-            document.querySelector(DOMElemek.koltsegvetesCimke).textContent = obj.osszeg;
-            document.querySelector(DOMElemek.osszbevetelCimke).textContent = obj.bev;
-            document.querySelector(DOMElemek.osszkiadasCimke).textContent = obj.kia;
 
-            if (obj.szazalek > 0){
-                document.querySelector(DOMElemek.szazalekCimke).textContent = obj.szazalek + '%';
-            }else{
-                document.querySelector(DOMElemek.szazalekCimke).textContent = '---';
+        urlapTorles: function()
+        {
+            var mezok, mezokTomb;
+            mezok =document.querySelectorAll(DOMElemek.inputLeiras^',  '
+            + DOMElemek.inputErtek);
+            mezokTomb = Array.prototype.slice.call(mezok);
+
+            mezokTomb.forEach(function(currentValue, index, array)
+            {
+                currentValue.value = '';
+
             }
+            );
+            mezokTomb[0].focus();
         }
     };
 
 })();
 
 // alkalmazasvezerlo
-var vezerlo = (function(koltsegvetesvezerlo, feluletvezerlo){
-    var esemenykezeloBeallit = function(){
-        var DOM = feluletvezerlo.getDOMElemek();
+var vezerlo = (function(koltsegvetesvez, feluletvez){
+var esemenykezelokBeallit = function(){
+    var DOM = feluletvezerlo.getDOMElemek();
 
-    document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
+document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
 
-    document.addEventListener('keydown', function(event){
-        if (event.key !== undefined && event.key === 'Enter'){
-           vezTetelHozzaadas();
-        }
-        else if (event.keyCode !== undefined && event.keyCode === 13){
-            vezTetelHozzaadas();
-        }
+document.addEventListener('keydown', function(event){
+    if (event.key !== undefined && event.key === 'Enter'){
+        vezTetelHozzaadas();
+    }
+    else if (event.keyCode !== undefined && event.keyCode === 13){
+        vezTetelHozzaadas();
+    }
 
-    });
-    };
+});
 
-
-var osszegFrissitese = function(){
-    // 1. Koltsegvetes ujraszamolasa
-    koltsegvetesvezerlo.koltsegvetesSzamolas();
-
-    // 2. Osszeg visszaadasa
-    var koltsegvetes = koltsegvetesvezerlo.getkoltsegvetes();
-
-    //3. Osszeg megjelenitese a feluleten
-    feluletvezerlo.koltsegvetesMegjelenites(koltsegvetes);
+var osszegfrissites = function() 
+{
+    koltsegvetesvezerlo.koltsegvetesszamolas();
 
 
+    koltsegvetes = koltsegvetesvezerlo.koltsegvetes();
 
+    console.log(koltsegvetes);
 }
 
-
-
+}
 vezTetelHozzaadas = function(){
     var input, ujTetel;
     // 1. bevitt adatok megszerzese 
@@ -223,24 +199,21 @@ vezTetelHozzaadas = function(){
     ujTetel = koltsegvetesvezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
     // 3. megjelenites ui-n
     feluletvezerlo.tetelMegjelenites(ujTetel,input.tipus);
+    
 
     // 4. mezok torlese
-    feluletvezerlo.urlapTorles();
-    
+feluletvezerlo.urlapTorles();
+
     // 5. koltsegvetes ujraszamolasa
-    osszegFrissitese();
+
+osszegfrissites();
+
     // 6. osszeg megjelenitese a feluleten
 }
 return{
     init: function(){
         console.log('Alkalmazás fut');
-        feluletvezerlo.koltsegvetesMegjelenites({
-            osszeg: 0,
-            bev: 0,
-            kia: 0,
-            szazalek: -1
-        });
-        esemenykezeloBeallit();
+        esemenykezelokBeallit();
     }
 }
 

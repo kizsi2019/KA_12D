@@ -116,7 +116,8 @@ var feluletvezerlo = (function(){
         koltsegvetesCimke: '.koltsegvetes__ertek',
         osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
         osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
-        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
+        kontener: '.kontener'
     };
 
     return {
@@ -152,6 +153,12 @@ var feluletvezerlo = (function(){
             //HTML beszurasa a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
+        
+        tetelTorol:function(tetelID){
+            var elem = document.querySelector(selectorID);
+            elem.parentNode.removeChild(elem);
+        },
+
         urlapTorles : function(){
             var mezok, mezokTomb;
             mezok = document.querySelectorAll(DOMElemek.inputLeiras + ', ' + DOMElemek.inputErtek);
@@ -230,6 +237,23 @@ vezTetelHozzaadas = function(){
     // 5. koltsegvetes ujraszamolasa
     osszegFrissitese();
     // 6. osszeg megjelenitese a feluleten
+};
+var vezTetelTorles = function(event){
+    var tetelID, splitID, tipus, ID
+    tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+    if (tetelID){
+        splitID = tetelID.split('-');
+        tipus = splitID[0];
+        ID = splitID[1];
+    }
+
+    //1. tetel torlese az adaz obj-bol
+
+    //2. tetel torlese a feluletrol
+
+    //3. osszegek ujraszamolasa es megjelenitese a feluleten
+
+    
 }
 return{
     init: function(){
