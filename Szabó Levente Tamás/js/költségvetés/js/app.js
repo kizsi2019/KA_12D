@@ -4,12 +4,24 @@ var koltsegvetesvezerlo = (function(){
         this.id = id;
         this.leiras = leiras;
         this.ertek = parseInt(ertek);
+        this.szazalek = -1;
     }
     var Bevetel = function(id, leiras, ertek){
         this.id = id;
         this.leiras = leiras;
         this.ertek = parseInt(ertek);
     }
+    Kiadas.prototype.koltsegvetesSzamolas = function(osszbevetel){
+        if (osszbevetel > 0){
+            this.szazalek = Math.round((this.ertek / osszbevetel)*100);
+        }
+        else{
+            this.szazalek = -1;
+        }
+    };
+    Kiadas.prototype.getSzazalek = function(){
+        return this.szazalek;
+    };
     var vegosszegSzamolas = function(tip){
         var osszeg = 0;
         if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0){
@@ -61,6 +73,19 @@ var koltsegvetesvezerlo = (function(){
             }
             //uj tetel visszaadasa
             return ujTetel;
+        },
+        szazalekokSzamolasa: function(){
+            if (adat.osszegek.bev > 0){
+                adat.tetelek.kia.forEach(function(currentValue){
+                    currentValue.szazalekSzamitas(adat.osszeg.bev);
+                });
+            }
+        },
+        szazalekokLekerdezese: function(){
+            var kiadasSzazalekok = adat.tetelek.kia.map(function(currentValue){
+                return currentValue.getSzazalek();
+            });
+            return kiadasSzazalekok;
         },
         teteltorol: function(tip, id){
             var idTomb, index;
@@ -208,11 +233,20 @@ var osszegFrissitese = function(){
 
     //3. Osszeg megjelenitese a feluleten
     feluletvezerlo.koltsegvetesMegjelenites(koltsegvetes);
+};
+var szazalekokFrissitese = function(){
+    // 1. Százalék újraszámolás
+    koltsegvetesvezerlo.szazalekokSzamolasa
+    // 2. Százalék kiolvasás a költségvetés vezérlőből
+    var kiadasSzazalekok = koltsegvetesvezerlo.szazalekokLekerdezese();
+    // 3. Felület frissitése az új százalékkal
+    console.log(kiadasSzazalekok);
 }
 vezTetelHozzaadas = function(){
     var input, ujTetel;
     // 1. bevitt adatok megszerzese 
     input = feluletvezerlo.getInput();
+    if (input.leiras !== '' && !isNaN(input.ertek) && input.leiras > 0)
     // 2. adatok atadasa a koltsegvetesvezerlo modulnak
     ujTetel = koltsegvetesvezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
     // 3. megjelenites ui-n
@@ -222,6 +256,7 @@ vezTetelHozzaadas = function(){
     // 5. koltsegvetes ujraszamolasa
     osszegFrissitese();
     // 6. osszeg megjelenitese a feluleten
+    szazalekokFrissitese();
 };
 var vezTetelTorles = function(event){
     //console.log(event.target.parentNode)
