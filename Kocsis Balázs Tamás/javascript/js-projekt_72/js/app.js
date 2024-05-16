@@ -78,7 +78,7 @@ console.log(vezetekNev + ' ' + keresztNev + ', szuletett ' + szuletesiEv + '-ben
 
 //es6
 
-/*console.log(`${vezeteknev} ${keresztNev}, szuletett ${szuletesiEv}-ben. Most ${korSzam(szuletesiEv)} eves `);
+console.log(`${vezeteknev} ${keresztNev}, szuletett ${szuletesiEv}-ben. Most ${korSzam(szuletesiEv)} eves `);
 
 const nev = `${vezetekNev} ${keresztNev}`;
 
@@ -94,7 +94,7 @@ console.log(`${vezetekNev}`.repeat(3))
 
 // nyilt fuggvenyek
 
-
+const evek = [1970,1975,1954, 2010, 1981];
 
 //es5
 var korokES5 = evek.map(function(elem){
@@ -102,34 +102,18 @@ var korokES5 = evek.map(function(elem){
 });
 console.log(korokES5);
 
-//es6 
-let korokES6 = evek.map(elem=> 2024 - elem);
+let korokES6 = evek.map(elem => 2024 - elem);
 
 console.log(korokES6);
 
-korokES6 = evek.map((elem, index) => `Kor ${index + 1}: ${2024 - elem}.`);
+korokES6 = evek.map((elem, index) => `Kor ${index}: ${index}: ${2024 - elem}.`);
 
-console.log(korokES6);
-
-const evek = [1970,1975,1954, 2010, 1981];
+console.log(korokES6)
 
 korokES6 = evek.map((elem, index) => {
     const aktEv = new Date().getFullYear();
     const kor = aktEv - elem;
-    return `Kor ${index + 1}: ${kor}, `;
+    return `Kor ${index}: ${kor}`;
 });
-console.log(korokES6);
-*/
-const dobozES62 = {
-    szin: 'green',
-    pozicio: 1,
-    kattintsRam: () => {
-        document.querySelector('.green').addEventListener('click', () =>{
-            var szoveg = 'En vagyok a(z) ' + this.pozicio + '. doboz es a szinem ' + this.szin + '.';
-            alert(szoveg);
-        })
-    }
 
-};
-
-dobozES62.kattintsRam();
+console.log(korokES6)
