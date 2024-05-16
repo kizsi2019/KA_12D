@@ -95,7 +95,7 @@ console.log(`${vezetekNev}`.repeat(3))
 
 // nyilt fuggvenyek
 
-
+const evek = [1970,1975,1954, 2010, 1981];
 
 //es5
 var korokES5 = evek.map(function(elem){
@@ -103,37 +103,35 @@ var korokES5 = evek.map(function(elem){
 });
 console.log(korokES5);
 
-//es6 
-let korokES6 = evek.map(elem=> 2024 - elem);
+let korokES6 = evek.map(elem => 2024 - elem);
 
 console.log(korokES6);
 
-korokES6 = evek.map((elem, index) => `Kor ${index + 1}: ${2024 - elem}.`);
+korokES6 = evek.map((elem, index) => `Kor ${index}: ${index}: ${2024 - elem}.`);
 
-console.log(korokES6);
-
-const evek = [1970,1975,1954, 2010, 1981];
+console.log(korokES6)
 
 korokES6 = evek.map((elem, index) => {
     const aktEv = new Date().getFullYear();
     const kor = aktEv - elem;
-    return `Kor ${index + 1}: ${kor}, `;
+    return `Kor ${index}: ${kor}`;
 });
+
 console.log(korokES6)
 
 const dobozES62 = {
     szin: 'zöld',
     pozicio: 1,
     kattintsRam: () => {
-        document.querySelector('.green').addEventListener('click', () =>{
-            var szoveg = 'En vagyok a(z) ' + this.pozicio + '. doboz es a szinem ' + this.szin + '.';
+        document.querySelector('.green').addEventListener('click', () => {
+            var szoveg = 'Én vagyok a(z) ' + this.pozicio + '. doboz és a színem ' + this.szin + '.';
             alert(szoveg);
         })
     }
-
 };
 
 dobozES62.kattintsRam();
+
 
 
 function Szemely(nev){
@@ -144,21 +142,76 @@ Szemely.prototype.barataimES5 = function(haverok){
     console.log(this.nev);
     var obj = this;
     var tomb = haverok.map(function(elem){
-        return obj.nev + ' barátja ' + elem + '.';
+        return obj.nev + 'baratja' + elem + '.';
     });
     console.log(tomb);
 }
+
+var haverok = ['joska', 'pista', 'odi'];
+new Szemely('Geza').barataimES5(haverok);
+
+
+Szemely.prototype.barataimES5 = function(haverok) {
+    const tomb = haverok.map(elem => `${this.nev} baratja ${elem}.`);
+    console.log(tomb);
+}
+
+new Szemely('Geza').barataimES5(haverok);
 */
-var haverok = ['Jóska', 'Pista', 'Ödön'];
-new Szemely('Géza').barataimES5(haverok);
+
+////////////// Destrukturalas ////////////////////////////////////////////////////////////////////////
+
+//es5
+
+var odon = ['Odon', 50];
+var nev = odon[0];
+var kor = odon[1];
+
+console.log(nev);
+console.log(kor);
 
 //es6
 
+const [nev2, kor2] = ['Odon', 50];
 
-Szemely.prototype.barataimES6 = function(haverok){
-    const tomb = haverok.map(elem => `${this.nev} barátja ${elem}.`);
-    console.log(tomb);
+console.log(nev2);
+console.log(kor2);
 
+
+const obj = {
+    keresztNev: 'Odon',
+    vezetekNev: 'Bodon'
+};
+
+const {keresztNev, vezetekNev} = obj;
+
+console.log(keresztNev);
+console.log(vezetekNev);
+
+const {keresztNev: x, vezetekNev: y} = obj;
+
+console.log(x);
+console.log(y);
+
+function korEsNyugdij(szuletesiEv){
+    let nyugdijKorhatar = 65;
+    const kor = new Date().getFullYear() - szuletesiEv;
+
+    return [kor, nyugdijKorhatar - kor];
 }
 
-new Szemely('Géza').barataimES6(haverok);
+const [kor3, nyugdij] = korEsNyugdij(1978);
+
+console.log(kor3);
+console.log(nyugdij);
+
+
+
+
+
+
+
+
+
+
+
