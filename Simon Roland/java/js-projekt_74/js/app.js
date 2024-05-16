@@ -1,5 +1,6 @@
 // let es const
 //es 5 
+/*
 var nev5 = 'Teszt Elek';
 var kor5 = 40;
 
@@ -78,7 +79,7 @@ console.log(vezetekNev + ' ' + keresztNev + ', szuletett ' + szuletesiEv + '-ben
 
 //es6
 
-/*console.log(`${vezeteknev} ${keresztNev}, szuletett ${szuletesiEv}-ben. Most ${korSzam(szuletesiEv)} eves `);
+console.log(`${vezeteknev} ${keresztNev}, szuletett ${szuletesiEv}-ben. Most ${korSzam(szuletesiEv)} eves `);
 
 const nev = `${vezetekNev} ${keresztNev}`;
 
@@ -118,10 +119,10 @@ korokES6 = evek.map((elem, index) => {
     const kor = aktEv - elem;
     return `Kor ${index + 1}: ${kor}, `;
 });
-console.log(korokES6);
-*/
+console.log(korokES6)
+
 const dobozES62 = {
-    szin: 'green',
+    szin: 'zöld',
     pozicio: 1,
     kattintsRam: () => {
         document.querySelector('.green').addEventListener('click', () =>{
@@ -133,3 +134,31 @@ const dobozES62 = {
 };
 
 dobozES62.kattintsRam();
+
+
+function Szemely(nev){
+    this.nev = nev;
+}
+
+Szemely.prototype.barataimES5 = function(haverok){
+    console.log(this.nev);
+    var obj = this;
+    var tomb = haverok.map(function(elem){
+        return obj.nev + ' barátja ' + elem + '.';
+    });
+    console.log(tomb);
+}
+
+var haverok = ['Jóska', 'Pista', 'Ödön'];
+new Szemely('Géza').barataimES5(haverok);
+*/
+//es6
+
+
+Szemely.prototype.barataimES6 = function(haverok){
+    const tomb = haverok.map(elem => `${this.nev} barátja ${elem}.`);
+    console.log(tomb);
+
+}
+
+new Szemely('Géza').barataimES6(haverok);

@@ -95,6 +95,7 @@ console.log(nev.includes('icc'));
 console.log(vezetekNev.repeat(3));
 console.log(`${vezetekNev} `.repeat(3));
 
+*/
 ////////////////////////////////////////////////////////////////
 // Nyíl függvények
 
@@ -119,36 +120,3 @@ korokES6 = evek.map((elem, index) => {
     return `Kor ${index}: ${kor},`;
 });
 console.log(korokES6);
-*/
-
-////////////////////////////////////////////////////////////////
-// Nyíl függvények 2.
-
-// ES5
-
-var dobozES5 = {
-    szin: 'zöld',
-    pozicio: 1,
-    kattintsRam: function() {
-        var objektum = this;
-        document.querySelector('.zold').addEventListener('click', function() {
-            var szoveg = 'Én vagyok az ' + objektum.pozicio + '. doboz, a színem ' + objektum.szin + '.';
-            alert(szoveg);
-        })
-    }
-}
-// dobozES5.kattintsRam();
-
-// ES6
-
-const dobozES6 = {
-    szin: 'zöld',
-    pozicio: 1,
-    kattintsRam: function() {
-        document.querySelector('.zold').addEventListener('click', () => {
-            var szoveg = 'Én vagyok az ' + this.pozicio + '. doboz, a színem ' + this.szin + '.';
-            alert(szoveg);
-        })
-    }
-}
-dobozES6.kattintsRam();
