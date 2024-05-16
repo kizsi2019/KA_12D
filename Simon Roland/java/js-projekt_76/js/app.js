@@ -148,7 +148,7 @@ Szemely.prototype.barataimES5 = function(haverok){
     });
     console.log(tomb);
 }
-*/
+
 var haverok = ['Jóska', 'Pista', 'Ödön'];
 new Szemely('Géza').barataimES5(haverok);
 
@@ -162,3 +162,104 @@ Szemely.prototype.barataimES6 = function(haverok){
 }
 
 new Szemely('Géza').barataimES6(haverok);
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Destrukturalas
+
+
+var odon = ['Ödön', 50];
+var nev = odon[0];
+var kor = odon[1];
+
+console.log(nev);
+console.log(kor);
+
+//es 6
+
+const [nev2, kor2] = ['Ödön', 50];
+console.log(nev2);
+console.log(kor2);
+
+const obj = {
+    keresztNev: 'Ödön',
+    vezetekNev: 'Bödön'
+};
+const {keresztNev, vezetekNev} = obj;
+console.log(keresztNev);
+console.log(vezetekNev);
+
+const {keresztNev: x, vezetekNev: y} = obj;
+console.log(x);
+console.log(y);
+
+function korEsNyugdij(szuletesiEv) {
+    let nyugdijKorhatar = 65;
+    const kor = new Date().getFullYear() - szuletesiEv;
+    
+    return[kor, nyugdijKorhatar - kor];
+
+}
+
+const [kor3, nyugdij] = korEsNyugdij(1978);
+
+console.log(kor3);
+console.log(nyugdij);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//tombok
+*/
+const dobozok = document.querySelectorAll('.rectangle');
+
+//es5 
+
+var dobozokTombES5 = Array.prototype.slice.call(dobozok)
+
+dobozokTombES5.forEach(function(aktualis){aktualis.style.backgroundColor = 'orange';
+});
+
+//es6
+
+const dobozokTombES6 = Array.from(dobozok);
+dobozokTombES6.forEach(aktualis => aktualis.style.backgroundColor = 'blue');
+
+//es5
+
+for (var i = 0; i < dobozokTombES5.length; i++){
+    if(dobozokTombES5[i].className == 'rectangle blue'){
+        continue;
+    }
+    dobozokTombES5[i].textContent = 'Kek lettem';
+}
+
+//es6
+
+for(const aktualis of dobozokTombES6) {
+    if(aktualis.className === 'rectangle blue'){
+        continue;
+    }
+    aktualis.textContent = 'Kek lettem xd';
+}
+for(const aktualis of dobozokTombES6) {
+    if(aktualis.className.includes ('blue')){
+        continue;
+    }
+    aktualis.textContent = 'Kek lettem xdd';
+}
+
+//es5 
+var korok = [2, 10, 20, 17, 14]
+
+console.log(korok);
+
+var felnottek = korok.map(function(aktualis){
+    return aktualis >=18;
+});
+console.log(felnottek);
+
+
+
+console.log(felnottek.indexOf(true));
+
+//es6
+console.log(korok.findIndex(aktualis => aktualis >= 18));
+console.log(korok.find(aktualis => aktualis >= 18));
