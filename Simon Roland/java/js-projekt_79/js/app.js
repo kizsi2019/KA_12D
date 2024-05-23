@@ -409,12 +409,12 @@ kerdes.set(false,'Nem talalt');
 console.log(kerdes.get('kerdes'));
 console.log(kerdes.size);
 
-kerdes.delete(4);
-if (kerdes.has(3)){
-    kerdes.delete(3);
-}
+//kerdes.delete(4);
+//if (kerdes.has(3)){
+//    kerdes.delete(3);
+//}
 
-kerdes.clear();
+//kerdes.clear();
 
 kerdes.forEach(
 (kulcs, ertek) => console.log(`kulcs: ${kulcs}, ertek:${ertek}`)
@@ -425,3 +425,6 @@ for (let[kulcs,ertek] of kerdes.entries()){
         console.log(`kulcs: ${kulcs}, ertek: ${ertek}`);
     }
 }
+
+const valasz = parseInt(prompt('Add meg a helyes valaszt'));
+console.log(kerdes.get(valasz === kerdes.get('helyes')));
