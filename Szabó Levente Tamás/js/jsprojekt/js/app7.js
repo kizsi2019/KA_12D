@@ -19,21 +19,6 @@ for(var i = 0; i < dobozokTombES5.length; i++){
     dobozokTombES5[i].textContent = 'Kék lettem';
 }
 
-//es6
-for(const aktualis of dobozokTombES5.length; i++){
-    if(aktualis.className === 'rectangle blue'){
-        continue;
-    }
-    aktualis.textContent = 'Kék lettem';
-}
-
-for(const aktualis of dobozokTombES5.length; i++){
-    if(aktualis.className === 'rectangle blue'){
-        continue;
-    }
-    aktualis.textContent = 'Kék lettem';
-}
-
 var korok = [1, 10, 20, 17, 14]
 
 console.log(korok)
