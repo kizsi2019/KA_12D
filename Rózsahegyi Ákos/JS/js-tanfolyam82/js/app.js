@@ -405,7 +405,7 @@ function AdamsFamily(keresztNev, szuletesiEv, csaladiNev = 'Adams') {
 
 var fester = new AdamsFamily('Fester', 1940);
 var mortisha = new AdamsFamily('Mortisha', 1965);
-var kuzin = new AdamsFamily('Kuzin', 1940, 'Hogymit');*/
+var kuzin = new AdamsFamily('Kuzin', 1940, 'Hogymit');
 
 ////////////////////////////////////////////////////////////////
 // Map
@@ -425,9 +425,9 @@ kerdes.set(false, 'Nem talált');
 console.log(kerdes.get('kerdes'));
 console.log(kerdes.size);
 
-// kerdes.delete(4);
+kerdes.delete(4);
 
-/*
+
 if (kerdes.has(3)) {
     kerdes.delete(3);
 }
@@ -443,6 +443,107 @@ for (let [kulcs, ertek] of kerdes.entries()) {
         console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`)
     }
 };
-*/
+
 const valasz = parseInt(prompt('Add meg a helyes választ!'));
 console.log(kerdes.get(valasz === kerdes.get('helyes')));
+
+////////////////////////////////////////////////////////////////
+// Osztályok (class)
+
+// ES5
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
+    this.nev = nev;
+    this.szuletesiEv = szuletesiEv;
+    this.foglalkozas = foglalkozas;
+}
+
+SzemelyES5.prototype.korSzamitas = function() {
+    var kor = new Date().getFullYear - this.szuletesiEv;
+    console.log(kor);
+}
+
+var bodon = new SzemelyES5('Bödön', 1980, 'szakács');
+
+// ES6
+class SzemelyES6 {
+    constructor (nev, szuletesiEv, foglalkozas) {
+        this.nev = nev;
+        this.szuletesiEv = szuletesiEv;
+        this.foglalkozas = foglalkozas;
+    }
+
+    korSzamitas (){
+        let kor = new Date().getFullYear - this.szuletesiEv;
+        console.log(kor);
+    }
+
+    static udvozlet(){
+        console.log('Csááá');
+    }
+}
+
+const nador = new SzemelyES6('Cukornádor', 1960, 'pókember');
+SzemelyES6.udvozlet();*/
+
+////////////////////////////////////////////////////////////////
+// Alosztályok (subclass)
+
+// ES5
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
+    this.nev = nev;
+    this.szuletesiEv = szuletesiEv;
+    this.foglalkozas = foglalkozas;
+}
+
+SzemelyES5.prototype.korSzamitas = function() {
+    var kor = new Date().getFullYear - this.szuletesiEv;
+    console.log(kor);
+}
+
+var KatonaES5 = function(nev, szuletesiEv, foglalkozas, rendFokozat, osztag) {
+    SzemelyES5.call(this, nev, szuletesiEv, foglalkozas);
+    this.rendFokozat = rendFokozat;
+    this.osztag = osztag;
+}
+
+KatonaES5.prototype = Object.create(SzemelyES5.prototype);
+
+KatonaES5.prototype.rangSzerzes = function(rang) {
+    this.rendFokozat = rang;
+    console.log(this.rendFokozat);
+}
+
+var bodonKatona = new KatonaES5('Bödön', 1980, 'szakács', 'százados', 'parancsnok');
+bodonKatona.korSzamitas();
+bodonKatona.rangSzerzes('hadnagy');
+
+// ES6
+class SzemelyES6 {
+    constructor (nev, szuletesiEv, foglalkozas) {
+        this.nev = nev;
+        this.szuletesiEv = szuletesiEv;
+        this.foglalkozas = foglalkozas;
+    }
+
+    korSzamitas (){
+        let kor = new Date().getFullYear - this.szuletesiEv;
+        console.log(kor);
+    }
+}
+
+class KatonaES6 extends SzemelyES6 {
+    constructor(nev, szuletesiEv, foglalkozas, rendFokozat, osztag) {
+        super(nev, szuletesiEv, foglalkozas);
+        this.rendFokozat = rendFokozat;
+        this.osztag = osztag;
+    }
+
+    rangSzerzes(rang) {
+        this.rendFokozat = rang;
+        console.log(this.rendFokozat);
+    }
+}
+
+const nadorKatona = new KatonaES6('Cukornádor', 1960, 'pókember', 'tiszt', 'harcosok');
+nadorKatona.rangSzerzes('százados');
+nadorKatona.korSzamitas();
