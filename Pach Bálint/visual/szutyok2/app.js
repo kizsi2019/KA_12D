@@ -272,4 +272,10 @@ function Szemely(nev) {
     }
 
 
+    const valasz = ParseInt(prompt('Add meg a helyes választ'));
+
+    console.log(kerdes.get(valasz === kerdes.get('helyes')));  
+
+     
+
 
