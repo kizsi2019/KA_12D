@@ -265,7 +265,7 @@ console.log(felnottek.indexOf(true));
 console.log(korok.findIndex(aktualis => aktualis >= 18));
 console.log (korok.find(aktualis => aktualis >= 18));
 
-*/
+
 
 // spread operator
 
@@ -299,6 +299,179 @@ const cimsor = document.querySelector('h1');
 const htmlElemek = [cimsor, ...dobozok];
 
 Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
+
+
+///////////////////////rest parameterek//////////////////////////////////////////////////////////
+
+//es5
+
+function parosVagyParatlanES5(){
+    //console.log(arguments);
+    var argumentumokTomb = Array.prototype.slice.call(arguments);
+    //console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem){
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
+
+parosVagyParatlanES5(1, 2, 3);
+
+//es6
+
+function parosVagyParatlanES6(...szamok){
+    //console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    })
+}
+
+parosVagyParatlanES6(1, 2, 3);
+
+function parosVagyParatlanES5(teszt){
+    var argumentumokTomb = Array.prototype.slice.call(arguments, 1);
+    argumentumokTomb.forEach(function(aktualisElem){
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
+
+parosVagyParatlanES5('teszt', 1, 2, 3, 100, 5, 20);
+
+function parosVagyParatlanES6(teszt, ...szamok){
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
+
+parosVagyParatlanES6('teszt', 1, 2, 3, 100, 5, 20);
+
+
+//es5
+
+function AddamsFamily(keresztNev, szuletesiEv, csaladNev){
+    csaladNev === undefined ? csaladNev = 'Addams' : csaladNev = csaladNev;
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this. csaladNev = csaladNev;
+}
+
+var fester = new AddamsFamily('Fester', 1940);
+var mortisha = new AddamsFamily('Mortisha', 1965);
+var kuzin = new AddamsFamily('Kuzin', 1800, 'Hogyishivjak');
+
+//es6
+
+function AddamsFamily(keresztNev, szuletesiEv, csaladNev = 'Addams'){
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this. csaladNev = csaladNev;
+}
+
+var fester = new AddamsFamily('Fester', 1940);
+var mortisha = new AddamsFamily('Mortisha', 1965);
+var kuzin = new AddamsFamily('Kuzin', 1800, 'Hogyishivjak');
+
+////////////////////////////////// Map /////////////////////////////////////////////////////////////
+
+const kerdes = new Map();
+kerdes.set('kerdes', 'Hogy hivjak a de miert reklamban szereplo kisfiut?');
+kerdes.set(1, 'Odon');
+kerdes.set(2, 'Abel');
+kerdes.set(3, 'Miki');
+kerdes.set(4, 'Nandi');
+
+kerdes.set('helyes', 2);
+
+kerdes.set(true, 'Helyes valasz');
+kerdes.set(false, 'Nem talalt');
+
+console.log(kerdes.set('kerdes'));
+console.log(kerdes.size);
+
+//kerdes.delete(4);
+
+//if(kerdes.has(3)){
+    //kerdes.delete(3);
+//}
+
+//kerdes.clear();
+
+kerdes.forEach((kulcs, ertek) => console.log(`kulcs: ${kulcs}, ertek: ${ertek}`));
+
+for(let[kulcs, ertek] of kerdes.entries()){
+    if(typeof(kulcs) === 'number'){
+        console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`);
+    }
+}
+
+const valasz = parseInt(prompt('Add meg a helyes valaszt'));
+
+console.log(kerdes.get(valasz === kerdes.get('helyes')));
+*/
+
+////////////////////////////////////osztalyok//////////////////////////////////////////////////////
+
+//es5
+
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas){
+    this.nev = nev;
+    this.szuletesiEv = szuletesiEv;
+    this.foglalkozas = foglalkozas;
+}
+
+SzemelyES5.prototype.korszamitas = function(){
+    var kor = new Date().getFullYear - this.szuletesiEv;
+    console.log(kor);
+}
+
+var odon = new SzemelyES5('Odon', 1810, 'kisertet');
+
+//es6
+
+class SzemelyES6 {
+    constructor(nev, szuletesiEv, foglalkozas){
+        this.nev = nev;
+        this.szuletesiEv = szuletesiEv;
+        this.foglalkozas = foglalkozas;
+    }
+    korSzamitas(){
+        let kor = new Date().getFullYear - this.szuletesiEv;
+        console.log(kor);
+    }
+    static udvozlet(){
+        console.log('helo');
+    }
+}
+
+const nandi = new SzemelyES6('Nandi', 1960, 'pek');
+SzemelyES6.udvozlet();
+
+
+
+
+
+
+
+
 
 
 

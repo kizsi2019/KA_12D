@@ -265,7 +265,7 @@ console.log(felnottek.indexOf(true));
 console.log(korok.findIndex(aktualis => aktualis >= 18));
 console.log (korok.find(aktualis => aktualis >= 18));
 
-*/
+
 
 // spread operator
 
@@ -301,13 +301,94 @@ const htmlElemek = [cimsor, ...dobozok];
 Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
 
 
+///////////////////////rest parameterek//////////////////////////////////////////////////////////
 
+//es5
 
+function parosVagyParatlanES5(){
+    //console.log(arguments);
+    var argumentumokTomb = Array.prototype.slice.call(arguments);
+    //console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem){
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
 
+parosVagyParatlanES5(1, 2, 3);
 
+//es6
 
+function parosVagyParatlanES6(...szamok){
+    //console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    })
+}
 
+parosVagyParatlanES6(1, 2, 3);
 
+function parosVagyParatlanES5(teszt){
+    var argumentumokTomb = Array.prototype.slice.call(arguments, 1);
+    argumentumokTomb.forEach(function(aktualisElem){
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
+
+parosVagyParatlanES5('teszt', 1, 2, 3, 100, 5, 20);
+
+function parosVagyParatlanES6(teszt, ...szamok){
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0){
+            console.log('paros');
+        }
+        else{
+            console.log('paratlan');
+        }
+    });
+}
+
+parosVagyParatlanES6('teszt', 1, 2, 3, 100, 5, 20);
+*/
+
+//es5
+
+function AddamsFamily(keresztNev, szuletesiEv, csaladNev){
+    csaladNev === undefined ? csaladNev = 'Addams' : csaladNev = csaladNev;
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this. csaladNev = csaladNev;
+}
+
+var fester = new AddamsFamily('Fester', 1940);
+var mortisha = new AddamsFamily('Mortisha', 1965);
+var kuzin = new AddamsFamily('Kuzin', 1800, 'Hogyishivjak');
+
+//es6
+
+function AddamsFamily(keresztNev, szuletesiEv, csaladNev = 'Addams'){
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this. csaladNev = csaladNev;
+}
+
+var fester = new AddamsFamily('Fester', 1940);
+var mortisha = new AddamsFamily('Mortisha', 1965);
+var kuzin = new AddamsFamily('Kuzin', 1800, 'Hogyishivjak');
 
 
 
