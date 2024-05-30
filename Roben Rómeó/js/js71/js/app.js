@@ -1,7 +1,7 @@
 // let és const
 //es5
 
-var nev5 ='Tesz Elek';
+/*var nev5 ='Tesz Elek';
 var kor5 = 40;
 
 nev5 = 'Takács Peti';
@@ -43,7 +43,7 @@ function nyelvvizsga6(siker)
 nyelvvizsga6 (true);
 
 
-/*let i = 9;
+let i = 9;
 for ( let i =0 ; i < 5 ; i++)
 {
     console.log(i);
@@ -56,7 +56,7 @@ for ( var i =0 ; i < 5 ; i++)
 {
     console.log(i);
 }
-console.log(i);*/
+console.log(i);
 
 
 
@@ -77,7 +77,7 @@ console.log(a+b*c);
 )();
 
 
-console.log(c);*/
+console.log(c);
 
 
 (function()
@@ -89,3 +89,34 @@ console.log(c);*/
 
 
 console.log(c);
+const dobozok = document.querySelectorAll('.rectangle');
+
+
+function szamok(a,b,c,d)
+{
+    return a+b+c+d;
+}
+ var osszeg = szamok (1,2,3,4);
+ console.log(osszeg);
+
+ var szamokTomb = [1,2,3,4];
+ var osszeg2 = szamok.apply(null, szamokTomb);
+
+ console.log (osszeg2);
+
+ var szamokTomb = [1,2,3,4];
+ const osszeg3 = szamok(...szamokTomb);
+ console.log(osszeg3);
+
+ const t2 = [5,6,7,8,9,10];
+
+ const t3 = [...szamokTomb,...t3];
+ console.log(t3);*/
+
+ const dobozok = document.querySelectorAll('.rectangle');
+ 
+ const cimsor = document.querySelector('h1');
+
+ const htmlElemek = [cimsor, ...dobozok]
+
+ Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
