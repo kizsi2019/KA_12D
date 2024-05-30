@@ -52,3 +52,29 @@ const [nev2, kor2] = ['ödön', 50];
 
 console.log(nev2);
 console.log(kor2);
+
+const obj = {
+    keresztNev: 'Ödön',
+    vezetekNev: 'Bödön'
+};
+
+const {keresztNev, vezetekNev} = obj;
+
+console.log(keresztNev);
+console.log(vezetekNev);
+
+const {keresztNev: x, vezetekNev: y} = obj;
+
+console.log(x);
+console.log(y);
+
+function korEsNyugdij(szuletesiEv){
+    let nyugdijKorHatar = 65;
+    const kor = new Date().getFullYear() - szuletesiEv;
+
+    retunr [kor, nyugdijKorHatar - kor];
+}
+
+const [kor3, nyugdij] = korEsNyugdij(1978);
+console.log(kor3);
+console.log(nyugdij);
