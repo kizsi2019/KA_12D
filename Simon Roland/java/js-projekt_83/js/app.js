@@ -467,7 +467,7 @@ class SzemelyES6{
 
 const tibor = new SzemelyES6('Tibor', 1960, 'eroszakos tavolbanezo, masod allasban melytengeri heggeszto ');
 SzemelyES5.udvozlet();
-*/
+
 
 var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
     this.nev = nev;
@@ -529,3 +529,61 @@ const nandiKatona = new KatonaES6('nandi', 1960, 'tszt', 'fighters');
 
 nandiKatona.rangszerzes('szazados');
 nandiKatona.korszamitaS();
+
+
+const masodik = () => {
+    console.log('masodik')
+};
+
+const elso = () => {
+    console.log('elso')
+    masodik();
+    console.log('harmadik')
+};
+
+elso()
+
+
+const masodik = () => {
+    setTimeout(() => {
+        console.log('Asszinkron masodik')
+    }, 6000);
+    
+};
+
+const elso = () => {
+    console.log('elso')
+    masodik();
+    console.log('harmadik')
+};
+
+elso()
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//callback hell
+
+function receptLekerdez(){
+    setTimeout(() => {
+       const receptID = [676, 102, 34, 1489, 321] 
+       console.log(receptID)
+
+       setTimeout((id) => {
+        const recept = {
+            cim: 'gulyas leves',
+            kategoria: 'levesek'
+        }
+        console.log(`${id}: ${recept.cim}`);
+
+        setTimeout(kategoria => {
+            const levesek = [
+                {cim: 'Nyirsegi gombocleves', kategoria:'levesek'},
+                {cim: 'Borsoleves', kategoria:'levesek'}
+            ];
+            console.log(levesek);
+        }, 2000, recept.kategoria);
+       }, 2000,receptID[1])
+    }, 3000)
+}
+
+receptLekerdez();
