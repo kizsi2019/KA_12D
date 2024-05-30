@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Callback Hell</title>
+    <script>
+    // Callback Hell    
+    function receptLekerdez() {
+            setTimeout(() => {
+                const receptID = [676, 102, 34, 1489, 321];
+                console.log(receptID);
+
+                setTimeout((id) => {
+                    const recept = {
+                        cim: 'Gulyas leves',
+                        kategoria: 'Levesek'
+                    }
+                    console.log(`${id}: ${recept.cim}`);
+
+                    setTimeout(kategoria => {
+                        const levesek = [
+                            { cim: 'Nyirségi gombócleves', kategoria: 'Levesek'},
+                            { cim: 'Borsóleves', kategoria: 'Levesek'}
+                        ];
+                        console.log(levesek);
+                    }, 2000, recept.kategoria);
+                }, 2000, receptID[1]);
+            }, 3000);
+        }
+
+        receptLekerdez();
+    </script>
+</body>
+</html>
