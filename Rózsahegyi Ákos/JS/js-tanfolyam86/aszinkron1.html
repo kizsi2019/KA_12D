@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Aszinkron</title>
+    <script>
+        /*
+        const masodik = () => {
+            console.log('második');
+            };
+
+        const elso = () => {
+            console.log('első');
+            masodik();
+            console.log('harmadik');
+        };
+        elso();
+        */
+        
+        const masodik = () => {
+            setTimeout(() => {
+                console.log('Asszinkron második');
+            }, 3000);
+        };
+
+        const elso = () => {
+            console.log('első');
+            masodik();
+            console.log('harmadik');
+        };
+        elso();
+    </script>
+</body>
+</html>
