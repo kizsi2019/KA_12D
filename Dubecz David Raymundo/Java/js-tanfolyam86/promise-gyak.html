@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Promise gyakorlatban</title>
+    <script>
+        
+        const idojaras = (woeid) => {
+        fetch(`https://www.cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}/`)
+        .then(result => {
+            return result.json();
+        })
+        .then(adat => {
+            console.log(adat);
+            const ma = adat.consolidated_weather[0];
+            console.log(`Ma a hőmérséklet ${adat.title}en ${Math.round(ma.min_temp)} és ${Math.round(max_temp)} fok között fog változni.`);
+
+            const holnap = adat.consolidated_weather[1];
+            console.log(`A holnapra várható időjárás ${adat.title}en ${Math.round(holnap.min_temp)} és ${Math.round(holnap.max_temp)} fok között fog változni.`);
+
+        })
+        .catch(error => {
+            console.log(error);
+        })
+        };
+
+        idojaras(804365);
+        idojaras(44418);
+    </script>
+</body>
+</html>
