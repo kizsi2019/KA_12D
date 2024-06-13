@@ -49,8 +49,8 @@ else{
     console.log("nem gubba");
 }
 //3//
-let vezeteknev = 'shork';
-let keresztnev = 'guba'
+let vezeteknev = 'teszt';
+let keresztnev = 'elek'
 const szuletesEv = 1;
 
 function korSzamitas(ev){
@@ -61,9 +61,9 @@ console.log(vezeteknev + ' ' + keresztnev + ', született ' + szuletesEv + ' -be
 //es6
 console.log(`${vezeteknev}, ${keresztnev}, született ${szuletesEv}-ben, most ${korSzamitas(szuletesEv)} éves.`);
 const nev = `${vezeteknev} ${keresztnev}`;
-console.log(nev.startsWith("s"));
-console.log(nev.endsWith("ba"));
-console.log(nev.includes("gub"));
+console.log(nev.startsWith("t"));
+console.log(nev.endsWith("e"));
+console.log(nev.includes("el"));
 console.log(vezeteknev.repeat(3));
 console.log(keresztnev.repeat(3));
 

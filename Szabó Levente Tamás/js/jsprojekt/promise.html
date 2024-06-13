@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="shortcut icon" href="hette/gd.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise a gyakorlatban</title>
+    <script>
+        fetch()
+        .then(result => {
+            //console.log(result);
+            return result.json();
+        })
+        .then(adat => {
+            console.log(adat);
+            const ma = adat.consolidated_wheather[0];
+            console.log(`Ma a hőmőrsőklet ${adat.title}en ${Math.round(ma.min_temp)} es ${Math.round(holnap.max_temp)} fok között fog változni. `);
+
+            const holnap = adat.consolidated_wheather[1];
+            console.log(`A holnapra várható időjárás ${Math.round(holnap.min_temp)} es ${Math.round(holnap.max_temp)} fok között fog változni. `);
+        })
+        .catch(error => {
+            console.log(error);
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
