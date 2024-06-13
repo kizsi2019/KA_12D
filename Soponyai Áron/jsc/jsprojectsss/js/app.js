@@ -65,7 +65,7 @@ console.log(a+b*c);
 )();
 
 
-console.log(c);*/
+console.log(c);
 
 
 (function()
@@ -116,4 +116,17 @@ korokES6 = evek.map((elem, index) => {
     return 'Kor ${index}: ${kor},';
 });
 
-console.log(korokES6);
+console.log(korokES6); */
+
+const dobozES62 = {
+    szin:   'zöld',
+    pozicio: 1,
+    kattintsRam: () => {
+        document.querySelector('.green').addEventListener('click', () => {
+            var szoveg = 'Én vagyok a(z)' + this.pozicio + '. doboz és színem' + this.szin + '.';
+            alert(szoveg);
+        })
+    }
+};
+
+dobozES62.kattintsRam();
